@@ -48,7 +48,7 @@ html, body {
     width: 100%;
     height: 50%;
     position: absolute;
-    top: 100%;
+    top: 500%;
     left: 0%;
     
 }
@@ -56,4 +56,25 @@ html, body {
     width: 10%;
     position: relative;
     left: 85%;
+}
+
+
+/*Startseite*/
+.miniVorschau{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+.miniVorschau img{
+    height: 50%;
+}
+
+#GalerieHover {
+    background-color: #F5F1E3;
+    padding: 20px;
+    display: none;
+}
+#GalerieImg:hover + #GalerieHover {
+    
 }
