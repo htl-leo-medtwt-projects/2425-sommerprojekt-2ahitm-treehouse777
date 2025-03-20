@@ -39,7 +39,7 @@ html, body {
     gap: 3%;
 }
 .nav-buttons {
-    border: --first-primaer 1px solid;
+    border: var(--first-primaer) 1px solid;
     text-decoration: none;
     color: var(--first-primaer);
     width: 15%;
@@ -171,4 +171,68 @@ html, body {
 }
 #AnbauStartseite a:hover {
     color: var(--second-primaer);
+}
+
+#AberglaubeStartseite img {
+    position: absolute;
+    right: 5%;
+    top: 140%;
+    width: 15%;
+}
+#AberglaubeStartseite p {
+    color: var(--font-color);
+    font-size: 1.5rem;
+    position: absolute;
+    right: 25%;
+    top: 150%;
+}
+#AberglaubeStartseite a {
+    color: var(--font-color);
+    font-size: 1.5rem;
+    position: absolute;
+    right: 25%;
+    top: 160%;
+}
+#AberglaubeStartseite a:hover {
+    color: var(--second-primaer);
+}
+
+   /*Slideshow */
+#OrteStartseite {
+    color: var(--font-color);
+    position: absolute;
+    top: 195%;
+    left: 43%;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+#OrteStartseite:hover {
+    color: var(--second-primaer);
+}
+.mySlides {
+    display:none;
+}
+#slideshow {
+    position: absolute;
+    top: 200%;
+    left: 30%;
+}
+#slideshow button {
+    background-color: var(--second-primaer);
+    border: var(--first-primaer) 1px solid;
+    color: var(--first-primaer);
+    margin: 2%;
+    width: 10%;
+    height: 5%;
+}
+#slideshow button:hover {
+    background-color: var(--first-primaer);
+    border: var(--second-primaer) 1px solid;
+    color: var(--second-primaer);
+}
+#buttons-slide {
+    position: absolute;
+    left: 35%;
+    top: 105%;
+    width: 100%;
 }
