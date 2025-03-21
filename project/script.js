@@ -16,3 +16,10 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+/* Aktive Buttons */
+document.querySelectorAll(".nav-buttons").forEach(button => {
+  button.addEventListener("click", function() {
+    this.classList.toggle("active");
+  });
+});
