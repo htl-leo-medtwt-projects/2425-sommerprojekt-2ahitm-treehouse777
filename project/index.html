@@ -1,120 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grüne Magie</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-</head>
-<body>
-    <!--Navigationsleiste, Suchleiste, Logo-->
-    <div class="header">
-        <a href="index.html"><img src="img/Logo.png" alt="Logo"></a>
-    </div>
-    <div class="nav-container">
-        <div class="navigation">
-            <a href="Rezepte.html" class="nav-buttons">Rezepte</a>
-            <a href="Galerie.html" class="nav-buttons">Galerie</a>
-            <a href="Suche.html" class="nav-buttons">Suche</a>
-            <a href="Orte.html" class="nav-buttons">Orte</a>
-            <a href="Anbau.html" class="nav-buttons">Anbau</a>
-            <a href="Aberglaube.html" class="nav-buttons">Aberglaube</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grüne Magie</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <!--Navigationsleiste, Suchleiste, Logo-->
+        <div class="header">
+            <a href="index.html"><img src="img/Logo.png" alt="Logo"></a>
+            <div id="suchfeld-header">
+                <input type="text" name="Suchfeld" id="suchfelder" placeholder="Suche...">
+                <div id="clicki-suchie">🧭</div>
+            </div>
         </div>
-    </div>
+        <div class="nav-container">
+            <div class="navigation">
+                <a href="Rezepte.html" class="nav-buttons">Rezepte</a>
+                <a href="Galerie.html" class="nav-buttons">Galerie</a>
+                <a href="Suche.html" class="nav-buttons">Suche</a>
+                <a href="Orte.html" class="nav-buttons">Orte</a>
+                <a href="Anbau.html" class="nav-buttons">Anbau</a>
+                <a href="Aberglaube.html" class="nav-buttons">Aberglaube</a>
+            </div>
+        </div>
 
-    <!--Inhalt der Startseite-->
-    <div>
-        <a href="Rezepte.html">
-            <div class="miniVorschau miniVorschauRezepte">
-                <div class="miniVorschau-inner">
-                    <div class="miniVorschau-front">
-                        <img src="img/Rezepte.jpeg" alt="Rezepte" id="RezepteImg">
-                    </div>
-                    <div class="miniVorschau-back">
-                        <p id="RezepteHover">Rezepte →</p>
+        <!--Inhalt der Startseite-->
+        <div>
+            <a href="Rezepte.html">
+                <div class="miniVorschau miniVorschauRezepte">
+                    <div class="miniVorschau-inner">
+                        <div class="miniVorschau-front">
+                            <img src="img/Rezepte.jpeg" alt="Rezepte" id="RezepteImg">
+                        </div>
+                        <div class="miniVorschau-back">
+                            <p id="RezepteHover">Rezepte →</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </a>
-        <a href="Galerie.html">
-            <div class="miniVorschau miniVorschauGalerie">
-                <div class="miniVorschau-inner">
-                    <div class="miniVorschau-front">
-                        <img src="img/Galerie.jpeg" alt="Galerie" id="GalerieImg">
-                    </div>
-                    <div class="miniVorschau-back">
-                        <p id="GalerieHover">Galerie →</p>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a href="Suche.html">
-            <div class="miniVorschau miniVorschauSuche">
-                <div class="miniVorschau-inner">
-                    <div class="miniVorschau-front">
-                        <img src="img/Suchen.jpeg" alt="Suche" id="SuchenImg">
-                    </div>
-                    <div class="miniVorschau-back">
-                        <p id="SuchenHover">Suche →</p>
+            </a>
+            <a href="Galerie.html">
+                <div class="miniVorschau miniVorschauGalerie">
+                    <div class="miniVorschau-inner">
+                        <div class="miniVorschau-front">
+                            <img src="img/Galerie.jpeg" alt="Galerie" id="GalerieImg">
+                        </div>
+                        <div class="miniVorschau-back">
+                            <p id="GalerieHover">Galerie →</p>
+                        </div>
                     </div>
                 </div>
+            </a>
+            <a href="Suche.html">
+                <div class="miniVorschau miniVorschauSuche">
+                    <div class="miniVorschau-inner">
+                        <div class="miniVorschau-front">
+                            <img src="img/Suchen.jpeg" alt="Suche" id="SuchenImg">
+                        </div>
+                        <div class="miniVorschau-back">
+                            <p id="SuchenHover">Suche →</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+        <div id="AnbauStartseite">
+            <img src="img/AnbauIdee.jpeg" alt="Anbau">
+            <p>Wir haben eine neue Idee gefunden, wie ihr Kräuter zuhause einfach und platzsparend anbauen könnt...</p>
+            <a href="Anbau.html">mehr...</a>
+        </div>
+        
+        <div id="AberglaubeStartseite">
+            <img src="img/witchy.jpeg" alt="Aberglaube">
+            <p>Was können Kräuter laut dem Aberglauben alles auswirken?...</p>
+            <a href="Aberglaube.html">mehr...</a>
+        </div>
+
+
+        <a href="Orte.html" id="OrteStartseite">Wo findet man eher Kräuter?</a>
+
+        <div id="slideshow">
+            <div class="slide-content slide-display-container">
+                <img class="mySlides" src="img/Slideshow1.jpeg" style="width:99%">
+                <img class="mySlides" src="img/Slideshow2.jpg" style="width:115%">
+                <img class="mySlides" src="img/Slideshow3.jpg" style="width:98%">
+                <img class="mySlides" src="img/Slideshow4.jpg" style="width:110%">
+
+                <div id="buttons-slide">
+                    <button class="slide-button slide-black slide-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="slide-button slide-black slide-display-right" onclick="plusDivs(1)">&#10095;</button>
+                </div>
             </div>
-        </a>
-    </div>
+        </div>
+        
 
-
-    <div id="AnbauStartseite">
-        <img src="img/AnbauIdee.jpeg" alt="Anbau">
-        <p>Wir haben eine neue Idee gefunden, wie ihr Kräuter zuhause einfach und platzsparend anbauen könnt...</p>
-        <a href="Anbau.html">mehr...</a>
-    </div>
-    
-    <div id="AberglaubeStartseite">
-        <img src="img/witchy.jpeg" alt="Aberglaube">
-        <p>Was können Kräuter laut dem Aberglauben alles auswirken?...</p>
-        <a href="Aberglaube.html">mehr...</a>
-    </div>
-
-
-    <a href="Orte.html" id="OrteStartseite">Wo findet man eher Kräuter?</a>
-
-    <div id="slideshow">
-        <div class="slide-content slide-display-container">
-            <img class="mySlides" src="img/Slideshow1.jpeg" style="width:99%">
-            <img class="mySlides" src="img/Slideshow2.jpg" style="width:115%">
-            <img class="mySlides" src="img/Slideshow3.jpg" style="width:98%">
-            <img class="mySlides" src="img/Slideshow4.jpg" style="width:110%">
-
-            <div id="buttons-slide">
-                <button class="slide-button slide-black slide-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="slide-button slide-black slide-display-right" onclick="plusDivs(1)">&#10095;</button>
+        <!--Kontaktdaten, Navigation, Newsletter-->
+        <div class="footer">
+            <a href="index.html"><img src="img/Logo.png" alt="Logo"></a>
+            <div id="kontakte">
+                <h3>Kontakte:</h3>
+                <p>v.krolokh@students.htl-leonding.ac.at</p>
+            </div>
+            <div id="nav-footer">
+                <h3>Navigation:</h3>
+                <a href="Rezepte.html" class="footer-buttons">Rezepte</a>
+                <a href="Galerie.html" class="footer-buttons">Galerie</a>
+                <a href="Suche.html" class="footer-buttons">Suche</a>
+                <a href="Orte.html" class="footer-buttons">Orte</a>
+                <a href="Anbau.html" class="footer-buttons">Anbau</a>
+                <a href="Aberglaube.html" class="footer-buttons">Aberglaube</a>
+            </div>
+            <div id="newsletter-footer">
+                <h3>Newsletter</h3>
+                <input type="text" name="Email" id="newsletter" placeholder="Email">
+                <div id="clicki-newie">✓</div>
             </div>
         </div>
-    </div>
-    
-
-    <!--Kontaktdaten, Navigation, Newsletter-->
-    <div class="footer">
-        <a href="index.html"><img src="img/Logo.png" alt="Logo"></a>
-        <div id="kontakte">
-            <h3>Kontakte:</h3>
-            <p>v.krolokh@students.htl-leonding.ac.at</p>
-        </div>
-        <div id="nav-footer">
-            <h3>Navigation:</h3>
-            <a href="Rezepte.html" class="footer-buttons">Rezepte</a>
-            <a href="Galerie.html" class="footer-buttons">Galerie</a>
-            <a href="Suche.html" class="footer-buttons">Suche</a>
-            <a href="Orte.html" class="footer-buttons">Orte</a>
-            <a href="Anbau.html" class="footer-buttons">Anbau</a>
-            <a href="Aberglaube.html" class="footer-buttons">Aberglaube</a>
-        </div>
-        <div id="newsletter-footer">
-            <h3>Newsletter</h3>
-            <input type="text" name="Email" id="newsletter" placeholder="Email">
-            <div>✓</div>
-        </div>
-    </div>
-</body>
+    </body>
 </html>
