@@ -332,3 +332,28 @@ p {
     top: 105%;
     width: 100%;
 }
+
+
+
+/*Galerie*/
+#outputHerbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    position: absolute;
+    top: 30%;
+    margin: 5%;
+    margin-top: 0%;
+}
+
+#galerieFooter {
+    top: 1020%;
+}
+.ordnung {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.smallContainer {
+    background-color: var(--first-primaer);
+}

@@ -102,7 +102,7 @@ let herbs = [
     {
         name: "Benediktenkraut",
         latein: "Centaurea benedicta",
-        img: "img/herbs/B/benediktenkruat.jpg"
+        img: "img/herbs/B/benediktenkraut.jpg"
     },
     {
         name: "Bittere Schleifenblume",
@@ -236,7 +236,7 @@ let herbs = [
     {
         name: "Goldrute",
         latein: "Solidago virgaurea",
-        img: "img/herbs/G/golgrute.jpg"
+        img: "img/herbs/G/goldrute.jpg"
     },
     {
         name: "Gotu Kola",
@@ -554,3 +554,85 @@ let herbs = [
         img: "img/herbs/Z/zitronenmelisse.jpg"
     }
 ]
+
+function main() {
+    let output = "";
+    let comment = "";
+    
+    for (let i = 0; i < herbs.length; i++) {
+        if (herbs[i]._comment == "A") {
+            output += '<div class="ordnung ordnungA">A</div><div class="bigContainer" id="bigContainerA>';
+            comment = "A";
+        } else if (herbs[i]._comment == "B") {
+            output += '</div><div class="ordnung ordnungB">B</div><div class="bigContainer" id="bigContainerB>';
+            comment = "B";
+        } else if (herbs[i]._comment == "D") {
+            output += '</div><div class="ordnung  ordnungD">D</div><div class="bigContainer" id="bigContainerD>';
+            comment = "D";
+        } else if (herbs[i]._comment == "E") {
+            output += '</div><div class="ordnung ordnungE">E</div><div class="bigContainer" id="bigContainerE>';
+            comment = "E";
+        } else if (herbs[i]._comment == "F") {
+            output += '</div><div class="ordnung ordnungF">F</div><div class="bigContainer" id="bigContainerF>';
+            comment = "F";
+        } else if (herbs[i]._comment == "G") {
+            output += '</div><div class="ordnung ordnungG">G</div><div class="bigContainer" id="bigContainerG>';
+            comment = "G";
+        } else if (herbs[i]._comment == "H") {
+            output += '</div><div class="ordnung ordnungH">H</div><div class="bigContainer" id="bigContainerH>';
+            comment = "H";
+        } else if (herbs[i]._comment == "J") {
+            output += '</div><div class="ordnung ordnungJ">J</div><div class="bigContainer" id="bigContainerJ>';
+            comment = "J";
+        } else if (herbs[i]._comment == "K") {
+            output += '</div><div class="ordnung ordnungK">K</div><div class="bigContainer" id="bigContainerK>';
+            comment = "K";
+        } else if (herbs[i]._comment == "L") {
+            output += '</div><div class="ordnung ordnungL">L</div><div class="bigContainer" id="bigContainerL>';
+            comment = "L";
+        } else if (herbs[i]._comment == "M") {
+            output += '</div><div class="ordnung ordnungM">M</div><div class="bigContainer" id="bigContainerM>';
+            comment = "M";
+        } else if (herbs[i]._comment == "N") {
+            output += '</div><div class="ordnung ordnungN">N</div><div class="bigContainer" id="bigContainerN>';
+            comment = "N";
+        } else if (herbs[i]._comment == "O") {
+            output += '</div><div class="ordnung ordnungO">O</div><div class="bigContainer" id="bigContainerO>';
+            comment = "O";
+        } else if (herbs[i]._comment == "P") {
+            output += '</div><div class="ordnung ordnungP">P</div><div class="bigContainer" id="bigContainerP>';
+            comment = "P";
+        } else if (herbs[i]._comment == "Q") {
+            output += '</div><div class="ordnung ordnungQ">Q</div><div class="bigContainer" id="bigContainerQ>';
+            comment = "Q";
+        } else if (herbs[i]._comment == "R") {
+            output +='</div><div class="ordnung ordnungR">R</div><div class="bigContainer" id="bigContainerR>';
+            comment = "R";
+        } else if (herbs[i]._comment == "S") {
+            output += '</div><div class="ordnung ordnungS">S</div><div class="bigContainer" id="bigContainerS>';
+            comment = "S";
+        } else if (herbs[i]._comment == "T") {
+            output += '</div><div class="ordnung ordnungT">T</div><div class="bigContainer" id="bigContainerT>';
+            comment = "T";
+        } else if (herbs[i]._comment == "W") {
+            output += '</div><div class="ordnung ordnungW">W</div><div class="bigContainer" id="bigContainerW>';
+            comment = "W";
+        } else if (herbs[i]._comment == "Y") {
+            output += '</div><div class="ordnung ordnungY">Y</div><div class="bigContainer" id="bigContainerY>';
+            comment = "Y";
+        } else if (herbs[i]._comment == "Z") {
+            output += '</div><div class="ordnung ordnungZ">Z</div><div class="bigContainer" id="bigContainerZ>';
+            comment = "Z";
+        }
+      output += `
+        <div class="smallContainer container${comment}">
+          <img src="${herbs[i].img}" alt="img">
+          <p>${herbs[i].name}</p>
+          <p>${herbs[i].latein}</p>
+        </div>`;
+    }
+    console.log(output);
+    document.getElementById('outputHerbs').innerHTML = output;
+  }
+
+  main();
