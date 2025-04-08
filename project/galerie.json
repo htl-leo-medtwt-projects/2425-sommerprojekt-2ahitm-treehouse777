@@ -313,5 +313,211 @@
         "name": "Lungenkraut",
         "latein": "Pulmonaria officinalis",
         "img": "img/herbs/L/lungenkraut.jpg"
+    },
+    {
+        "_comment": "M",
+        "name": "Mädesüß",
+        "latein": "Filipendula ulmaria",
+        "img": "img/herbs/M/maedesuess.jpg"
+    },
+    {
+        "name": "Malve",
+        "latein": "Malva sylvestris",
+        "img": "img/herbs/M/malve.jpg"
+    },
+    {
+        "name": "Mariendistel",
+        "latein": "Silybum marianum",
+        "img": "img/herbs/M/mariendistel.jpg"
+    },
+    {
+        "name": "Mönchspfeffer",
+        "latein": "Vitex agnus-castus",
+        "img": "img/herbs/M/moenchspfeffer.jpg"
+    },
+    {
+        "name": "Mutterkraut",
+        "latein": "Tanacetum parthenium",
+        "img": "img/herbs/M/mutterkraut.jpg"
+    },
+    {
+        "_comment": "N",
+        "name": "Nachtkerze",
+        "latein": "Oenothera biennis",
+        "img": "img/herbs/N/nachtkerze.jpg"
+    },
+    {
+        "_comment": "O",
+        "name": "Odermennig",
+        "latein": "Agrimonia eupatoria",
+        "img": "img/herbs/O/odermennig.jpg"
+    },
+    {
+        "name": "Oregano",
+        "latein": "Origanum vulgare",
+        "img": "img/herbs/O/oregano.jpg"
+    },
+    {
+        "_comment": "P",
+        "name": "Petersilie",
+        "latein": "Petroselinum crispum",
+        "img": "img/herbs/P/petersilie.jpg"
+    },
+    {
+        "name": "Pfefferminze",
+        "latein": "Mentha x piperita",
+        "img": "img/herbs/P/pfefferminze.jpg"
+    },
+    {
+        "_comment": "Q",
+        "name": "Quendel",
+        "latein": "Thymus pulegioides",
+        "img": "img/herbs/Q/quendel.jpg"
+    },
+    {
+        "_comment": "R",
+        "name": "Rainfarn",
+        "latein": "Tanacetum vulgare",
+        "img": "img/herbs/R/rainfarn.jpg"
+    },
+    {
+        "name": "Ringelblume",
+        "latein": "Calandula officinalis",
+        "img": "img/herbs/R/ringelblume.jpg"
+    },
+    {
+        "name": "Rosmarin",
+        "latein": "Salvia rosmarinus",
+        "img": "img/herbs/R/rosmarin.jpg"
+    },
+    {
+        "name": "Rotklee",
+        "latein": "Trifolium pratense",
+        "img": "img/herbs/R/rotklee.jpg"
+    },
+    {
+        "_comment": "S",
+        "name": "Salbei",
+        "latein": "Salvia officinalis",
+        "img": "img/herbs/S/salbei.jpg"
+    },
+    {
+        "name": "Schafgarbe",
+        "latein": "Achillea millefolium",
+        "img": "img/herbs/S/schafgarbe.jpg"
+    },
+    {
+        "name": "Scharbockskraut",
+        "latein": "Ficaria verna",
+        "img": "img/herbs/S/scharbockskraut.jpg"
+    },
+    {
+        "name": "Schlüsselblume",
+        "latein": "Primula veris",
+        "img": "img/herbs/S/schluesselblume.jpg"
+    },
+    {
+        "name": "Schöllkraut",
+        "latein": "Chelidonium majus",
+        "img": "img/herbs/S/schoellkraut.jpg"
+    },
+    {
+        "name": "Schwarzkümmel",
+        "latein": "Nigella sativa",
+        "img": "img/herbs/S/schwarzkuemmel.jpg"
+    },
+    {
+        "name": "Seifenkraut",
+        "latein": "Saponaria officinalis",
+        "img": "img/herbs/S/seifenkraut.jpg"
+    },
+    {
+        "name": "Sonnenhut",
+        "latein": "Echinacea",
+        "img": "img/herbs/S/sonnenhut.jpg"
+    },
+    {
+        "name": "Spitzwegerich",
+        "latein": "Plantago lanceolata",
+        "img": "img/herbs/S/spitzwegerich.jpg"
+    },
+    {
+        "name": "Stevia",
+        "latein": "Stevia rebaudiana",
+        "img": "img/herbs/S/stevia.jpg"
+    },
+    {
+        "name": "Süßholz",
+        "latein": "Glycyrrhiza glabra",
+        "img": "img/herbs/S/suessholz.jpg"
+    },
+    {
+        "_comment": "T",
+        "name": "Taigawurzel",
+        "latein": "Eleutherococcus senticosus",
+        "img": "img/herbs/T/taigawurzel.jpg"
+    },
+    {
+        "name": "Tausendgüldenkraut",
+        "latein": "Centaurium erythraea",
+        "img": "img/herbs/T/tausendgueldenkraut.jpg"
+    },
+    {
+        "name": "Teufelskralle",
+        "latein": "Harpagophytum procumbens",
+        "img": "img/herbs/T/teufelskralle.jpg"
+    },
+    {
+        "name": "Thymian",
+        "latein": "Thymus vulgaris",
+        "img": "img/herbs/T/thymian.jpg"
+    },
+    {
+        "_comment": "W",
+        "name": "Wegwarte",
+        "latein": "Cichorium intybus",
+        "img": "img/herbs/W/wegwarte.jpg"
+    },
+    {
+        "name": "Weinraute",
+        "latein": "Ruta graveolens",
+        "img": "img/herbs/W/weinraute.jpg"
+    },
+    {
+        "name": "Weiße Taubnessel",
+        "latein": "Lamium album",
+        "img": "img/herbs/W/taubnessel.jpg"
+    },
+    {
+        "name": "Wermut",
+        "latein": "Artemisia absinthium",
+        "img": "img/herbs/W/wermut.jpg"
+    },
+    {
+        "name": "Wiesenknopf",
+        "latein": "Sanguisorba officinalis",
+        "img": "img/herbs/W/wiesenknopf.jpg"
+    },
+    {
+        "name": "Wiesensalbei",
+        "latein": "Salvia pratensis",
+        "img": "img/herbs/W/wiesensalbei.jpg"
+    },
+    {
+        "_comment": "Y",
+        "name": "Ysop",
+        "latein": "Hyssopus officinalis",
+        "img": "img/herbs/Y/ysop.jpg"
+    },
+    {
+        "_comment": "Z",
+        "name": "Zistrose",
+        "latein": "Cistus incanus",
+        "img": "img/herbs/Z/zistrose.jpg"
+    },
+    {
+        "name": "Zitronenmelisse",
+        "latein": "Melissa officinalis",
+        "img": "img/herbs/Z/zitronenmelisse.jpg"
     }
 ]
