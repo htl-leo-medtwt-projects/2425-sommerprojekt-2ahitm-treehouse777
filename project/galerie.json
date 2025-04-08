@@ -4,7 +4,39 @@
             "_comment": "A",
             "name": "Ackerschachtelhalm",
             "latein": "Equisetum arvense",
-            "img": "img/herbs/A/ackerschachtelhalm.jpg"
+            "img": "img/herbs/A/ackerschachtelhalm.jpg",
+            "beschreibung": "Der Name Ackerschachtelhalm bezieht sich sowohl auf den Standort, an dem das Wildkraut zu finden ist, als auch auf das Aussehen der Pflanze: Ackerschachtelhalme wachsen bevorzugt auf Äckern und weisen einen in sich geschachtelten Aufbau der Stengelglieder auf. Die alternative Bezeichnung Zinnkraut geht auf die frühere Verwendung der Pflanze zurück: man verwendete das Farngewächs, um Zinngeschirr und andere Utensilien aus Zinn damit zu putzen und polieren. Die zu den Farnen gehörende Pflanze ist eine bedeutende Heilpflanze gegen Gelenkschmerzen und Harnbeschwerden.",
+            "inhaltsstoffe": {
+                "0": "Flavonoide (u.a. Flavonole wie Quercetin und Kaempferol; Flavone wie Luteolin und Apigenin)",
+                "1": "Alkaloide (Nicotin; 3-Methoxypyridin)",
+                "2": "Saponine",
+                "3": "Phenolsäuren",
+                "4": "Weinsäure (Caffeoyl)",
+                "5": "Kieselsäure",
+                "6": "Phytosterine",
+                "7": "Aluminiumchlorid"
+            },
+            "familie": "Schachtelhalmgewächse",
+            "weitereNamen": {
+                "0": "Zinnkraut",
+                "1": "Pferdeschwanz",
+                "2": "Schachtelhalm",
+                "3": "Fegenkraut"
+            },
+            "aussaatzeit": "abhängig von Generation",
+            "blütezeit": "abhängig von Generation",
+            "ernte": "Mai - August",
+            "standort": "sonnig, feuchte und lehmige Böden, verträgt Staunässe",
+            "verwendung": {
+                "0": "Auch wenn der Ackerschachtelhalm bzw. das Zinnkraut aufgrund der zügellosen Vermehrung nicht sonderlich beliebt ist, vertraut die Naturheilkunde seit Jahrhunderten auf die gesundmachenden Inhaltsstoffe des Ackerschachtelhalms.",
+                "1": "Arthrose",
+                "2": "Rheuma",
+                "3": "Gicht",
+                "4": "Rachenentzündung",
+                "5": "Halsbeschwerden",
+                "6": "Balsenentzündung",
+                "7": "Nasenbluten"
+            }
         },
         {
             "name": "Alant",
