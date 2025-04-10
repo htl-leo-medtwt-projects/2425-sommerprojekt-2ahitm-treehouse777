@@ -75,22 +75,126 @@ let herbs = [
     {
         name: "Andorn",
         latein: "Marrubium vulgare",
-        img: "img/herbs/A/andorn.jpg"
+        img: "img/herbs/A/andorn.jpg",
+        beschreibung: "Der Andorn ist eine eher unscheinbare Pflanze, die ursprünglich aus dem Mittelmeerraum stammt und heute in vielen Teilen der Welt zu finden ist. Seit der Antike wird der Gewöhnliche oder Weiße Andorn als Heilpflanze genutzt. Bis in die frühe Neuzeit zählte der Lippenblütler zu den bekanntesten Arzneikräutern und wurde bei Atemwegserkrankungen oder Appetitlosigkeit verwendet. Auch heute genießt der Anrdorn einen hohen Stellenwert in der Naturheilkunde. Die enthaltenden Bitterstoffe und Gerbstoffe des Krauts wirken vor allem bei Magenbeschwerden, Verdauungsproblemen und hartnäckigem Husten. Der Andorn wurde im Jahr 2018 zur Arzneipflanze des Jahres gekürt.",
+        inhaltsstoffe: [
+            "Bitterstoffe (Marrubin)",
+            "ätherische Öle (Eudesmol; Germacren; Citronellol)",
+            "Gerbstoffe",
+            "Schleimstoffe",
+            "Harze"
+        ],
+        familie: "Lippenblütler",
+        weitereNamen: [
+            "Mutterkraut",
+            "Berghopfen",
+            "Weißer Andorn",
+            "Mariennessel"
+        ],
+        aussaatzeit: "Mai - Juni",
+        blütezeit: "Juni - August",
+        ernte: "Juni - August",
+        standort: "sonnig; nährstoffarme, kalkhaltige und durchlässige Böden",
+        verwendung: [
+            "Durchfall",
+            "Bluthochdruck",
+            "Husten",
+            "Beschwerden bei Menstruation",
+            "Gallenstörungen"
+        ]
     },
     {
         name: "Anis",
         latein: "Pimpinella anisum",
-        img: "img/herbs/A/anis.jpg"
+        img: "img/herbs/A/anis.jpg",
+        beschreibung: "Anis ist ein vielseitig verwendbare Pflanze, die eine lange Tradition hat und bis heute nichts von ihrem Reiz verloren hat. Als Gewürz dienen die Anissamen zum Verfeinern von Süßspeisen, Backwaren und Spirituosen. Als Heilkraut wird der auch als Süßer Kümmel bezeichnete Doldenblütler u.a. bei Bauchschmerzen, Blähungen und Husten verwendet. 2014 war der Anis sogar Heilpflanze des Jahres.",
+        inhaltsstoffe: [
+            "ätherische Öle (v.a. Anethol; Estragol; Hymachalen; Methychavical)",
+            "Phenolverbindungen",
+            "Flavonoide"
+        ],
+        familie: "Doldenblütler",
+        weitereNamen: [
+            "Süßer Kümmel",
+            "Römischer Fenchel",
+            "Brotsamen"
+        ],
+        aussaatzeit: "April - Mai",
+        blütezeit: "Juni - September",
+        ernte: "September - Oktober",
+        standort: "sonnige Standorte, nährstoffreiche, kalkhaltige und durchlässige Böden",
+        verwendung: [
+            "Erkältung",
+            "Magenbeschwerden",
+            "Blähungen",
+            "Osteoporose",
+            "chronische Bronchitis",
+            "Husten"
+        ]
     },
     {
         name: "Arnika",
         latein: "Arnica montana",
-        img: "img/herbs/A/arnika.jpg"
+        img: "img/herbs/A/arnika.jpg",
+        beschreibung: "Die Echte Arnika gilt heute als eines der besten alternativen Heilkräuter bei schlecht heilenden Wunden und äußeren Verletzungen. In der Schulmedizin wird Arnica montana häufig vor und nach operativen Eingriffen verabreicht und erzielt bei der Wundheilung damit gute Ergebnisse. Aufgrund ihrer hervorragenden Heilwirkungen ist die Arnika in ihrem natürlichen Verbreitungsgebiet fast ausgestorben, weswegen sie heute streng geschützt ist.",
+        inhaltsstoffe: [
+            "ätherische Öle (u.a. Azulen, Thymol)",
+            "Sesquiterpen-Lactone (v.a. Helenalin)",
+            "Flavonglycoside",
+            "Cumarine (u.a. Umbelliferon)",
+            "Phenole"
+        ],
+        familie: "Korbblütler (Asteraceae)",
+        weitereNamen: [
+            "Bergwohlverleih",
+            "Wundkraut",
+            "Engelkraut",
+            "Bergwurz"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "Mai - September",
+        ernte: "ab dem zweiten Jahr",
+        standort: "sonnige bis halbschattige Standorte mit sauren, durchlässigen und nährstoffarmen Böden",
+        verwendung: [
+            "Gelenkbeschwerden",
+            "Wundheilung",
+            "Prellungen",
+            "postoperative Versorgung",
+            "Rachenentzündung",
+            "Angina pectoris"
+        ]
     },
     {
         name: "Ashitaba",
         latein: "Angelica keiskei",
-        img: "img/herbs/A/ashitaba.jpg"
+        img: "img/herbs/A/ashitaba.jpg",
+        beschreibung: "Die Ashitaba ist eine im europäischen Raum noch recht unbekannte Heilpflanze. Die auch als japanischer Engelwurz bezeichnete Art enthält einige vielversprechende Inhaltsstoffe, die helfen, Stress abzubauen, Muskel- und Gelenkschmerzen vorzubeugen und das Immunsystem zu stärken. Der charakteristische Milchsaft des Ashitabas wird in Japan sogar als Verjüngungsmittel",
+        inhaltsstoffe: [
+            "Chalkone",
+            "Flavonoide (Prostratol)",
+            "Cumarine (Selinidin)",
+            "Falcarindiol",
+            "Vitamin B12"
+        ],
+        familie: "Doldenblütler",
+        weitereNamen: [
+            "japanischer Engelwurz",
+            "Morgenblatt"
+        ],
+        aussaatzeit: "April - Mai",
+        blütezeit: "Juni - Oktober",
+        ernte: "April - November",
+        standort: "sonnig bis halbschattig; nährstoffreiche, humose und durchlässige Böden",
+        verwendung: [
+            "Asthma",
+            "Fettleibigkeit",
+            "Cellulitis",
+            "Beschwerden mit Herz und Kreislauf",
+            "Bluthochdruck",
+            "Diabetes",
+            "Muskelschmerzen",
+            "Gliederschmerzen"
+        ]
     },
     {
         name: "Ashwagandha",
