@@ -6,42 +6,71 @@ let herbs = [
         latein: "Equisetum arvense",
         img: "img/herbs/A/ackerschachtelhalm.jpg",
         beschreibung: "Der Name Ackerschachtelhalm bezieht sich sowohl auf den Standort, an dem das Wildkraut zu finden ist, als auch auf das Aussehen der Pflanze: Ackerschachtelhalme wachsen bevorzugt auf Äckern und weisen einen in sich geschachtelten Aufbau der Stengelglieder auf. Die alternative Bezeichnung Zinnkraut geht auf die frühere Verwendung der Pflanze zurück: man verwendete das Farngewächs, um Zinngeschirr und andere Utensilien aus Zinn damit zu putzen und polieren. Die zu den Farnen gehörende Pflanze ist eine bedeutende Heilpflanze gegen Gelenkschmerzen und Harnbeschwerden.",
-        inhaltsstoffe: {
-            0: "Flavonoide (u.a. Flavonole wie Quercetin und Kaempferol; Flavone wie Luteolin und Apigenin)",
-            1: "Alkaloide (Nicotin; 3-Methoxypyridin)",
-            2: "Saponine",
-            3: "Phenolsäuren",
-            4: "Weinsäure (Caffeoyl)",
-            5: "Kieselsäure",
-            6: "Phytosterine",
-            7: "Aluminiumchlorid"
-        },
+        inhaltsstoffe: [
+            "Flavonoide (u.a. Flavonole wie Quercetin und Kaempferol; Flavone wie Luteolin und Apigenin)",
+            "Alkaloide (Nicotin; 3-Methoxypyridin)",
+            "Saponine",
+            "Phenolsäuren",
+            "Weinsäure (Caffeoyl)",
+            "Kieselsäure",
+            "Phytosterine",
+            "Aluminiumchlorid"
+        ],
         familie: "Schachtelhalmgewächse",
-        weitereNamen: {
-            0: "Zinnkraut",
-            1: "Pferdeschwanz",
-            2: "Schachtelhalm",
-            3: "Fegenkraut"
-        },
+        weitereNamen: [
+            "Zinnkraut",
+            "Pferdeschwanz",
+            "Schachtelhalm",
+            "Fegenkraut"
+        ],
         aussaatzeit: "abhängig von Generation",
         blütezeit: "abhängig von Generation",
         ernte: "Mai - August",
         standort: "sonnig, feuchte und lehmige Böden, verträgt Staunässe",
-        verwendung: {
-            0: "Auch wenn der Ackerschachtelhalm bzw. das Zinnkraut aufgrund der zügellosen Vermehrung nicht sonderlich beliebt ist, vertraut die Naturheilkunde seit Jahrhunderten auf die gesundmachenden Inhaltsstoffe des Ackerschachtelhalms.",
-            1: "Arthrose",
-            2: "Rheuma",
-            3: "Gicht",
-            4: "Rachenentzündung",
-            5: "Halsbeschwerden",
-            6: "Balsenentzündung",
-            7: "Nasenbluten"
-        }
+        verwendung: [
+            "Arthrose",
+            "Rheuma",
+            "Gicht",
+            "Rachenentzündung",
+            "Halsbeschwerden",
+            "Balsenentzündung",
+            "Nasenbluten"
+        ]
     },
     {
         name: "Alant",
         latein: "Inula helenium",
-        img: "img/herbs/A/alant.jpg"
+        img: "img/herbs/A/alant.jpg",
+        beschreibung: "Der Alant mit seinen großen gelben Blütenköpfen stammt ursprünglich aus Anatolien und ist heute weit verbreitet. Die Wurzeln von Inula helenium, wie der Echte Alant botanisch bezeichnet wird, werden in der Naturheilkunde vor allem gegen zahlreiche Lungenbeschwerden verwendet. Früher und vereinzelt auch heute galten kandierte Alantwurzeln als Delikatesse. Da die Pflanze jedoch ein nicht geringes Allergiepotenzial mit sich trägt, hat sich ihre Bedeutung als Küchenpflanze deutlich verkleinert.",
+        inhaltsstoffe: [
+            "ätherische Öle",
+            "Sesquiterpenlactone (u.a. Helenin; Alantolactone)",
+            "Polysaccharaide (v.a. Inulin",
+            "Phytosterole",
+            "Flavonoide",
+            "Pektine"
+        ],
+        familie: "Korbblütler",
+        weitereNamen: [
+            "Brustalant",
+            "Darmwurz",
+            "Edelwurz",
+            "Helenenkraut"
+        ],
+        aussaatzeit: "April - Mai",
+        blütezeit: "Juni - September",
+        ernte: "ab dem zweiten Jahr",
+        standort: "sonnig bis halbschattige Standorte mit nährstoffreichen und durchlässigen Böden",
+        verwendung: [
+            "Bronchitis",
+            "COPD",
+            "grippale Infekte",
+            "Durchfall",
+            "Gallenbeschwerden",
+            "Harnbeschwerden",
+            "Reizhusten",
+            "Wurmbefall"
+        ]
     },
     {
         name: "Andorn",
@@ -561,77 +590,76 @@ function main() {
     
     for (let i = 0; i < herbs.length; i++) {
         if (herbs[i]._comment == "A") {
-            output += '<div class="ordnung ordnungA">A</div><div class="bigContainer" id="bigContainerA>';
+            output += '<div class="ordnung ordnungA">A</div><div class="bigContainer" id="bigContainerA">';
             comment = "A";
         } else if (herbs[i]._comment == "B") {
-            output += '</div><div class="ordnung ordnungB">B</div><div class="bigContainer" id="bigContainerB>';
+            output += '</div><div class="ordnung ordnungB">B</div><div class="bigContainer" id="bigContainerB">';
             comment = "B";
         } else if (herbs[i]._comment == "D") {
-            output += '</div><div class="ordnung  ordnungD">D</div><div class="bigContainer" id="bigContainerD>';
+            output += '</div><div class="ordnung  ordnungD">D</div><div class="bigContainer" id="bigContainerD">';
             comment = "D";
         } else if (herbs[i]._comment == "E") {
-            output += '</div><div class="ordnung ordnungE">E</div><div class="bigContainer" id="bigContainerE>';
+            output += '</div><div class="ordnung ordnungE">E</div><div class="bigContainer" id="bigContainerE">';
             comment = "E";
         } else if (herbs[i]._comment == "F") {
-            output += '</div><div class="ordnung ordnungF">F</div><div class="bigContainer" id="bigContainerF>';
+            output += '</div><div class="ordnung ordnungF">F</div><div class="bigContainer" id="bigContainerF">';
             comment = "F";
         } else if (herbs[i]._comment == "G") {
-            output += '</div><div class="ordnung ordnungG">G</div><div class="bigContainer" id="bigContainerG>';
+            output += '</div><div class="ordnung ordnungG">G</div><div class="bigContainer" id="bigContainerG">';
             comment = "G";
         } else if (herbs[i]._comment == "H") {
-            output += '</div><div class="ordnung ordnungH">H</div><div class="bigContainer" id="bigContainerH>';
+            output += '</div><div class="ordnung ordnungH">H</div><div class="bigContainer" id="bigContainerH">';
             comment = "H";
         } else if (herbs[i]._comment == "J") {
-            output += '</div><div class="ordnung ordnungJ">J</div><div class="bigContainer" id="bigContainerJ>';
+            output += '</div><div class="ordnung ordnungJ">J</div><div class="bigContainer" id="bigContainerJ">';
             comment = "J";
         } else if (herbs[i]._comment == "K") {
-            output += '</div><div class="ordnung ordnungK">K</div><div class="bigContainer" id="bigContainerK>';
+            output += '</div><div class="ordnung ordnungK">K</div><div class="bigContainer" id="bigContainerK">';
             comment = "K";
         } else if (herbs[i]._comment == "L") {
-            output += '</div><div class="ordnung ordnungL">L</div><div class="bigContainer" id="bigContainerL>';
+            output += '</div><div class="ordnung ordnungL">L</div><div class="bigContainer" id="bigContainerL">';
             comment = "L";
         } else if (herbs[i]._comment == "M") {
-            output += '</div><div class="ordnung ordnungM">M</div><div class="bigContainer" id="bigContainerM>';
+            output += '</div><div class="ordnung ordnungM">M</div><div class="bigContainer" id="bigContainerM">';
             comment = "M";
         } else if (herbs[i]._comment == "N") {
-            output += '</div><div class="ordnung ordnungN">N</div><div class="bigContainer" id="bigContainerN>';
+            output += '</div><div class="ordnung ordnungN">N</div><div class="bigContainer" id="bigContainerN">';
             comment = "N";
         } else if (herbs[i]._comment == "O") {
-            output += '</div><div class="ordnung ordnungO">O</div><div class="bigContainer" id="bigContainerO>';
+            output += '</div><div class="ordnung ordnungO">O</div><div class="bigContainer" id="bigContainerO">';
             comment = "O";
         } else if (herbs[i]._comment == "P") {
-            output += '</div><div class="ordnung ordnungP">P</div><div class="bigContainer" id="bigContainerP>';
+            output += '</div><div class="ordnung ordnungP">P</div><div class="bigContainer" id="bigContainerP">';
             comment = "P";
         } else if (herbs[i]._comment == "Q") {
-            output += '</div><div class="ordnung ordnungQ">Q</div><div class="bigContainer" id="bigContainerQ>';
+            output += '</div><div class="ordnung ordnungQ">Q</div><div class="bigContainer" id="bigContainerQ">';
             comment = "Q";
         } else if (herbs[i]._comment == "R") {
-            output +='</div><div class="ordnung ordnungR">R</div><div class="bigContainer" id="bigContainerR>';
+            output +='</div><div class="ordnung ordnungR">R</div><div class="bigContainer" id="bigContainerR">';
             comment = "R";
         } else if (herbs[i]._comment == "S") {
-            output += '</div><div class="ordnung ordnungS">S</div><div class="bigContainer" id="bigContainerS>';
+            output += '</div><div class="ordnung ordnungS">S</div><div class="bigContainer" id="bigContainerS">';
             comment = "S";
         } else if (herbs[i]._comment == "T") {
-            output += '</div><div class="ordnung ordnungT">T</div><div class="bigContainer" id="bigContainerT>';
+            output += '</div><div class="ordnung ordnungT">T</div><div class="bigContainer" id="bigContainerT">';
             comment = "T";
         } else if (herbs[i]._comment == "W") {
-            output += '</div><div class="ordnung ordnungW">W</div><div class="bigContainer" id="bigContainerW>';
+            output += '</div><div class="ordnung ordnungW">W</div><div class="bigContainer" id="bigContainerW">';
             comment = "W";
         } else if (herbs[i]._comment == "Y") {
-            output += '</div><div class="ordnung ordnungY">Y</div><div class="bigContainer" id="bigContainerY>';
+            output += '</div><div class="ordnung ordnungY">Y</div><div class="bigContainer" id="bigContainerY">';
             comment = "Y";
         } else if (herbs[i]._comment == "Z") {
-            output += '</div><div class="ordnung ordnungZ">Z</div><div class="bigContainer" id="bigContainerZ>';
+            output += '</div><div class="ordnung ordnungZ">Z</div><div class="bigContainer" id="bigContainerZ">';
             comment = "Z";
         }
       output += `
         <div class="smallContainer container${comment}">
           <img src="${herbs[i].img}" alt="img">
-          <p>${herbs[i].name}</p>
-          <p>${herbs[i].latein}</p>
+          <p class="name">${herbs[i].name}</p>
+          <p class="latein">${herbs[i].latein}</p>
         </div>`;
     }
-    console.log(output);
     document.getElementById('outputHerbs').innerHTML = output;
   }
 
