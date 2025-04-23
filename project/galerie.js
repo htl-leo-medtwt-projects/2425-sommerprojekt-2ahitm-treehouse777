@@ -199,28 +199,150 @@ let herbs = [
     {
         name: "Ashwagandha",
         latein: "Withania somnifera",
-        img: "img/herbs/A/ashwagandha.jpg"
+        img: "img/herbs/A/ashwagandha.jpg",
+        beschreibung: "Die Ashwagandha (Withania somnifera), die auch als Schlafbeere oder Indischer Ginseng bekannt ist, stellt eine traditionelle Heilpflanze der ayurvedischen Medizin dar. Sie wird vor allem als Heilpflanze gegen Stress oder Schlafstörungen sowie zur Stärkung der geistigen Fähigkeiten oder des Immunsystems verwendet. In unseren Breiten werden die Wurzelextrakte sowie vereinzelt die Blattextrakte von Ashwagandha vor allem als Superfood genutzt.",
+        inhaltsstoffe: [
+            "Alkaloide (Withanolid A, Withaferin D, Withanolid B)",
+            "Saponine",
+            "Flavonoide",
+            "Gerbstoffe",
+            "ätherische Öle (Blätter)",
+            "Proteine"
+        ],
+        familie: "Nachtschattengewächse",
+        weitereNamen: [
+            "Schlafbeere",
+            "Indischer Ginseng",
+            "Winterkirsche"
+        ],
+        aussaatzeit: "März bis April (Vorkultur)",
+        blütezeit: "Juli - September",
+        ernte: "Juni - Oktober",
+        standort: "sonnige bis halbschattige Lagen mit eher sandigen Blden",
+        verwendung: [
+            "Angststörungen",
+            "Stress",
+            "Schlafstörungen",
+            "Störungen der Fettverdauung"
+        ]
     },
     {
         name: "Augentrost",
         latein: "Euphrasia officinalis",
-        img: "img/herbs/A/augentrost.jpg"
+        img: "img/herbs/A/augentrost.jpg",
+        beschreibung: "Der Gemeine Augentrost, der in alten Büchern über Heilpflanzen manchmal auch Augenkraut oder Augustinuskraut genannt wird, ist eine altbewährtes Heilkraut. Wie es der Name schon erahnen lässt, wurde und wird der Augentrost bereits seit dem Mittelalter bei vielerlei Augenbeschwerden und Augenkrankheiten eingesetzt.",
+        inhaltsstoffe: [
+            "Glykoside (Aucubin; Catalpol; Rhynanthin; Euphrosid; Eukovosid)",
+            "Iridoidglucoside",
+            "Phenolcarbonsäuren",
+            "Lignane",
+            "Gerbstoffe"
+        ],
+        familie: "Sommerwurzgewächse",
+        weitereNamen: [
+            "Augustinuskraut",
+            "Wegleuchte",
+            "Milchschelen",
+            "Augendank"
+        ],
+        aussaatzeit: "Oktober-April",
+        blütezeit: "Juli-September",
+        ernte: "Mai-Juni",
+        standort: "sonnige Standorte mit mageren, nährstoffarmen und eher sandigen Böden",
+        verwendung: [
+            "Augenentzündungen",
+            "Erkrankungen der Bindhaut",
+            "Lidrandentzündung",
+            "Augenringe",
+            "Lichtscheuheit",
+            "Schnupfen",
+            "Husten"
+        ]
     },
     {
         name: "Aztekisches Süßkraut",
         latein: "Lippia dulcis",
-        img: "img/herbs/A/aztekisches-suesskraut.jpg"
+        img: "img/herbs/A/aztekisches-suesskraut.jpg",
+        beschreibung: "Das Aztekische Süßkraut (Lippia dulcis) ist durch seinen süßlichen Geschmack ein Exot unter den Kräutern. Das aus Mexiko stammende Kraut macht zwar einen recht unscheinbaren Eindruck und besiedelt vor allem karge, sonnenexponierte Standorte. In der Volksheilkunde wird es vor allem bei Erkältungen und hartnäckigem Husten verwendet. In der Küche lässt sich das aztekische Süßkraut als Alternative zu Zucker verwenden.",
+        inhaltsstoffe: [
+            "ätherische Öle (u.a. Campher; Limonen; Terpineol; Pinen)",
+            "Sesquiterpene (Hernandulcin; Hydroxyhernandulcin)",
+            "Fettsäuren (Linolsäure)",
+            "Flavonoide"
+        ],
+        familie: "Eisenkrautgewächse",
+        weitereNamen: [
+            "Lippiakraut",
+            "süßer Zitronenstrauch"
+        ],
+        aussaatzeit: "April - Mai",
+        blütezeit: "Juli - September",
+        ernte: "Mai - Oktober",
+        standort: "sonnig bis leicht halbschattige Standorte mit trockenen, humosen Böden",
+        verwendung: [
+            "Bronchitis",
+            "Erkältung",
+            "Asthma",
+            "Magenbeschwerden",
+            "Durchfall"
+        ]
     },
     {
         _comment: "B",
         name: "Baldrian",
         latein: "Valeriana officinalis",
-        img: "img/herbs/B/baldrian.jpg"
+        img: "img/herbs/B/baldrian.jpg",
+        beschreibung: "Der Baldrian (Valeriana officinalis) ist eine bekannte heimische Wildpflanze und gleichzeitig ein altbewährtes Heilkraut. Die Wurzeln der Pflanze haben eine beruhigende und schlaffördernde Wirkung. Doch nicht nur als Heilpflanze ist der Baldrian berühmt. Auch als Zierpflanze oder Bienenstaude im Garten wird das Kraut häufig angepflanzt. In einigen Ländern ist er sogar ein beliebtes Gewürzkraut.",
+        inhaltsstoffe: [
+            "ätherische Öle (Valeriansäure; Pinen; Fenchen; Camphen )",
+            "Sesquiterpene (Valerenone; Valerenylacetat)",
+            "Alkaloide"
+        ],
+        familie: "Geißblattgewächse",
+        weitereNamen: [
+            "Valerian",
+            "Hexenkraut",
+            "echter Baldrian",
+            "Katzenkraut"
+        ],
+        aussaatzeit: "März-April",
+        blütezeit: "Mai-August",
+        ernte: "ganzjährig (erst im zweiten Jahr)",
+        standort: "sonnige bis halbschattige Standorte mit durchlässigen und eher nährstoffreichen Böden",
+        verwendung: [
+            "Schlafbeschwerden",
+            "Nervosität",
+            "Angst",
+            "Stress",
+            "Migräne",
+            "Magenbeschwerden"
+        ]
     },
     {
         name: "Bärwurz",
         latein: "Meum athamanticum",
-        img: "img/herbs/B/baerwurz.jpg"
+        img: "img/herbs/B/baerwurz.jpg",
+        beschreibung: "Die Bärwurz, botanisch als Meum athamanticum bezeichnet, ist ein vor allem in Hügeln und Gebirgen Mitteleuropas Wildkraut. Der Doldenblütler fällt meist schnell durch seinen aromatischen und appetitanregenden Geruch auf. Sowohl die Blätter, die Wurzel als auch die Samen können in der Küche vielseitig verwendet werden. Aus den Wurzeln der Bärwurz wird zudem eine bekannte Spirituose zubereitet.",
+        inhaltsstoffe: [
+            "ätherische Öle (u.a. Ligustilid, Cymen)",
+            "Flavonoide (Apigenin)",
+            "Phthalate",
+            "Phenylacrylsäuren"
+        ],
+        familie: "Doldenblütler",
+        weitereNamen: [
+            "Bärdillen",
+            "Wilder Fenchel"
+        ],
+        aussaatzeit: "Oktober bis November",
+        blütezeit: "Mai bis Juli",
+        ernte: "Blätter: April bis Juli; Wurzel: ab 2. Jahr",
+        standort: "sonnig bis halbschattig mit sauren, humosen Böden",
+        verwendung: [
+            "Verdauungsstörungen",
+            "Blähungen",
+            "Appetitlosigkeit"
+        ]
     },
     {
         name: "Beifuß",
