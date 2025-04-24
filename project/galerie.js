@@ -347,47 +347,289 @@ let herbs = [
     {
         name: "Beifuß",
         latein: "Artemisia vulgaris",
-        img: "img/herbs/B/beifuss.jpg"
+        img: "img/herbs/B/beifuss.jpg",
+        beschreibung: "Beifuß (Artemisia vulgaris) ist eine häufig vorkommende Wildpflanze. Die recht unscheinbare Pflanze ist vor allem in der Winterküche als Gewürzkraut beliebt. Dort verwendet man Beifuß u.a. für deftige Wildgerichte. Blätter und Blüten sind reich an Bitterstoffen, die imstande sind, die Verdauung anzuregen. Beifuß wird außerdem als Räucherpflanze sowie als Heilpflanze in der Pflanzenheilkunde verwendet.",
+        inhaltsstoffe: [
+            "ätherische Öle (Thujon; Linalool; Cineol; Campher)",
+            "Bitterstoffe (Sesquiterpenlactone)",
+            "Cumarine",
+            "Flavonoide (u.a. Quercetin, Artemisinin)"
+        ],
+        familie: "Korbblütler",
+        weitereNamen: [
+            "Besenkraut",
+            "Fliegenkraut",
+            "Gewürzbeifuß",
+            "Weiberkraut",
+            "Jungfernkraut"
+        ],
+        aussaatzeit: "März-April",
+        blütezeit: "Juni-September",
+        ernte: "August-Oktober",
+        standort: "sonnig bis halbschattig; nährstoffreiche, leicht kalkhaltige und durchlässige Böden",
+        verwendung: [
+            "Kopfschmerzen",
+            "Appetitlosigkeit",
+            "Wechseljahre",
+            "Übelkeit",
+            "Beschwerden bei Menstruation",
+            "Unruhezustände",
+            "Gallenbeschwerden"
+        ]
     },
     {
         name: "Beinwell",
         latein: "Symphytum officinale",
-        img: "img/herbs/B/beinwell.jpg"
+        img: "img/herbs/B/beinwell.jpg",
+        beschreibung: "Beinwell (Symphytum officinale) ist eine der ältesten bekannten Heilpflanzen, die vor allem bei Gelenkschmerzen, Muskelbeschwerden oder Verstauchungen verwendet wird. Die Wurzeln des auch als Comfrey bezeichneten Heilkrauts enthalten Wirkstoffe, die ein schnellen Abschwellen und rasche Schmerzlinderung ermöglichen. In der Vergangenheit waren Beinwellblätter in der Küche eine geschätze Küchenzutat. Aufgrund der enthaltenen Pyrrlozidinalkaloide wird jedoch empfohlen, nur noch geringe Mengen des Krauts zu verzehren.",
+        inhaltsstoffe: [
+            "Allantoin",
+            "Cholin",
+            "Flavonoide",
+            "Schleimstoffe",
+            "Phenolsäuren (u.a. Rosmarinsäure, Kaffeesäure)",
+            "Saponine",
+            "Pyrrolizidinalkaloide",
+            "ätherische Öle"
+        ],
+        familie: "Rauhblattgewächse",
+        weitereNamen: [
+            "Arznei-Beinwell",
+            "Beinwurz",
+            "Comfrey",
+            "Komfrei",
+            "Wundallheil"
+        ],
+        aussaatzeit: "Februar - Mai",
+        blütezeit: "Mai - Oktober",
+        ernte: "Apr - Oktober",
+        standort: "sonnig bis halbschattig; nährstoffreiche und lockere Böden",
+        verwendung: [
+            "Wundheilung",
+            "Quetschungen",
+            "Muskelschmerzen",
+            "Gelenkschmerzen",
+            "Arthrose",
+            "Rheuma"
+        ]
     },
     {
         name: "Benediktenkraut",
         latein: "Centaurea benedicta",
-        img: "img/herbs/B/benediktenkraut.jpg"
+        img: "img/herbs/B/benediktenkraut.jpg",
+        beschreibung: "Das Benediktenkraut (Centaurea benedicta) ist eine alte Heilpflanze, die von Benediktinermönchen vom Mittelmeer nach Mitteleuropa eingeschleppt wurde. Der dornige und stachelige Korbblütler wird vor allem bei Verdauungs- und Magenbeschwerden empfohlen. Von besonderem Interesse sind die Bitterstoffe des Benediktenkrauts.",
+        inhaltsstoffe: [
+            "Bitterstoffe (u.a. Cnicin)",
+            "Flavonoide (u.a. Apigetrin)",
+            "ätherische Öle",
+            "Gerbstoffe",
+            "Triterpene (alpha-Amyrone)"
+        ],
+        familie: "Korbblütler",
+        weitereNamen: [
+            "Benedikten-Distel",
+            "Heilige Distel",
+            "Benediktendistel"
+        ],
+        aussaatzeit: "März - April",
+        blütezeit: "Juni - August",
+        erntezeit: "Juni - Juli",
+        standort: "Sonniger Standort mit nährstoffreichem, gut durchlässigem Boden.",
+        verwendung: [
+            "Verdauungsbeschwerden",
+            "Appetitlosigkeit",
+            "Anregung der Galle"
+        ]
     },
     {
         name: "Bittere Schleifenblume",
         latein: "Iberis amara",
-        img: "img/herbs/B/bittere-schleifenblume.jpg"
+        img: "img/herbs/B/bittere-schleifenblume.jpg",
+        beschreibung: "Die Bittere Schleifenblume (auch Bitterer Bauernsenf genannt) ist in der Pflanzenheilkunde noch ein vergleichsweise junges Kraut. Die botamisch als Iberis amara bezeichnete Pflanze wurde erst vor etwa 50 Jahren tiefergehend wissenschaftlich untersucht. Dort fand man heraus, dass die leicht giftige Pflanze, ein gutes Heilkraut gegen Beschwerden im Magen-Darm-Bereich sowie ist. Im Garten ist die Pflanze ein hervorragender Bodendecker.",
+        inhaltsstoffe: [
+            "Senfölglykoside (Glucosinolate)",
+            "Cucurbitacine",
+            "Ibamarin",
+            "Flavonoide (Quercetin)",
+            "Isothiocyanate",
+            "ätherische Öle"
+        ],
+        familie: "Kreuzblütengewächse",
+        weitereNamen: [
+            "Bauernsenf",
+            "Schleifenblume"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "Mai - August",
+        ernte: "geschützte Pflanze",
+        standort: "sonnig; nährstoffarme und eher sandige Böden",
+        verwendung: [
+            "Angina pectoris",
+            "Magenkrämpfe",
+            "Übelkeit",
+            "Gastritis",
+            "Verdauungsbeschwerden",
+            "Entzündungen"
+        ]
     },
     {
         name: "Blutwurz",
         latein: "Potentilla erecta",
-        img: "img/herbs/B/blutwurz.jpg"
+        img: "img/herbs/B/blutwurz.jpg",
+        beschreibung: "Die Blutwurz oder Tormentill ist eine sehr alte Heilfplanze, die für zahlreiche Beschwerden verwendet werden kann. Die Wurzeln des Blutwurzes werden bei Zahn- und Rachenentzündungen, bei Durchfallerkrankungen oder zur Wundheilung verwendet. Liebhaber von Likörem schätzen Blutwurz als verdauungsfördernde Spirituose mit erdigem und bitterem Geschmack.",
+        inhaltsstoffe: [
+            "Gerbstoffe (Ellagitannin; Gallotannin)",
+            "ätherische Öle",
+            "Flavonoide (Kämpferol)",
+            "Saponine (Tormentosid)",
+            "Proanthocyanide",
+            "Harze"
+        ],
+        familie: "Rosengewächse",
+        weitereNamen: [
+            "Tormentill",
+            "Tormentillwurz",
+            "Blutwurzel",
+            "Natternwurz",
+            "Rotwurz"
+        ],
+        aussaatzeit: "September-März",
+        blütezeit: "Mai-Oktober",
+        ernte: "September-November",
+        standort: "vollsonnig bis sonnig; trockene, eher sandige und nährstoffarme Böden",
+        verwendung: [
+            "Magen- und Darmbeschwerden",
+            "Erkältungen",
+            "Entzündungen des Zahnfleischs",
+            "Wundheilung",
+            "Reisekrankheit"
+        ]
     },
     {
         name: "Bockshornklee",
         latein: "Trigonella foenumgraecum",
-        img: "img/herbs/B/bockshornklee.jpg"
+        img: "img/herbs/B/bockshornklee.jpg",
+        beschreibung: "Der Bockshornklee (Trigonella foenum-graecum ist Gewürz- und Heilpflanze zugleich. Im Fokus der ansonsten eher unscheinbaren Pflanze stehen die Samen. Gemahlene Bockshornkleesamen gehören zur Standardausrüstung der indischen und persischen Küche. Die Pflanze selbst verfügt über zahlreiche wertvolle Inhaltsstoffe, die somit ihren Nutzen auch in der modernen Heilpflanzenkunde rechtfertigt.",
+        inhaltsstoffe: [
+            "Saponine",
+            "Steroide",
+            "Saponinsteroide (u.a. Diosgenin)",
+            "Alkaloide",
+            "Flavonoide (u.a. Quercetin)",
+            "ätherische Öle"
+        ],
+        familie: "Schmetterlingsblütengewächse",
+        weitereNamen: [
+            "Griechisches Heu",
+            "Fenugreck",
+            "Kuhhornklee",
+            "Hirschwundkraut"
+        ],
+        aussaatzeit: "April - Mai",
+        blütezeit: "Juni - August",
+        ernte: "September",
+        standort: "sonnig bis halbschattig; lehmig-sandige und nährstoffarme Böden",
+        verwendung: [
+            "Appetitlosigkeit",
+            "Verdauungsbeschwerden",
+            "Furunkel",
+            "Ekzeme",
+            "Hautentzündung",
+            "Diabetes"
+        ]
     },
     {
         name: "Borretsch",
         latein: "Borago officinalis",
-        img: "img/herbs/B/borretsch.jpg"
+        img: "img/herbs/B/borretsch.jpg",
+        beschreibung: "Viele Kräuter haben einen eigenen, typischen und unverwechselbaren Geschmack. Das macht die Unterscheidung leicht, doch es gibt ein Kraut, das würde man mit verbundenen Augen für ein Gemüse halten: Borretsch alias Gurkenkraut. Charakteristisch ist der ausgeprägte Geschmack nach frischen grünen Gurken mit 'wässrigen, kühlenden' Noten und 'etwas Salpeterartigem', die sich hervorragend in Salaten oder auf Brotaufstrichen machen. In der Heilkunde werden die Samen der Pflanze bzw. das aus ihr gewonnene Borretschöl vor allem bei Hautbeschwerden verwendet.",
+        inhaltsstoffe: [
+            "Pyrrolizidinalalkaloide (Intermedin; Supinin; Amabilin; Lycopsamin)",
+            "Schleimstoffe",
+            "Gerbstoffe",
+            "Kieselsäure",
+            "Vitamin C",
+            "ätherische Öle",
+            "Saponin",
+            "Gamma-Linolensäure"
+        ],
+        familie: "Raublattgewächse",
+        weitereNamen: [
+            "Gurkenkraut",
+            "Kukumerkraut",
+            "Borgel",
+            "Wohlgemuth"
+        ],
+        aussaatzeit: "April-Juni",
+        blütezeit: "Mai-September",
+        ernte: "Mai-Oktober",
+        standort: "sonnig, windgeschützt, feuchte und nährstoffreiche Böden",
+        verwendung: [
+            "ggf. Husten (durch enthaltende Alkaloide nicht empfohlen)"
+        ]
     },
     {
         name: "Brahmi",
         latein: "Bacopa monnieri",
-        img: "img/herbs/B/brahmi.jpg"
+        img: "img/herbs/B/brahmi.jpg",
+        beschreibung: "Der Brahmi (Bacopa monnieri) ist eine ursprünglich aus Südasien stammende Pflanze, die in der ayurvedischen Medizin als Heilpflanze seit vielen Jahren genutzt wird. Brahmi, auch als kleines Fettblatt bezeichnet, enthält wertvolle Saponine, die die Leistung des Gehirns steigern und gegen Stress und Depressionen helfen können. Es ist daher nicht verwunderlich, dass die Blätter der Pflanze heute auch als Superfood Verwendung finden.",
+        inhaltsstoffe: [
+            "Flavonoide",
+            "Saponine (Hersaponin; Bacosid A; Bacosid B)",
+            "Alkaloide",
+            "Phytosterine",
+            "Jujubogenin",
+            "Ebelinlacton",
+            "Triterpene (Betulinsäure)"
+        ],
+        familie: "Wegerichgewächse",
+        weitereNamen: [
+            "Kleines Fettblatt",
+            "Wasserysop"
+        ],
+        aussaatzeit: "Frühling (innen)",
+        blütezeit: "Juni - September",
+        ernte: "ganzjährig",
+        standort: "sonnig bis halbschattig, nährstoffreiche, feuchte und luftige Böden",
+        verwendung: [
+            "Steigerung der Gedächtnisleistung",
+            "Anti-Aging",
+            "Bluthochdruck",
+            "Schlafbeschwerden"
+        ]
     },
     {
         name: "Brennnessel",
         latein: "Urtica dioica",
-        img: "img/herbs/B/brennnessel.jpg"
+        img: "img/herbs/B/brennnessel.jpg",
+        beschreibung: "Die Brennnessel (Urtica dioica) ist eines unserer wichtigsten Wildkräuter. Sie ist weitaus mehr als ein lästiges Unkraut mit schmerzenden Blättern. Die Pflanze ist für das Überleben vieler Insekten wichtig. Ihre Inhaltsstoffe machen sie außerdem zu einem wertvollen Heilkraut gegen Harn-, Nieren- und Gelenkleiden. Doch auch als Küchenkraut macht das Kraut eine gute Figur in Form von Brennnesselsuppe, Spinat oder Smoothies.",
+        inhaltsstoffe: [
+            "Flavonoide (u.a. Kaempferol)",
+            "Phytosterine (Beta-Sitosterin)",
+            "Carotinoide",
+            "Mineralstoffe",
+            "Kieselsäure",
+            "Gerbstoffe",
+            "ätherische Öle",
+            "Fettsäuren"
+        ],
+        familie: "Brennnesselgewächse",
+        weitereNamen: [
+            "Große Brennnessel",
+            "Saunessel",
+            "Donnernessel"
+        ],
+        aussaatzeit: "März - April",
+        blütezeit: "Juni - Oktober",
+        ernte: "Juni - September",
+        standort: "halbschattig bis sonnig mit nährstoffreichen und feuchten Böden",
+        verwendung: [
+            "Harnbeschwerden",
+            "Reizblase",
+            "Rheuma",
+            "Hautjucken",
+            "Gicht"
+        ]
     },
     {
         _comment: "D",
