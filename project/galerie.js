@@ -1083,59 +1083,367 @@ let herbs = [
         _comment: "G",
         name: "Gänseblümchen",
         latein: "Bellis perennis",
-        img: "img/herbs/G/gaensebluemchen.jpg"
+        img: "img/herbs/G/gaensebluemchen.jpg",
+        beschreibung: "Es gibt vermutlich keine Pflanze, die man häufiger an den unterschiedlichsten Standorten antrifft und die jeder kennt: das Gänseblümchen. Dass die Blüten des zierlichen Gänseblümchen essbar sind, wissen viele, die Wildkräutergerichte mögen. Die auch als Maßliebchen bezeichnete Heilpflanze wird jedoch auch bei Husten, Gelenkbeschwerden und Hautproblemen verwendet.",
+        inhaltsstoffe: [
+            "Flavonoide (u.a. Quercetin; Apigenin)",
+            "Mineralstoffe",
+            "Saponine",
+            "ätherische Öle",
+            "Saponine",
+            "Mineralstoffe",
+            "Inulin",
+            "Gerbstoffe",
+            "Bitterstoffe",
+            "Vitamin C"
+        ],
+        familie: "Korbblütler",
+        weitereNamen: [
+            "Tausenschön",
+            "Maßliebchen",
+            "Maiblume",
+            "Regenblume"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "März-November",
+        ernte: "März-November",
+        standort: "vollsonnig bis sonnig; mäßig feuchte und eher nährstoffreiche Böden",
+        verwendung: [
+            "Erkältung",
+            "Verstauchungen",
+            "Quetschungen",
+            "Hautbeschwerden",
+            "Wundbehandlung"
+        ]
     },
     {
         name: "Gänsefingerkraut",
         latein: "Potentilla anserina",
-        img: "img/herbs/G/gaensefingerkraut.jpg"
+        img: "img/herbs/G/gaensefingerkraut.jpg",
+        beschreibung: "Das Gänsefingerkraut (Potentilla anserina) ist ein häufiger Begleiter auf unseren Wiesen oder Uferrändern. Das zu den Rosengewächsen gehörende Wildkraut Die auch als Anserine bezeichnete Pflanze ist eine bedeutende Heilpflanze. Sie wird vorwiegend bei Magen- und Darmerkrankungen sowie bei krampfhaften Menstruationsbeschwerden verwendet. Die Heilwirkung der Pflanze beruht vor allem auf den enthaltenden Gerbstoffen und Flavonoiden. Das Gänsefingerkraut kann jedoch auch in der Küche als Gemüse oder Blattkraut verwendet werden.",
+        inhaltsstoffe: [
+            "Gerbstoffe (Ellagintannine)",
+            "Flavonoide (Quercitrin; Quercetin; Kaempferol)",
+            "Saponine",
+            "Cumarine",
+            "Phytosterole",
+            "Anthocyanidine"
+        ],
+        familie: "Rosengewächse",
+        weitereNamen: [
+            "Anserine",
+            "Gänserich",
+            "Krampfkraut",
+            "Stierlichhut"
+        ],
+        aussaatzeit: "September - Oktober",
+        blütezeit: "Mai - September",
+        ernte: "Mai - Oktober",
+        standort: "sonnige bis vollsonnige Lagen mit nährstoffreichen und dichten Böden",
+        verwendung: [
+            "Durchfall",
+            "Magenkrämpfe",
+            "Gastritis",
+            "Entzündungen im Mund- und Rachenraum"
+        ]
     },
     {
         name: "Gelber Steinklee",
         latein: "Melilotus officinalis",
-        img: "img/herbs/G/gelber-steinklee.jpg"
+        img: "img/herbs/G/gelber-steinklee.jpg",
+        beschreibung: "Der Gelbe oder Echte Steinklee (Melilotus officinalis) ist ein bekanntes einheimisches Wildkraut. Die intensiv duftende Pflanze kann in der Küche als süßlich-aromatisches Gewürz für Getränke oder Desserts verwendet werden. In der Naturheilkunde wird der Hülsenfrüchtler hingegen seit vielen Jahren bei Gelenkbeschwerden, Geschwüren und Entzündungen verwendet.",
+        inhaltsstoffe: [
+            "Cumarine (Melilotosid, Umbelliferon)",
+            "Flavonoide",
+            "Gerbstoffe",
+            "Saponine",
+            "Ätherische Öle"
+        ],
+        familie: "Hülsenfrüchtler (Fabaceae)",
+        weitereNamen: [
+            "Echter Steinklee",
+            "Honigklee",
+            "Königsklee",
+            "Duftklee"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "Juni - September",
+        ernte: "Juni - August",
+        standort: "sonnige, trockene bis mäßig feuchte Böden, nährstoffreich",
+        verwendung: [
+            "Venenbeschwerden",
+            "Lymphstau",
+            "Gelenkbeschwerden",
+            "Hämorrhoiden",
+            "Entzündungen",
+            "Verdauungsförderung"
+        ]
     },
     {
         name: "Giersch",
         latein: "Aegopodium podagraria",
-        img: "img/herbs/G/giersch.jpg"
+        img: "img/herbs/G/giersch.jpg",
+        beschreibung: "Kaum ein anderes Wildkraut ist in Gärten so unbeliebt wie Giersch (Aegopodium podagraria). Dabei kann Geißfuß bzw. Podagrakraut wie Giersch auch genannt wird, viel mehr als wuchern. Rohköstler und Fans von Wildkräutern schwören auf Giersch als schmackhaften Nährstofflieferanten in Salaten oder als Alternative zu Spinat. Der Doldenblütler ist zudem eine traditionelle Heilpflanze, die u.a. bei rheumatischen Erkrankungen unterstützend angewendet wird.",
+        inhaltsstoffe: [
+            "Falcarindiol",
+            "Eisen",
+            "Kalium",
+            "Vitamin C",
+            "Kumarin",
+            "Flavoglyokoside"
+        ],
+        familie: "Doldenblütler",
+        weitereNamen: [
+            "Bodenholunder",
+            "Dreiblatt",
+            "Geißfuß",
+            "Zipperleinskraut"
+        ],
+        aussaatzeit: "Frühjahr-Herbst",
+        blütezeit: "Mai-September",
+        ernte: "März-Oktober",
+        standort: "schattige bis halbschattige Standorte mit humosen, feuchten Böden",
+        verwendung: [
+            "Rheuma",
+            "Gicht",
+            "Blasenentzündungen",
+            "Skorbut"
+        ]
     },
     {
         name: "Goldmelisse",
         latein: "Monarda didyma",
-        img: "img/herbs/G/goldmelisse.jpg"
+        img: "img/herbs/G/goldmelisse.jpg",
+        beschreibung: "Die Goldmelisse (Monarda didyma) stammt ursprünglich aus Nordamerika, wo sie auch als Scharlachrote Indianernessel bekannt ist. Die Pflanze ist bei vielen Gärtnern wegen ihrer prächtigen roten Blütenpracht beliebt, die zudem von vielen nützlichen zahlreiche Insekten angeflogen wird. Die Indianer nutzen die Goldmelisse bis heute als Heil- und Teekraut und vertrauen auf die antiseptischen Eigenschaften der Pflanze. Auch in der Küche gelten Goldmelissenblätter als vorzügliches Gewürzkraut.",
+        inhaltsstoffe: [
+            "ätherische Öle (u.a. Thymol; Terpinen; Cymen; Pinen)",
+            "Flavonoide (u.a. Didymin)",
+            "Thymoquinon",
+            "Thymohydroquinon"
+        ],
+        familie: "Lippenblütler",
+        weitereNamen: [
+            "Scharlach-Monarde",
+            "Indianernessel"
+        ],
+        aussaatzeit: "März",
+        blütezeit: "Juni - September",
+        ernte: "Mai - August",
+        standort: "sonnige bis halbschattige Lagen mit nährstoffreichen und durchlässigen Böden",
+        verwendung: [
+            "grippale Infekte",
+            "Husten",
+            "Durchblutungsstörungen",
+            "Verdauungsschwäche",
+            "Herpes"
+        ]
     },
     {
         name: "Goldrute",
         latein: "Solidago virgaurea",
-        img: "img/herbs/G/goldrute.jpg"
+        img: "img/herbs/G/goldrute.jpg",
+        beschreibung: "Die Echte Goldrute ist das Heilkraut bei Nierenbeschwerden. Der schöne Korbblütler, der häufig auf Wegesrändern und Lichtungen angetroffen, enthält zahlreiche Inhaltsstoffe, die die Nierentätigkeit enorm steigern kann. Die unter ihrem botanischen Namen Solidago virgaurea bekannte Pflanzen galt schon seit der Antike als mächtige Heilpflanze, auch wenn sie zu jener Zeit eher für die Wundheilung verwendet wurde.",
+        inhaltsstoffe: [
+            "ätherische Öle (Curlon; Pinen; Limonen)",
+            "Flavonoide (Quercetin; Quercitrin; Astralagin)",
+            "Gerbstoffe",
+            "Bitterstoffe",
+            "Saponine (Bayogenin)",
+            "Kaffeesäure",
+            "Virgaureosid",
+            "Phenolsäuren",
+            "Mineralstoffe"
+        ],
+        familie: "Korbblütler",
+        weitereNamen: [
+            "Petrusstab",
+            "Himmelsbrand",
+            "Wundkraut",
+            "Heilwundkraut"
+        ],
+        aussaatzeit: "April-Juni",
+        blütezeit: "Juni-September",
+        ernte: "Juni-September",
+        standort: "sonnige Standorte; trockene, kalkhaltige und eher lehmige Böden",
+        verwendung: [
+            "Blasenschwäche",
+            "Nierenentzündung",
+            "Nierensteine",
+            "Wassersucht",
+            "Wundheilung",
+            "Gicht", 
+            "Rheuma"
+        ]
     },
     {
         name: "Gotu Kola",
         latein: "Centella asiatica",
-        img: "img/herbs/G/gotu-kola.jpg"
+        img: "img/herbs/G/gotu-kola.jpg",
+        beschreibung: "Der bei uns als Gotu Kola bekannte Indische Wassernabel (Centella asiatica) ist in Mitteleuropa vor allem als Superfood bekannt. Tatsächlich enthält die Pflanzen zahlreiche wertvolle Mineralstoffe und Vitamine, wenngleich ihr Geschmack meist als bitter in Erinnerung bleibt. Gotu Kola ist in Asien jedoch auch ein bekanntes Heilkraut. Dort wird es vor allem zur Wundheilung sowie bei depressiven Verstimmungen und Angstzuständen verwendet.",
+        inhaltsstoffe: [
+            "Saponine (v.a. Asiaticosid; Madecassosid)",
+            "Triterpensäuren (Asiatinsäure; Madecassinsäure)",
+            "Flavonoide (u.a. Quercetin; Kaempferol)",
+            "Phytosterole (u.a. Sitosterol)"
+        ],
+        familie: "Doldenblütler",
+        weitereNamen: [
+            "Indischer Wassernabel",
+            "Asiatischer Wassernabel",
+            "Tigergras"
+        ],
+        aussaatzeit: "Vorkultur",
+        blütezeit: "Juni - August",
+        ernte: "Mai - September",
+        standort: "halbschattig bis schattig mit nährstoffreichen und feuchten Böden",
+        verwendung: [
+            "Schuppenflechte",
+            "Wundheilung",
+            "Konzentrationsstörungen",
+            "Akne",
+            "Reizmagen"
+        ]
     },
     {
         _comment: "H",
         name: "Herzgespann",
         latein: "Leonurus cardiaca",
-        img: "img/herbs/H/herzgespann.jpg"
+        img: "img/herbs/H/herzgespann.jpg",
+        beschreibung: "Das Echte Herzgespann fällt durch seine charakteristischen Blüten und Blätter schnell ins Auge. Der imposante Lippenblütler, der auch als Löwenschwanz bezeichnet wird, ist ein wichtiges Heilkraut in der Naturheilkunde. Die im Kraut enthaltenen Inhaltsstoffe können u.a. nervös bedingte Herzbeschwerden, Beschwerden durch Schilddrüsenüberfunktion sowie leichte Angststörungen und Verstimmungen lindern. Früher wurden die Blätter des Herzgespanns sogar in der Küche verwendet.",
+        inhaltsstoffe: [
+            "Bitterstoffe (Leonurid; Ajugol)",
+            "Diterpene (Leocardin)",
+            "Flavonoide (Rutin; Quercetin; Gankwarin);",
+            "Alkaloide (u.a. Stachydrin)",
+            "Gerbstoffe",
+            "Betaine",
+            "Kaffeesäure",
+            "Ursolsäure"
+        ],
+        familie: "Lippenblütler",
+        weitereNamen: [
+            "Löwenschwanz",
+            "Herzkräutel",
+            "Herzgold"
+        ],
+        aussaatzeit: "April - Mai",
+        blütezeit: "Juni - September",
+        ernte: "Juni - Juli",
+        standort: "sonnige Standorte mit nährstoffreichen, mäßig feuchten Böden",
+        verwendung: [
+            "nervositätsbedingte Herzbeschwerden",
+            "Wechseljahresbeschwerden",
+            "Schilddrüsenbeschwerden",
+            "Bluthochdruck",
+            "leichte Depressionen",
+            "Blähungen"
+        ]
     },
     {
         name: "Huflattich",
         latein: "Tussilago farfara",
-        img: "img/herbs/H/huflattich.jpg"
+        img: "img/herbs/H/huflattich.jpg",
+        beschreibung: "Huflattich zählt zu den Pflanzen, die sich als Erstes auf den unwirklichsten Untergründen ansiedelt - egal ob Kiesbett, Straßenrand oder Kohle: Huflattich wächst nahezu überall und ist mit den strahlend gelben Blüten sofort zu erkennen. Auch wenn Huflattich als Unkraut in Gärten ungern gesehen wird, hat das Kraut eine heilende Wirkung, die vor allem in der Antike und im Mittelalter geschätzt wurde",
+        inhaltsstoffe: [
+            "ätherische Öle",
+            "Saponine",
+            "Inulin",
+            "Polysaccharide",
+            "Schleimstoffe",
+            "Zink",
+            "Xantophyll",
+            "Sterole",
+            "Gerbstoffe",
+            "Bitterstoffe",
+            "Flavonoide (Hyperosid; Quercitin; Campherol)",
+            "Pyrrolizidinalkaloide (Senecionin; Senkirkin)"
+        ],
+        familie: "Korbblütler",
+        weitereNamen: [
+            "Tabakkraut",
+            "Ackerlattich",
+            "Brustlattich",
+            "Lehmblümlein",
+            "Märzblume"
+        ],
+        aussaatzeit: "April-Mai",
+        blütezeit: "Februar-April",
+        ernte: "Mai-Juni",
+        standort: "geringe Ansprüche, bevorzugt sonnige Standorte mit feuchten und lehmigen Böden",
+        verwendung: [
+            "grippale Infekte",
+            "Reizhusten",
+            "Bronchitis",
+            "Magenbeschwerden",
+            "Durchfall",
+            "Wundheilung",
+            "Pickel",
+            "Ekzeme"
+        ]
     },
     {
         _comment: "J",
         name: "Jiaogulan",
         latein: "Gynostemma pentaphyllum",
-        img: "img/herbs/J/jiaogulan.jpg"
+        img: "img/herbs/J/jiaogulan.jpg",
+        beschreibung: "Das Kraut der Unsterblichkeit, wie der Jiaogulan (Gynostemma pentaphyllum) auch genannt wird, stammt ursprünglich aus Südchina. Dort wird das Kraut wegen seiner zahlreichen gesundheitsfördernden Eigenschaften sehr geschätzt. Auch bei uns findet Jiaogulan als universelles Heilkraut immer mehr Anhänger, da es als Anti-Aging-Mittel leicht anzuwenden ist und eine nachhaltige Wirkung haben soll. Vor allem Jiaogulantees und Smoothies sind dabei sehr beliebt.",
+        inhaltsstoffe: [
+            "Saponine (u.a. Gypenoside; Ginsenoside)",
+            "Flavonoide (Rutin; Ombuosid; Yixingensin; Isorhamnetin)",
+            "Sterole"
+        ],
+        familie: "Cucurbitaceae",
+        weitereNamen: [
+            "Kraut der Unsterblichkeit",
+            "Amachazuru"
+        ],
+        aussaatzeit: "April-Mai",
+        blütezeit: "Juni-August",
+        ernte: "ganzjährig",
+        standort: "halbschattige bis sonnige Standorte mit feuchten und nährstoffreichen Böden",
+        verwendung: [
+            "Erkältungen",
+            "Entzündungen",
+            "Diabetes",
+            "Erschöpfung",
+            "Unruhe",
+            "Kreislaufleiden"
+        ]
     },
     {
         name: "Johanniskraut",
         latein: "Hypericum perforatum",
-        img: "img/herbs/J/johanniskraut.jpg"
+        img: "img/herbs/J/johanniskraut.jpg",
+        beschreibung: "Das Echte Johanniskraut zeigt dessen leuchtend gelbe Blüten ab dem frühen Sommer. Das bei uns häufig vorkommende Wildkraut ist ein bekanntes Heilkraut, das bereits seit der Antike verwendet wird. Auch in der heutigen Naturheilkunde kommt dem Rotöl, das in den Blüten enthalten ist, eine große Bedeutung zu. Als Heilkraut wird es heute bei Depressionen, Hautbeschwerden sowie äußeren Verletzungen gebraucht.",
+        inhaltsstoffe: [
+            "Hypericin",
+            "Pseudohypericin",
+            "Hyperflorin",
+            "Flavonoide",
+            "Spathulenol",
+            "Quercitrin",
+            "Rutin",
+            "Gerbstoffe"
+        ],
+        familie: "Johanniskrautgewächse",
+        weitereNamen: [
+            "Tüpfel-Hartheu-",
+            "Tüpfel-Johanniskraut",
+            "Konradskraut",
+            "Blutkraut"
+        ],
+        aussaatzeit: "März-April",
+        blütezeit: "Juni-September",
+        ernte: "Mai-Oktober",
+        standort: "sonnig bis halbschattig, nährstoffarme und gut durchlüftete Böden",
+        verwendung: [
+            "Depressionen",
+            "nervöse Unruhe",
+            "Stress",
+            "Angst",
+            "Wundheilung",
+            "Schwellungen"
+        ]
     },
     {
         _comment: "K",
