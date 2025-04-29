@@ -635,74 +635,449 @@ let herbs = [
         _comment: "D",
         name: "Damiana",
         latein: "Turnera diffusa",
-        img: "img/herbs/D/damiana.jpg"
+        img: "img/herbs/D/damiana.jpg",
+        beschreibung: "Damiana ist eine Mexiko und anderen Ländern Südamerikas häufig genutzte Heilpflanze. Dort wird die in der Botanik als Turnera diffusa bezeichnete Pflanze traditionell gegen depressiven Verstimmungen, Libidostörungen oder Angststörungen verwendet. Aufgrund dieser Anwendungen wird sie auch in Mittel- und Westeuropa immer beliebter. Die zu den Passionsblumen zählende Art enthält tatsächlich ein großes Wirkstoffspektrum, das einen größeren Anwendungskreis vor allem nei psychischen Störungen möglich machen könnte.",
+        inhaltsstoffe: [
+            "ätherische Öle (u.a. Thymol; Cineol)",
+            "Flavonoide (u.a. Apigenin)",
+            "Bitterstoffe (Damianin)",
+            "Glycoside (Arbutin; Gonzalitosin)",
+            "Beta-Sitosterol"
+        ],
+        familie: "Passionsblumengewächse",
+        weitereNamen: [
+            "Safranmalve"
+        ],
+        aussaatzeit: "nur Vorkultur",
+        blütezeit: "Juli - September",
+        ernte: "Mai - August",
+        standort: "sonnige bis vollsonnige Standorte mit mäßig feuchten, kalkarmen und durchlässigen Böden",
+        verwendung: [
+            "Stress",
+            "Magengeschwüre",
+            "Nervosität",
+            "Kopfschmerzen",
+            "Depressionen"
+        ]
     },
     {
         name: "Diptam Dost",
         latein: "Origanum dictamnus",
-        img: "img/herbs/D/diptam-dost.jpg"
+        img: "img/herbs/D/diptam-dost.jpg",
+        beschreibung: "Lange Zeit war der kretische Diptam ein eher unbekanntes Kraut. Doch seitdem Diptam als Zauberkraut beim Zauberlehrling von Joanne K. Rowlings Harry Potter erwähnt wurde, rückt das Heil- und Gewürzkraut in ein neues Licht. Allerdings sind sowohl der Name als auch die medizinische Nutzung von Diptam schon wesentlich älter. Bereits in der Antike verwendeten griechische Ärzte Diptam als Heilkraut, dessen Name auf das ursprüngliche natürliche Vorkommen Dikti-Gebirge auf der Insel Kreta in Griechenland (dictamnus) sowie die Zugehörigkeit zur Gattung Origanum (Dost) zurückgeht.",
+        inhaltsstoffe: [
+            "ätherische Öle (Carvacrol; Cymen; Caryophyllen; Borneol)",
+            "Flavonoide (Kaempferol; Quercetin; Taxifolin; Narigenin)",
+            "Cumarine",
+            "Gerbstoffe (Rosmarinsäure)",
+            "Ursolsäure"
+        ],
+        familie: "Lippenblütler",
+        weitereNamen: [
+            "kretischer Diptam",
+            "Diktam",
+            "Diktamnos"
+        ],
+        aussaatzeit: "Vorzucht (innen) - Februar/März",
+        blütezeit: "August-Oktober",
+        ernte: "Juni - September",
+        standort: "vollsonnige Standorte mit kalkhaltigen, humusarmen und nährstoffarmen Böden",
+        verwendung: [
+            "bakterielle Infektionen",
+            "Magen- und Darmbeschwerden",
+            "Halsschmerzen",
+            "Hautentzündungen",
+            "Erkältung",
+            "Mandelentzündung"
+        ]
     },
     {
         name: "Dornige Hauhechel",
         latein: "Ononis spinosa",
-        img: "img/herbs/D/hauhechel.jpg"
+        img: "img/herbs/D/hauhechel.jpg",
+        beschreibung: "Die Dornige Hauhechel (Ononis spinosa) ist eine in Europa altbekannte Heilpflanze, die vor allem zur Behandlung bzw. Linderung von Blasen- und Nierenkrankheiten angewendet wird. Die hübsch anzusehende Pflanze mit ihren rosa gefärbten Schmetterlingsblüten enthält reichlich Saponine und ätherische Öle, die eine naturheilkundliche Anwendung befürworten. In vielen Gärten ist die Pflanze aufgrund ihrer tiefen Pfahlwurzeln und ihrer scharfen Dorne jedoch nicht immer beliebt.",
+        inhaltsstoffe: [
+            "Flavonoide (Apigenin; Kaempferol; Quercetin)",
+            "Isoflavonoide (Biochanin; Genistein)",
+            "Gerbstoffe",
+            "Triterpene (Onocerin; Sterole; Campesterol; Sitosterin)",
+            "ätherische Öle (Anethol; Carvon; Menthol)",
+            "Kaffeesäure",
+            "Salicylsäure"
+        ],
+        familie: "Hülsenfrüchtler",
+        weitereNamen: [
+            "Eindorn",
+            "Weiberkrieg",
+            "Heudorn"
+        ],
+        aussaatzeit: "Oktober - März",
+        blütezeit: "Juni - September",
+        ernte: "August - September",
+        standort: "sonnig mit nährstoffarmen, trockenen und durchlässigen Böden",
+        verwendung: [
+            "Blasenbeschwerden",
+            "Harngrieß",
+            "Nierengrieß",
+            "Entzündung der Niere (unterstützend)",
+            "Harnwegsinfekte"
+        ]
     },
     {
         name: "Duftveilchen",
         latein: "Viola odorata",
-        img: "img/herbs/D/duftveilchen.jpg"
+        img: "img/herbs/D/duftveilchen.jpg",
+        beschreibung: "Das Duftveilchen ist eines unserer liebsten Frühblüher. Bereits der bekannte Dichter und Naturforscher Johann Wolfgang von Goethe beschrieb 1774 in seinem Gedicht Das Veilchen das unauffällige Wesen des Veilchens. Wenn das Duftveilchen (Viola odorata) aber blüht und seinen wohlriechenden Duft verströmt, ist die blau-violette Pflanze alles andere als unauffällig. Der Bodenkriecher mit den wunderschönen blauvioletten Blüten ist vielseitig in der Küche verwendbar und wird heute auch noch in der Naturheilkunde als Heilpflanze verwendet.",
+        inhaltsstoffe: [
+            "Cyanin",
+            "Salicylsäure",
+            "Vitamin C",
+            "Alkaloide (Violin und Odoralin)",
+            "Bitterstoffe",
+            "ätherische Öle (Jonon)",
+            "Flavonoide",
+            "Saponine",
+            "Schleimstoffe"
+        ],
+        familie: "Veilchengewächse",
+        weitereNamen: [
+            "Märzveilchen",
+            "wohlriechendes Veilchen",
+            "Österchen",
+            "Frühlingsveilchen"
+        ],
+        aussaatzeit: "Oktober-Dezember",
+        blütezeit: "März-April",
+        ernte: "März-Juni",
+        standort: "halbschattige Standorte mit mäßig-feuchten und nährstoffreichen Böden",
+        verwendung: [
+            "Kopfschmerzen",
+            "Husten",
+            "Heiserkeit",
+            "chronische Bronchitis",
+            "Akne",
+            "Schnupfen"
+        ]
     },
     {
         _comment: "E",
         name: "Eberraute",
         latein: "Artemisia abrotanum",
-        img: "img/herbs/E/eberraute.jpg"
+        img: "img/herbs/E/eberraute.jpg",
+        beschreibung: "Die Eberraute (Artemisia abrotanum) zählt zu den Gewürz- und Heilkräutern, die über die Jahre etwas in Vergessenheit geraten sind. Durch den deutlich bitteren Geschmack und herb aromatischen Duft ist das Artemisiengewächs nicht so populär, wie aromatische oder milde Kräuter wie Dill, Basilikum oder Oregano. Dabei ist Eberraute, die bei uns auch als Colakraut bekannt ist, hervorragend geeignet für zum Würzen von deftigen Fleischgerichten und erfrischenden Getränken. In der Naturheilkunde werden gelegentlich die verdauungsfördernden Eigenschaften der Pflanze gebraucht.",
+        inhaltsstoffe: [
+            "ätherische Öle (Abrotanin; Piperiton; Linalool; Pinen; Cineol; Sabinen; Thujon)",
+            "Bitterstoffe",
+            "Cumarine",
+            "Alkaloide (Abtrotin)",
+            "Flavonoide (Quercetin; Rutin)",
+            "Sesquiterpene (Artemisinin)"
+        ],
+        familie: "Korbblütler",
+        weitereNamen: [
+            "Colastrauch",
+            "Colakraut",
+            "Stabwurz",
+            "Pastorenkraut",
+            "Eberreis"
+        ],
+        aussaatzeit: "April-Mai",
+        blütezeit: "Juli-September",
+        ernte: "Juli-Oktober",
+        standort: "vollsonnig bis sonnige; lockere, humose und kalkhaltige Böden",
+        verwendung: [
+            "Magenbeschwerden",
+            "Gallenleiden",
+            "Leberbeschwerden",
+            "Malaria (unterstützend)",
+            "Menstruation",
+            "Blasenschwäche",
+            "Erkältung",
+            "Husten"
+        ]
     },
     {
         name: "Echte Kamille",
         latein: "Matricaria recutita",
-        img: "img/herbs/E/kamille.jpg"
+        img: "img/herbs/E/kamille.jpg",
+        beschreibung: "Die Kamille (Matricaria recutita) mit ihren charakteristischen Korbblüten zählt zu den bekanntesten Wildkräutern. Die Blüten der Kamille werden seit Jahrhunderten in der Heilkunde geschätzt. Auch heute noch findet sich Kamillentee in jeder Hausapotheke bzw. im heimischen Teevorrat wieder. Dem Arzt David Rosenthal (1821 bis 1875) zufolge ist die Kamille 'die am häufigsten arzneilich gebrauchte Pflanze'1, die u.a. bei Magen- und Darmbeschwerden oder bei Hautproblemen verwendet wird. Doch auch in der Küche lassen sich die Blätter und jungen Blüten der Echten Kamille nutzen.",
+        inhaltsstoffe: [
+            "Ätherische Öle (Bisabolol; Farnesen; Spathulenol; Chamazulen)",
+            "Sesquiterpenlactone (Matricin)",
+            "Flavonoide (Apigenin; Quercetin; Rutin; Luteolin; Hyperosid)",
+            "Cumarine",
+            "Kaffeesäure",
+            "Bitterstoffe"
+        ],
+        familie: "Korbblütler",
+        weitereNamen: [
+            "Feldkamille",
+            "Hermel",
+            "Garmille",
+            "Mägdeblume",
+            "Kummerblume"
+        ],
+        aussaatzeit: "März-Mai",
+        blütezeit: "Mai-Oktober",
+        ernte: "Mai-Oktober",
+        standort: "sonnig bis halbschattig, nährstoffreiche und lehmig bis sandige Böden mit mäßiger Feuchte",
+        verwendung: [
+            "Magenschleimhautentzündung",
+            "Magengeschwüre",
+            "Erkältung",
+            "Wundheilung",
+            "Mund- und Rachenentzündungen",
+            "Beschwerden der Nasennebenhöhlen"
+        ]
     },
     {
         name: "Echter Ehrenpreis",
         latein: "Veronica officinalis",
-        img: "img/herbs/E/ehrenpreis.jpg"
+        img: "img/herbs/E/ehrenpreis.jpg",
+        beschreibung: "Der Echte Ehrenpreis (Veronica officinalis) ist ein relativ häufig vorkommendes Wildkraut, dass vor allem an trockeneren Standorten gefunden wird. Das zierliche Kraut mit seinen leuchtend blauen Blüten ist oft ein Zeichen für den Sommeranfang. Seine volkstümlichen Namen Allerweltsheil oder Wundheilkraut verraten schon, dass die Pflanze früher als Heilkraut von Bedeutung war. Allerdings wird der Ehrenpreis heute nur noch selten als Heilpflanze genutzt. Viel bedeutsamer ist seine Verwendung als Zierpflanze.",
+        inhaltsstoffe: [
+            "Gerbstoffe",
+            "Bitterstoffe",
+            "Glykoside (Aucubin; Catalpol)",
+            "Flavonoide (Apigenin; Luteolin)",
+            "ätherische Öle"
+        ],
+        familie: "Wegerichgewächse",
+        weitereNamen: [
+            "Allerweltsheil",
+            "Veronika",
+            "Grindheil",
+            "Wundheilkraut"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "Juli - September",
+        ernte: "Mai - Juni",
+        standort: "sonnig und windgeschützt; nährstoffreiche und lehmhaltige Böden",
+        verwendung: [
+            "Bronchitis",
+            "Erkältung",
+            "Rheuma",
+            "Gicht",
+            "Schuppenflechte",
+            "Neurodermitis"
+        ]
     },
     {
         name: "Eibisch",
         latein: "Althaea officinalis",
-        img: "img/herbs/E/eibisch.jpg"
+        img: "img/herbs/E/eibisch.jpg",
+        beschreibung: "Der Echte Eibisch (Althaea officinalis) ist eine tradtionelle Heilpflanze, die vor allem gegen Schleimhautentzündungen und hartnäckigem Reizhusten hilft. Die zu den Malvengewächsen gehörende Pflanze enthält wertvolle Schleimstoffe, die rasch eine Linderung verschaffen können. Eibisch wurde früher auch als Küchenpflanze genutzt. Sowohl die Blätter als auch die Eibischwurzeln sind essbar. Die Wildbestände der Pflanze gingen in den letzten Jahren immer weiter zurück, so dass sie heute unter Naturschutz steht.",
+        inhaltsstoffe: [
+            "Schleimstoffe (Arabinogalaktane; Galacturonorhamnane)",
+            "Pektine",
+            "ätherische Öle",
+            "Flavonoide"
+        ],
+        familie: "Malvengewächse",
+        weitereNamen: [
+            "Schleimwurz",
+            "Arznei-Eibisch",
+            "Samtpappel",
+            "Sumpfmalve"
+        ],
+        aussaatzeit: "Februar - März",
+        blütezeit: "Juni - September",
+        ernte: "Wurzel ab dem zweiten Jahr, Blüten ab Juni",
+        standort: "sonnige und windgeschützte Lagen mit nährstoffreichen Böden",
+        verwendung: [
+            "Bronchitis",
+            "Gastritis",
+            "Entzündungen der Schleimhäute",
+            "Aphthen",
+            "Insektenstiche"
+        ]
     },
     {
         name: "Eisenkraut",
         latein: "Verbena officinalis",
-        img: "img/herbs/E/eisenkraut.jpg"
+        img: "img/herbs/E/eisenkraut.jpg",
+        beschreibung: "Das Eisenkraut (Verbena officinalis) ist bei uns häufig anzutreffendes Wildkraut. Es wird allzu oft mit der Zitronenverbene verwechselt, was jedoch im botanischen Sinne falach ist. Die auch als Taubenkraut bekannte Verbenenart wird in der Naturheilkunde gegen Beschwerden wie Kopfschmerzen, Depressionen oder auch Darmbeschwerden verwendet. Als Gewürzkraut wird das Echte Eisenkraut nur selten genutzt, jedoch findet es sich oft als Zierpflanze in Blumenrabatten oder auf dem Balkon.",
+        inhaltsstoffe: [
+            "Glykoside (Hastatosid)",
+            "Iridoidglykoside (Verbenalin; Aucubin)",
+            "Monoterpene (Verbenol); Flavonoide (Apigenin)",
+            "Ursolsäure",
+            "Phytosterine (beta-Sitosterol)"
+        ],
+        familie: "Eisenkrautgewächse (Verbenaceae)",
+        weitereNamen: [
+            "Verbene",
+            "Echtes Eisenkraut",
+            "Wunschkraut",
+            "Taubenkraut"
+        ],
+        aussaatzeit: "April-Juni",
+        blütezeit: "Juni-Oktober",
+        ernte: "Juni-September",
+        standort: "sonnige bis halbschattige Standorte mit",
+        verwendung: [
+            "leichte Depressionen",
+            "nervöse Unruhe",
+            "Durchfall",
+            "Magen- und Darmbeschwerden",
+            "Appetitlosigkeit",
+            "Wundheilung"
+        ]
+        
     },
     {
         name: "Engelwurz",
         latein: "Angelica archangelica",
-        img: "img/herbs/E/engelwurz.jpg"
+        img: "img/herbs/E/engelwurz.jpg",
+        beschreibung: "Der Engelwurz (Angelica archangelica) ist ein imposanten Wildkraut, das bei uns vor allem in der Nähe von Gewässern zu finden ist. Der Doldenblütler, der bis zu 3 Meter hochwachsen kann, ist eine traditionelle Heilpflanze, die auch heute noch bei Magen- und Darmbeschwerden verwendet wird. Die auch als Angelika bekannte Pflanze schmückt auch einige Gärten. Der Anbau der aromareichen Pflanze ist jedoch alles andere als leicht.",
+        inhaltsstoffe: [
+            "ätherische Öle (Pinen; Sabinen; Phellandren)",
+            "Bitterstoffe",
+            "Gerbstoffe",
+            "Cumarine (u.a. Furanocumarin)"
+        ],
+        familie: "Doldenblütler",
+        weitereNamen: [
+            "Arznei-Engelwurz",
+            "Angelika"
+        ],
+        aussaatzeit: "Februar - März oder Anfang September",
+        blütezeit: "Juni - August",
+        ernte: "im zweiten Jahr",
+        standort: "sonnig bis halbschattig; feuchte und nährstoffreiche Böden",
+        verwendung: [
+            "Magen- und Darmkrämpfe",
+            "Appetitlosigkeit",
+            "Erkältungen",
+            "Völlegefühl"
+        ]
     },
     {
         name: "Erdrauch",
         latein: "Fumaria officinalis",
-        img: "img/herbs/E/erdrauch.jpg"
+        img: "img/herbs/E/erdrauch.jpg",
+        beschreibung: "Wenn man in der Natur eine Pflanze mit dekorativen, purpurnen, kleinen Blüten sieht, könnte es sich um den Erdrauch handeln. Doch die Schönheit trügt. Erdrauch oder Fumaria officinalis bildet eine Fülle an giftigen Alkaloiden. Essbar ist die Pflanze daher nicht. Allerdings wird die zu den Mohngewächsen zählende Pflanze in der Naturheilkunde schon seit vielen Jahren verwendet. Dort wird sie vor allem bei Beschwerden der Gallenwege und bei Magenkrämpfen eingesetzt. Die enthaltenen Alkaloide haben nämlich eine krampflösende und gallenflussregulierende Wirkung.",
+        inhaltsstoffe: [
+            "Alkaloide (Protopin; Fumarofin; Fumasritrin)",
+            "Flavonoide (Rutin; Quercetin)",
+            "Phenolsäuren (Fumarsäure; Kaffeesäure)",
+            "Bitterstoffe",
+            "Schleimstoffe"
+        ],
+        familie: "Mohngewächse",
+        weitereNamen: [
+            "Blausporn",
+            "Grindkraut",
+            "Rauchkraut"
+        ],
+        aussaatzeit: "April - Mai",
+        blütezeit: "Juni - September",
+        ernte: "Juli - Oktober",
+        standort: "sonnig bis halbschattig; nährstoffreiche und durchlässige Böden",
+        verwendung: [
+            "Schuppenflechte",
+            "Ekzeme",
+            "Gallenstörungen",
+            "Gallenkoliken",
+            "Verdauungsbeschwerden",
+            "Magenkrämpfe"
+        ]
     },
     {
         _comment: "F",
         name: "Fenchel",
         latein: "Foeniculum vulgare",
-        img: "img/herbs/F/fenchel.jpg"
+        img: "img/herbs/F/fenchel.jpg",
+        beschreibung: "Der Fenchel ist zweifelsohne eines der vielseitigsten Kräuter. Die Fenchelknollen mit ihrem leicht anisartigen Aroma gelten als hervorragendes Gemüse. Die Samen bzw. Früchte des Fenchels können als Gewürz für Eintöpfe oder Fischgerichte verwendet werden. Doch ist die Pflanze nicht nur in der Küche beliebt. Fencheltee und Fenchelhonig lindern Beschwerden wie Magenkrämpfe oder festsitzenden Husten auf schmackhafte und wohltuende Weise.",
+        inhaltsstoffe: [
+            "ätherische Öle (trans-Anethol; Fenchon; Estragol; Limonen; Pinen)",
+            "Phenolsäuren (Caffeoylchinasäure)",
+            "Flavonoide (Quercetin; Rosmarinsäure; Kaempferol)",
+            "Bitterstoffe"
+        ],
+        familie: "Doldenblütler",
+        weitereNamen: [
+            "Gewürzfenchel",
+            "Knollenfenchel",
+            "Brotsamen"
+        ],
+        aussaatzeit: "Mai - Juli",
+        blütezeit: "Juli - September",
+        ernte: "abhängig von Anbauart",
+        standort: "sonnig; nährstoffreiche, durchlässige und tiefgründige Böden",
+        verwendung: [
+            "Magenschmerzen",
+            "Verdauungsbeschwerden",
+            "Blähungen",
+            "Erkältungen",
+            "Appetitlosigkeit"
+        ]
     },
     {
         name: "Fieberklee",
         latein: "Menyanthes trifoliata",
-        img: "img/herbs/F/fieberklee.jpg"
+        img: "img/herbs/F/fieberklee.jpg",
+        beschreibung: "Der Fieberklee (Menyanthes trifoliata) ist mit seinen außergewöhnlichen Blüten häufig am Ufer von Gartenteichen zu finden. Doch werden die Blätter und die Rhizome der auch als Bitterklee bezeichneten Pflanze heute als Heilkraut bei Verdauungsbeschwerden und Appetitlosigkeit empfohlen. Fieber senken kann die Sumpfpflanze jedoch nicht, auch wenn dies früher aufgrund der enthaltenden Bitterstoffe angenommen wurde.",
+        inhaltsstoffe: [
+            "Bitterstoffe (u.a. Iridoidglykoside; Secoiridiodglycoside)",
+            "Gerbstoffe",
+            "Alkaloide (Gentianin)",
+            "ätherische Öle",
+            "Flavonoide"
+        ],
+        familie: "Menyanthaceae (Fieberkleegewächse)",
+        weitereNamen: [
+            "Bitterklee",
+            "Dreiblatt",
+            "Kreuzklee",
+            "Magenklee"
+        ],
+        aussaatzeit: "Spätwinter",
+        blütezeit: "April - Juni",
+        ernte: "April - September",
+        standort: "sonnig bis halbschattige Standort mit feuchten und sauren Böden",
+        verwendung: [
+            "Verdauungsstörungen",
+            "Beschwerden des Oberbauchs",
+            "Blähungen",
+            "Völlegefühl",
+            "Nierenentzündungen"
+        ]
     },
     {
         name: "Frauenmantel",
         latein: "Alchemilla vulgaris",
-        img: "img/herbs/F/frauenmantel.jpg"
+        img: "img/herbs/F/frauenmantel.jpg",
+        beschreibung: "er Frauenmantel (Alchemilla vulgaris) ist eine in der Naturheilkunde sehr bekannt Pflanze, die bereits seit dem Mittelalter eine große Rolle spielt. Als Heilpflanze wird die auch Liebfrauenmantel bezeichnete Art vor allem bei Frauenbeschwerden und leichteren Erkrankungen des Magen-Darm-Trakts verwendet. In der freien Natur kann der Frauenmantel mit seinen gesägten und nierenförmigen Blättern an feuchten Wiesen und Bachläufen gefunden werden. Eine schöne Besonderheit sind die Tautropfen, die an der Oberfläche der Frauenmantelblätter zu beobachten sind.",
+        inhaltsstoffe: [
+            "Gerbstoffe (Gallotannine)",
+            "Flavonoide",
+            "Saponine",
+            "Bitterstoffe",
+            "Phytosterine",
+            "Karotinoide",
+            "Lecithin",
+            "Salicylsäure",
+            "Kieselsäure"
+        ],
+        familie: "Rosengewächse",
+        weitereNamen: [
+            "Liebfrauenmantel",
+            "Sinau",
+            "Allerfrauenheil",
+            "Mutterkraut"
+        ],
+        aussaatzeit: "Oktober-Januar",
+        blütezeit: "Mai-August",
+        ernte: "April-August",
+        standort: "sonnig bis halbschattig; feuchte und nährstoffreiche Böden",
+        verwendung: [
+            "Magen-Darm-Beschwerden",
+            "Menstruationsstörungen",
+            "Blutreinigung",
+            "Wundheilung",
+            "Aphthen"
+        ]
     },
     {
         _comment: "G",
