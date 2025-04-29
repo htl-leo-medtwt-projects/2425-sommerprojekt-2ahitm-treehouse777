@@ -1447,291 +1447,1530 @@ let herbs = [
     },
     {
         _comment: "K",
+        secondComment: "Ab hier mit ChatGPT ausgefüllt -> nochmal überprüfen",
         name: "Kanadische Goldrute",
         latein: "Solidago canadensis",
-        img: "img/herbs/K/kanadische-goldrute.jpg"
+        img: "img/herbs/K/kanadische-goldrute.jpg",
+        beschreibung: "Die kanadische Goldrute ist eine aus Nordamerika eingewanderte Pflanzenart, die bei uns gelegentlich als Heilpflanze verwendet wird und heute in weiten Teilen Mitteleuropas verwildert anzutreffen ist. Die Pflege und Verwendung von Solidago canadensis ähnelt jedoch sehr stark der echten Goldrute, die bei uns heimisch ist. Hauptanwendungsgebiete sind dann die unterstützende Behandlung von Harnwegs- und NIerenerkrankungen.",
+        inhaltsstoffe: [
+            "ätherische Öle",
+            "Flavonoide",
+            "Gerbstoffe",
+            "Bitterstoffe",
+            "Saponine",
+            "Kaffeesäure",
+            "Virgaureosid",
+            "Phenolsäuren",
+            "Mineralstoffe"
+        ],
+        familie: "Korbblütler",
+        weitereNamen: [
+            "Riesengoldrute",
+            "Goldrutenkraut"
+        ],
+        aussaatzeit: "April-Juni",
+        blütezeit: "Juli - Oktober",
+        ernte: "August - Oktober",
+        standort: "sonnige Standorte mit trockenen, sandigen Böden",
+        verwendung: [
+            "Blasenschwäche",
+            "Nierenentzündung",
+            "Nierensteine",
+            "Wassersucht",
+            "Wundheilung",
+            "Gicht",
+            "Rheuma"
+        ]
     },
     {
         name: "Kapuzinerkresse",
         latein: "Tropaeolum majus",
-        img: "img/herbs/K/kapuzinerkresse.jpg"
+        img: "img/herbs/K/kapuzinerkresse.jpg",
+        beschreibung: "Die Kapuzinerkresse ist eine krautige Pflanze, die sich vielerorts mit ausufernden Ranken und leuchtenden Blüten in Gelb-, Orange- und Rottönen zeigt. Dabei können Kapuzinerkressen mehr als nur schön aussehen. Der Studienkreis Entwicklungsgeschichte der Arzneipflanzenkunde hat die Kapuzinerkresse zur Arzneipflanze des Jahres 2013 gekürt, denn die medizinisch bedeutenden Inhaltsstoffe der Kapuzinerkresse haben sich in Untersuchungen wirksam im Kampf gegen Bakterien, Pilze und Viren erwiesen. In der Küche werden vor allem die essbaren Blüten des Krauts geschätzt.",
+        inhaltsstoffe: [
+            "Senfölglykoside (Glucatropaeolin)",
+            "Glucosinol",
+            "Carotinoide",
+            "Flavonoide",
+            "Ascorbinsäure",
+            "Gerbstoffe",
+            "Saponine"
+        ],
+        familie: "Kapuzinerkressengewächse",
+        weitereNamen: [
+            "Inkakresse",
+            "Salatblume",
+            "indische Kresse",
+            "Kapernblume"
+        ],
+        aussaatzeit: "März-Mai",
+        blütezeit: "Mai-Oktober",
+        ernte: "Mai-Oktober",
+        standort: "sonnige bis halbschattige Standorte mit feuchten und nährstoffreichen Böden",
+        verwendung: [
+            "grippale Infekte",
+            "Harnwegsinfekte",
+            "Bronchitis",
+            "Muskelschmerzen"
+        ]
     },
     {
         name: "Karde",
         latein: "Dipsacus fullonum",
-        img: "img/herbs/K/karde.jpg"
+        img: "img/herbs/K/karde.jpg",
+        beschreibung: "Die Wilde Karde ist nicht nur für Hobbygärtner eine hübsch anzusehende Pflanze. Vor allem in den Wurzeln und Blättern der Karde stecken zahlreiche Inhaltsstoffe, die in der Volksheilkunde sowie bei naturheilkundlichen Verfahren angewendet werden. Von besonderem Interesse ist dabei die Kardenwurzel, die u.a. bei Hautkrankheiten, Gelbsucht, Magen- und Darmbeschwerden und sogar bei Borreliose eingesetzt wird.",
+        inhaltsstoffe: [
+            "Iridoidglykoside (Aucubin, Catalpol)",
+            "Saponine",
+            "Bitterstoffe",
+            "Gerbstoffe",
+            "Kieselsäure"
+        ],
+        familie: "Geißblattgewächse (Caprifoliaceae)",
+        weitereNamen: [
+            "Wilde Karde",
+            "Weberkarde",
+            "Stachelkarde"
+        ],
+        aussaatzeit: "September - Oktober oder März - April",
+        blütezeit: "Juli - September",
+        ernte: "Oktober (Wurzel), Juni - Juli (Blätter)",
+        standort: "sonnige bis halbschattige Lagen mit durchlässigen, eher kalkhaltigen Böden",
+        verwendung: [
+            "Borreliose-Begleittherapie",
+            "Hautkrankheiten",
+            "Gelbsucht",
+            "Magen-Darm-Beschwerden",
+            "Stärkung des Immunsystems",
+            "Entgiftung"
+        ]
     },
     {
         name: "Klatschmohn",
         latein: "Papaver rhoeas",
-        img: "img/herbs/K/klatschmohn.jpg"
+        img: "img/herbs/K/klatschmohn.jpg",
+        beschreibung: "Der Klatschmohn (Papaver rhoeas) ist aufgrund seiner blutroten Blüten ein unverwechselbares Wildkraut und Kulturbegleiter. Die auch als Mohnblume bezeichnete Pflanze kann sowohl als Küchenpflanze als auch als Heilkraut verwendet werden, allerdings sollten immer nur geringe Mengen verzehrt werden. Die in allen Pflanzenteilen des Klatschmohns enthaltenen Alkaloide können bei unsachgemäßer Dosierung Vergiftungserscheinungen auslösen.",
+        inhaltsstoffe: [
+            "Alkaloide (Rhoeadin; Roemerin; Papaverin)",
+            "Gerbstoffe",
+            "Schleimstoffe",
+            "Saponine",
+            "Bitterstoffe",
+            "Cyanidine"
+        ],
+        familie: "Mohngewächse",
+        weitereNamen: [
+            "Mohnblume",
+            "Wilder Mohn",
+            "Klatschrose"
+        ],
+        aussaatzeit: "März - April",
+        blütezeit: "Mai - August",
+        ernte: "Juli - August",
+        standort: "vollsonnig bis sonnig mit eher sandhaltigen Böden",
+        verwendung: [
+            "Schlafstörungen",
+            "nervöse Unruhezustände",
+            "leichte Erschöpfung",
+            "Heiserkeit",
+            "Ekzeme"
+        ]
     },
     {
         name: "Kleine Braunelle",
         latein: "Prunella vulgaris",
-        img: "img/herbs/K/kleine-braunelle.jpg"
+        img: "img/herbs/K/kleine-braunelle.jpg",
+        beschreibung: "Die Kleine Braunelle fällt schnell durch ihre farbenfrohen violetten Blüten auf. Das bei uns häufig vorkommende Wildkraut, das botanisch als Prunella vulgaris bezeichnet wird, ist eine beliebte Bienenstaude. Die essbaren und bitter schmeckenden Blätter und Blüten der Braunelle können vielseitig in der Küche verwendet werden. Die Inhaltsstoffe der Braunelle sind auch medizinisch interessant und werden heute in der Traditionellen Chinesischen Medizin verwendet",
+        inhaltsstoffe: [
+            "Bitterstoffe",
+            "Triterpensaponine",
+            "Flavonoide",
+            "Phytosterole",
+            "Rosmarinsäure"
+        ],
+        familie: "Lippenblütler",
+        weitereNamen: [
+            "Gemeine Braunelle",
+            "Brunelle"
+        ],
+        aussaatzeit: "März - April",
+        blütezeit: "Mai - September",
+        ernte: "Mai - August",
+        standort: "sonnig bis halbschattig; nährstoffreiche und durchlässige Böden",
+        verwendung: [
+            "Zahnfleischentzündungen",
+            "Rheuma",
+            "Durchfall"
+        ]
     },
     {
         name: "Knoblauchsrauke",
         latein: "Alliaria petiolata",
-        img: "img/herbs/K/knoblauchsrauke.jpg"
+        img: "img/herbs/K/knoblauchsrauke.jpg",
+        beschreibung: "Die Knoblauchsrauke (Allaria petiolata) - auch Knoblauchskraut genannt - ist ein beliebtes Wildkraut im Frühling. Der knoblauchartige bis leicht pfeffrige Geschmack kann in der Küche vielseitig verwendet werden. Als vergleichsweise unscheinbares Wildkraut, das häufig im Schatten wächst, liefert die Knoblauchsrauke wertvolle Vitamine und Mineralstoffe und wird sogar gelegentlich als Heilpflanze genutzt. Viele Gründe, die dafür sprechen, die Knoblauchsrauke genauer kennenzulernen.",
+        inhaltsstoffe: [
+            "Senfölglykoside",
+            "ätherische Öle",
+            "Saponine",
+            "Carotinoide",
+            "Flavonoide",
+            "zahlreiche Vitamine"
+        ],
+        familie: "Kreuzblütengewächse",
+        weitereNamen: [
+            "Knoblauchsenf",
+            "Knoblauchkraut",
+            "Lauchkraut",
+            "Knoblauchhederich"
+        ],
+        aussaatzeit: "März - April; Oktober",
+        blütezeit: "April - August",
+        ernte: "April - September",
+        standort: "halbschattige Standorte mit nährstoffreichen und humose Böden",
+        verwendung: [
+            "Erkältung",
+            "Wundheilung",
+            "Rheuma",
+            "Zahnfleischentzündung"
+        ]
     },
     {
         name: "Königskerze",
         latein: "Verbascum densiflorum",
-        img: "img/herbs/K/koenigskerze.jpg"
+        img: "img/herbs/K/koenigskerze.jpg",
+        beschreibung: "Die Königskerze (Verbascum densiflorum) mit ihren großen, majestätischen Blüten ist nur schwer zu übersehen. Sie ist eine alte traditionelle Heilpflanze, die heute vor allem unterstützend zur Behandlung von Reizhusten und Bronchitis eingesetzt wird. Die in der Pflanze enthaltenen Schleimstoffe und Saponine helfen beim Abhusten und schützen die Schleimhäute. Eingesetzt werden heute vor allem Königskerzenblüten, die aufgrund ihres fruchtigen Geschmacks auch für eine Wildkräuterlimonade Verwendung finden.",
+        inhaltsstoffe: [
+            "Schleimstoffe",
+            "Saponine",
+            "Flavonoide (Hispidulin, Luteolin)",
+            "Iridoide",
+            "Ätherische Öle"
+        ],
+        familie: "Braunwurzgewächse (Scrophulariaceae)",
+        weitereNamen: [
+            "Große Königskerze",
+            "Wollblume",
+            "Himmelsbrand",
+            "Fackelblume"
+        ],
+        aussaatzeit: "August - Oktober",
+        blütezeit: "Juni - August",
+        ernte: "Juni - August (nur die geöffneten Blüten)",
+        standort: "sonnige, trockene und nährstoffarme Böden",
+        verwendung: [
+            "Reizhusten",
+            "Bronchitis",
+            "Heiserkeit",
+            "Halsentzündungen",
+            "Reizlinderung bei trockenem Husten"
+        ]
     },
     {
         name: "Koriander",
         latein: "Coriandrum sativum",
-        img: "img/herbs/K/koriander.jpg"
+        img: "img/herbs/K/koriander.jpg",
+        beschreibung: "Koriander (Coriandrum sativum) ist ein vielseitig einsetzbares Küchenkraut, dass vor allem in der asiatischen und indischen Küche verwendet wird. Verwendung finden vorrangig die Blätter, die auch als Blattkoriander bezeichnet werden sowie die Korianderfrüchte. Der Geschmack des Doldenblütlers wird nicht von jedem gemocht, was wohl vorrangig an dem etwas seifigen Aroma liegen dürfte.",
+        inhaltsstoffe: [
+            "Ätherisches Öl (v.a. Linalool)",
+            "Flavonoide",
+            "Phenolsäuren",
+            "Cumarine",
+            "Gerbstoffe"
+        ],
+        familie: "Doldenblütler (Apiaceae)",
+        weitereNamen: [
+            "Blattkoriander",
+            "Wanzendill",
+            "Küchenkoriander"
+        ],
+        aussaatzeit: "März - Juni",
+        blütezeit: "Juni - Juli",
+        ernte: "Mai - Oktober (Blätter), August - September (Samen)",
+        standort: "sonniger, warmer Standort mit lockeren, nährstoffreichen Böden",
+        verwendung: [
+            "Blähungen",
+            "Appetitlosigkeit",
+            "Verdauungsbeschwerden",
+            "Magen-Darm-Krämpfe",
+            "Entgiftung (Schwermetallausleitung in der Naturheilkunde)"
+        ]
     },
     {
         name: "Kornblume",
         latein: "Centaurea cyanus",
-        img: "img/herbs/K/kornblume.jpg"
+        img: "img/herbs/K/kornblume.jpg",
+        beschreibung: "Die Kornblume zählt zu unseren schönsten Blühpflanzen. Lange Zeit war der blaublühende Korbblütler eine seltene Pflanze und galt als geschützte Pflanze. Dank aufwändigem Artenschutz ist sie heute wieder häufiger in unserer Landschaft zu finden. Als Heilpflanze genießt die Kornblume seit vielen Jahren einen guten Ruf in der tradionellen Volksheilkunde. In der Kücher werden die Blüten des Korbblütlers zum Dekorieren verwendet.",
+        inhaltsstoffe: [
+            "Anthocyane (Cyanidin)",
+            "Bitterstoffe",
+            "Schleimstoffe",
+            "Gerbstoffe",
+            "Flavonoide"
+        ],
+        familie: "Korbblütler (Asteraceae)",
+        weitereNamen: [
+            "Zyane",
+            "Himmelsblume",
+            "Blaue Blume",
+            "Kornrade"
+        ],
+        aussaatzeit: "März - April",
+        blütezeit: "Juni - September",
+        ernte: "Juni - August (Blüten)",
+        standort: "sonnige, eher trockene und nährstoffarme Böden",
+        verwendung: [
+            "Augenentzündungen (z.B. als Aufguss für Umschläge)",
+            "Hautreizungen",
+            "Entzündungen im Mund- und Rachenraum",
+            "Blasen- und Nierenbeschwerden",
+            "Dekoration in Speisen"
+        ]
     },
     {
         name: "Kriechender Günsel",
         latein: "Ajuga reptans",
-        img: "img/herbs/K/kriechender-guensel.jpg"
+        img: "img/herbs/K/kriechender-guensel.jpg",
+        beschreibung: "Der Kriechende Günsel (Ajuga reptans) zeigt sich im Frühjahr bis Sommer mit seinen blauen Blüten häufig im Halbschatten. Das Wildkraut ist grundsätzlich essbar und lässt sich vielseitig nutzen, insofern man nichts gegen einen bitteren Geschmack hat. In der Volksheilkunde wird der Kriechende Günsel u.a. bei Schmerzen, Entzündungen und zur Wundheilung verwendet.",
+        inhaltsstoffe: [
+            "Gerbstoffe",
+            "Bitterstoffe",
+            "Flavonoide",
+            "Ätherische Öle",
+            "Glykoside"
+        ],
+        familie: "Lippenblütler (Lamiaceae)",
+        weitereNamen: [
+            "Blauer Günsel",
+            "Erdwolf",
+            "Grindheil",
+            "Stolzer Heinrich"
+        ],
+        aussaatzeit: "März - April oder September",
+        blütezeit: "April - Juni",
+        ernte: "Mai - Juli (Blätter und Blüten)",
+        standort: "halbschattige bis schattige Lagen mit feuchten, nährstoffreichen Böden",
+        verwendung: [
+            "Wundheilung",
+            "Halsschmerzen",
+            "Entzündungen",
+            "Magenbeschwerden",
+            "innere Unruhe"
+        ]
     },
     {
         name: "Küchenschelle",
         latein: "Pulsatilla vulgaris",
-        img: "img/herbs/K/kuechenschelle.jpg"
+        img: "img/herbs/K/kuechenschelle.jpg",
+        beschreibung: "Die Küchenschelle, oft auch als Kuhschelle bezeichnet, ist ein hübsch anzusehender Frühblüher mit auffallend glockenförmigen Blüten. Die geschützte Pflanze sieht jedoch nicht nur gut aus. Sie spielt in der Naturheilkunde eine größere Rolle, wo sie vor allem gegen Entzündungen sowie Beschwerden im Magen-Darm Bereich genutzt wird.",
+        inhaltsstoffe: [
+            "Protoanemonin",
+            "Saponine",
+            "Gerbstoffe",
+            "Flavonoide",
+            "Ranunculin"
+        ],
+        familie: "Hahnenfußgewächse (Ranunculaceae)",
+        weitereNamen: [
+            "Kuhschelle",
+            "Teufelsbart",
+            "Höllenblume",
+            "Pulsatilla"
+        ],
+        aussaatzeit: "September - Oktober oder März",
+        blütezeit: "März - Mai",
+        ernte: "nicht zur Selbstanwendung geeignet - homöopathische Nutzung",
+        standort: "sonnige, kalkhaltige Magerrasen und Trockenhänge",
+        verwendung: [
+            "Entzündungen",
+            "Magen-Darm-Beschwerden",
+            "Menstruationsbeschwerden",
+            "psychische Unruhe (homöopathisch)",
+            "Schlafstörungen"
+        ]
     },
     {
         name: "Kümmel",
         latein: "Carum carvi",
-        img: "img/herbs/K/kuemmel.jpg"
+        img: "img/herbs/K/kuemmel.jpg",
+        beschreibung: "Der Echte Kümmel (Carum carvi) ist ein wahrer Alleskönner unter den Kräutern. Der Doldenblütler der häufig auch als Wiesen-Kümmel bezeichnet wird,ist ein wichtiges Gewürz und Heilkraut zugleich. In der Küche werden die bräunlichen Kümmelfrüchte seit mehr als 3000 Jahren vielseitig verarbeitet. Das Gewürz wird vor allem zum Würzen von Brot, Kohlgerichten oder gekochtem und gebratenem Fleisch verwendet. Außerdem ist Kümmel eine wichtige Pflanze in der Naturheilkunde, allem voran Tee und Kümmelöl. Die im Kümmel enthaltenen ätherischen Öle können vor allem Verdauungsbeschwerden oder Völlegefühl lindern.",
+        inhaltsstoffe: [
+            "Ätherisches Öl (v.a. Carvon und Limonen)",
+            "Flavonoide",
+            "Gerbstoffe",
+            "Fettsäuren",
+            "Eiweiß"
+        ],
+        familie: "Doldenblütler (Apiaceae)",
+        weitereNamen: [
+            "Wiesenkümmel",
+            "Brotkümmel",
+            "Gemeiner Kümmel"
+        ],
+        aussaatzeit: "März - Mai oder September",
+        blütezeit: "Mai - Juli (im 2. Jahr)",
+        ernte: "Juni - Juli (Früchte)",
+        standort: "sonnige bis halbschattige, nährstoffreiche Böden",
+        verwendung: [
+            "Blähungen",
+            "Völlegefühl",
+            "Verdauungsbeschwerden",
+            "Krämpfe im Magen-Darm-Bereich",
+            "Appetitlosigkeit",
+            "Milchbildung bei stillenden Müttern"
+        ]
     },
     {
         _comment: "L",
         name: "Lavendel",
         latein: "Lavandula angustifolia",
-        img: "img/herbs/L/lavendel.jpg"
+        img: "img/herbs/L/lavendel.jpg",
+        beschreibung: "Der Lavendel zählt zweifelsohne zu einem der bekanntesten Kräuter. Die wohlriechende Pflanze mit ihren violetten Blüten blüht Jahr für Jahr auf vielen Balkonen, in Gärten oder auf Fensterbänken. Doch der Lavendel kann weitaus mehr als nur hübsch aussehen. Als Heilkraut lindert er viele Beschwerden wie Schlaflosigkeit, Nervenschwäche oder Migräne. Auch in der Küche lassen sich Blätter und Blüten für viele Gerichte verwenden.",
+        inhaltsstoffe: [
+            "Ätherisches Öl (v.a. Linalool und Linalylacetat)",
+            "Gerbstoffe",
+            "Flavonoide",
+            "Bitterstoffe",
+            "Cumarine"
+        ],
+        familie: "Lippenblütler (Lamiaceae)",
+        weitereNamen: [
+            "Echter Lavendel",
+            "Speiklavendel",
+            "Lavendula"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "Juni - August",
+        ernte: "Juli - August (Blüten kurz vor dem Aufblühen)",
+        standort: "sonnige, trockene und kalkhaltige Böden",
+        verwendung: [
+            "Schlafstörungen",
+            "innere Unruhe",
+            "Nervosität",
+            "Migräne",
+            "Verdauungsbeschwerden",
+            "Hautirritationen (z.B. als Öl)"
+        ]
     },
     {
         name: "Lein",
         latein: "Linum usitatissimum",
-        img: "img/herbs/L/lein.jpg"
+        img: "img/herbs/L/lein.jpg",
+        beschreibung: "Der Lein bzw. Flachs ist eine bedeutende Nutzpflanze und wird vielseitig verwendet. Sowohl Leinsamen als auch Leinöl werden in der Küche und in der Heilkunde verwendet. Die enthaltenen Schleimstoffe und Fettsäuren helfen bei Magen- und Darmbeschwerden und Husten. Darüber hinaus sind die Fasern des Flachses wichtige Rohstoffe für die Herstellung von Naturtextilien oder Verbundstoffen.",
+        inhaltsstoffe: [
+            "Schleimstoffe",
+            "Omega-3-Fettsäuren (v.a. ɑ-Linolensäure)",
+            "Lignane",
+            "Eiweiß",
+            "Ballaststoffe"
+        ],
+        familie: "Leingewächse (Linaceae)",
+        weitereNamen: [
+            "Flachs",
+            "Saat-Lein",
+            "Gemeiner Lein"
+        ],
+        aussaatzeit: "März - April",
+        blütezeit: "Juni - Juli",
+        ernte: "Juli - August (Samen)",
+        standort: "sonnige, durchlässige, nährstoffreiche Böden",
+        verwendung: [
+            "Verstopfung",
+            "Reizdarm",
+            "Magenschleimhautentzündung",
+            "Husten",
+            "entzündliche Magen-Darm-Beschwerden"
+        ]
     },
     {
         name: "Löwenzahn",
         latein: "Taraxacum officinale",
-        img: "img/herbs/L/loewenzahn.jpg"
+        img: "img/herbs/L/loewenzahn.jpg",
+        beschreibung: "Der Löwenzahn, der im Volksmund auch als Butterblume oder Kuhblume bekannt ist, zählt wohl mit zu den bekanntesten und am häufigsten vorkommenden Wildkräutern. Der an Bitterstoffen reiche Löwenzahn ist seit langem ein anerkanntes Heilkraut und hilft u.a. gegen Leber- und Gallenbeschwerden. Doch auch in der Küche lassen sich mit Löwenzahn viele leckere Gerichte zubereiten.",
+        inhaltsstoffe: [
+            "Bitterstoffe (Taraxacin)",
+            "Flavonoide",
+            "Kaliumsalze",
+            "Triterpene",
+            "Inulin"
+        ],
+        familie: "Korbblütler (Asteraceae)",
+        weitereNamen: [
+            "Butterblume",
+            "Kuhblume",
+            "Pusteblume",
+            "Röhrlisalat"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "April - Juni",
+        ernte: "März - Oktober (je nach Pflanzenteil)",
+        standort: "sonnige bis halbschattige, nährstoffreiche Wiesen und Wegränder",
+        verwendung: [
+            "Leberbeschwerden",
+            "Gallenprobleme",
+            "Appetitlosigkeit",
+            "Blähungen",
+            "Verdauungsförderung",
+            "harntreibend bei Harnwegsbeschwerden"
+        ]
     },
     {
         name: "Lungenkraut",
         latein: "Pulmonaria officinalis",
-        img: "img/herbs/L/lungenkraut.jpg"
+        img: "img/herbs/L/lungenkraut.jpg",
+        beschreibung: "Das Lungenkraut (Pulmonaria officinalis) läutet mit seinen glockenartigen und schönen Blüten den Frühling ein. Die Wildpflanze ist ein häufiger Begleiter unserer Wiesen und eine wichtige und frühe Nahrungsquelle für Insekten wie Bienen. Doch das Gefleckte Lungenkraut, auch als Lungenwurz oder Fleckenkraut bekannt, ist auch in der Küche und als Heilpflanze ein Begriff. In der traditionellen Heilkunde wird Pulmonaria officinalis bei Halsschmerzen, Heiserkeit oder Blasenleiden verwendet. Junge Blätter hingegen sind eine gute Zutat für Wildkräutersalate.",
+        inhaltsstoffe: [
+            "Schleimstoffe",
+            "Saponine",
+            "Kieselsäure",
+            "Gerbstoffe",
+            "Flavonoide"
+        ],
+        familie: "Raublattgewächse (Boraginaceae)",
+        weitereNamen: [
+            "Geflecktes Lungenkraut",
+            "Lungenwurz",
+            "Fleckenkraut",
+            "Hänsel und Gretel"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "März - Mai",
+        ernte: "März - Mai (Blätter und Blüten)",
+        standort: "halbschattige bis schattige, feuchte und humusreiche Böden",
+        verwendung: [
+            "Halsschmerzen",
+            "Heiserkeit",
+            "Reizhusten",
+            "Blasenleiden",
+            "Entzündungen der Atemwege"
+        ]
     },
     {
         _comment: "M",
         name: "Mädesüß",
         latein: "Filipendula ulmaria",
-        img: "img/herbs/M/maedesuess.jpg"
+        img: "img/herbs/M/maedesuess.jpg",
+        beschreibung: "Mit seinem hohen Wuchs und seinen duftenden weißen Blüten ist das Echte Mädesüß ein markantes Wildkraut. Die botanisch als Filipendula ulmaria bezeichnete Pflanze ist eine bedeutende Heilpflanze, die gegen Kopfschmerzen aber auch bei Akne helfen kann. In der Küche lassen sich die Blüten vor allem für leckere Limonaden und Desserts nutzen.",
+        inhaltsstoffe: [
+            "Salicylsäure (der Vorläufer des Aspirins)",
+            "Flavonoide",
+            "Gerbstoffe",
+            "Phenolsäuren"
+        ],
+        familie: "Rosengewächse (Rosaceae)",
+        weitereNamen: [
+            "Echtes Mädesüß",
+            "Königskerze",
+            "Brautblume"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "Juni - August",
+        ernte: "Juni - August (Blüten)",
+        standort: "feuchte Wiesen, Uferbereiche und Waldränder",
+        verwendung: [
+            "Kopfschmerzen",
+            "Migräne",
+            "Gelenkbeschwerden",
+            "Akne",
+            "Husten"
+        ]
     },
     {
         name: "Malve",
         latein: "Malva sylvestris",
-        img: "img/herbs/M/malve.jpg"
+        img: "img/herbs/M/malve.jpg",
+        beschreibung: "Die wilde Malve und die Wegmalve sind altbekannte Heilpflanzen, die seit der Antike für vielerlei Beschwerden verwendet wurden. Heute werden Malven vielerorts als Unkräuter wahrgenommen, was allerdings unberechtigt ist. Die auch als Käsepappel bezeichnete Pflanze enthält wertvolle Schleimstoffe und ist ein hervorragendes Heilkraut gegen Husten, grippale Infekte sowie gegen Entzündungen im Mund- und Rachenraum.",
+        inhaltsstoffe: [
+            "Schleimstoffe",
+            "Flavonoide",
+            "Gerbstoffe",
+            "Bitterstoffe",
+            "Tannine"
+        ],
+        familie: "Malvengewächse (Malvaceae)",
+        weitereNamen: [
+            "Käsepappel",
+            "Wegmalve",
+            "Wilde Malve"
+        ],
+        aussaatzeit: "April - Mai",
+        blütezeit: "Juni - September",
+        ernte: "Juni - September (Blüten und Blätter)",
+        standort: "sonnige bis halbschattige, nährstoffreiche Böden",
+        verwendung: [
+            "Husten",
+            "grippale Infekte",
+            "Entzündungen im Mund- und Rachenraum",
+            "Hautirritationen",
+            "Magenschleimhautentzündung"
+        ]
     },
     {
         name: "Mariendistel",
         latein: "Silybum marianum",
-        img: "img/herbs/M/mariendistel.jpg"
+        img: "img/herbs/M/mariendistel.jpg",
+        beschreibung: "Die Mariendistel mit ihren auffälligen, weiß gesprenkelten Rosettenblättern ist eine der am besten untersuchten Heilpflanzen. Die zu den Korbblütlern gehörende Pflanze enthält mit Silymarin einen sehr interessanten Wirkstoff, der vor allem bei Leberschäden und Lebervergiftungen hilft. Aus der Pflanzenheilkunde sowie auch aus der modernen Schulmedizin ist die Mariendistel heute nicht mehr wegzudenken.",
+        inhaltsstoffe: [
+            "Silymarin",
+            "Flavonoide",
+            "Lignane",
+            "Tannine",
+            "Fettsäuren"
+        ],
+        familie: "Korbblütler (Asteraceae)",
+        weitereNamen: [
+            "Silybum",
+            "Heilige Distel",
+            "Cardus marianus"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "Juni - August",
+        ernte: "Juli - September (Blätter und Samen)",
+        standort: "sonnige, gut durchlässige, nährstoffreiche Böden",
+        verwendung: [
+            "Lebererkrankungen",
+            "Lebervergiftungen",
+            "Verdauungsbeschwerden",
+            "Entgiftung",
+            "Blutdrucksenkung"
+        ]
     },
     {
         name: "Mönchspfeffer",
         latein: "Vitex agnus-castus",
-        img: "img/herbs/M/moenchspfeffer.jpg"
+        img: "img/herbs/M/moenchspfeffer.jpg",
+        beschreibung: "Mönchspfeffer (Vitex agnus-castus) gilt in der Naturheilkunde als wichtige Heilpflanze gegen Frauenbeschwerden wie PMS. Wichtig sind hier vor allem die Früchte des hübsch blühenden Eisenkrautgewächs, deren Geschmack an echten Pfeffer erinnert. Die auch als Keuschlamm bezeichnete Pflanze war bereits im Mittelalter bekannt und wurde von Mönchen als auch Heilkundigen verwendet.",
+        inhaltsstoffe: [
+            "Flavonoide",
+            "Iridoide",
+            "Agnusid",
+            "Vitexin",
+            "Diterpene"
+        ],
+        familie: "Eisenkrautgewächse (Verbenaceae)",
+        weitereNamen: [
+            "Keuschlamm",
+            "Heiliger Pfeffer",
+            "Schwabenpfeffer"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "Juni - August",
+        ernte: "August - September (Früchte)",
+        standort: "sonnige, gut durchlässige Böden",
+        verwendung: [
+            "PMS (Prämenstruelles Syndrom)",
+            "Menstruationsbeschwerden",
+            "Wechseljahrsbeschwerden",
+            "Fruchtbarkeitsförderung",
+            "Hormonhaushalt ausgleichen"
+        ]
     },
     {
         name: "Mutterkraut",
         latein: "Tanacetum parthenium",
-        img: "img/herbs/M/mutterkraut.jpg"
+        img: "img/herbs/M/mutterkraut.jpg",
+        beschreibung: "Das Mutterkraut (Tanacetum parthenium) findet man vorwiegend in den Sommermonaten an vielen Wegrändern. Ihre aromatisch duftenden Blütenköpfe ähneln stark der Kamille, mit der sie jedoch nur wenig gemein hat. Dennoch ist die auch als Frauenminze bezeichnete Pflanze eine altbewährte Heilpflanze, die im Mittelalter bei vielen Frauenbeschwerden verwendet wurde. Heute steht das Mutterkraut als mögliches Heilkraut gegen Krankheiten wie Migräne oder Leishmaniose im Fokus.",
+        inhaltsstoffe: [
+            "Parthenolid",
+            "Flavonoide",
+            "Sesquiterpene",
+            "Cumarine"
+        ],
+        familie: "Korbblütler (Asteraceae)",
+        weitereNamen: [
+            "Frauenminze",
+            "Feverfew",
+            "Mutterpflanze"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "Juni - September",
+        ernte: "Juni - September (Blüten und Blätter)",
+        standort: "sonnige, gut durchlässige Böden",
+        verwendung: [
+            "Migräne",
+            "Menstruationsbeschwerden",
+            "Frauenbeschwerden",
+            "Leishmaniose",
+            "Verdauungsstörungen"
+        ]
     },
     {
         _comment: "N",
         name: "Nachtkerze",
         latein: "Oenothera biennis",
-        img: "img/herbs/N/nachtkerze.jpg"
+        img: "img/herbs/N/nachtkerze.jpg",
+        beschreibung: "Die Nachtkerze gilt heute als eines der besten Heilkräuter bei Hautbeschwerden. Die Samen, die das begehrte Nachtkerzenöl enthalten, sind reich an Gamma-Linolensäuren. Diese Säure kann die Produktion bestimmter Hormone anregen und Entzündungen hemmen. Die Pflanze mit den ansehlichen gelben Blüten, die auch als Schinkenwurzel, Abendblume oder stolzer Heinricht bezeichnet wird, macht jedoch auch in der Küche eine gute Figur.",
+        inhaltsstoffe: [
+            "Gamma-Linolensäure",
+            "Omega-6-Fettsäuren",
+            "Flavonoide",
+            "Tannine"
+        ],
+        familie: "Nachtkerzengewächse (Onagraceae)",
+        weitereNamen: [
+            "Schinkenwurzel",
+            "Abendblume",
+            "Stolzer Heinricht"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "Juni - September",
+        ernte: "Juli - September (Samen und Blüten)",
+        standort: "sonnige, gut durchlässige, nährstoffreiche Böden",
+        verwendung: [
+            "Hautbeschwerden",
+            "Akne",
+            "Ekzeme",
+            "Hormonregulation",
+            "Entzündungen"
+        ]
     },
     {
         _comment: "O",
         name: "Odermennig",
         latein: "Agrimonia eupatoria",
-        img: "img/herbs/O/odermennig.jpg"
+        img: "img/herbs/O/odermennig.jpg",
+        beschreibung: "Odermennig (Agrimonia eupatoria) ist ein bei uns häufig vorkommendes Wildkraut, das auch unter Namen wie Klettenkraut, Magenkraut, Fünffingerkraut, Brustwurz oder Königskraut bekannt ist. Im Mittelalter galt der Odermennig als eine sehr mächtige Heilpflanze, die u.a. bei Verdauungsbeschwerden oder schwerem Husten verwendet wurde. In der Neuzeit hat die Pflanze viel von ihrem alten Glanz verloren und wurde nur noch selten eingesetzt. In den letzten Jahren hat die Naturheilkunde das alte Heilkraut wiederentdeckt und setzt es gern bei Durchfallerkrankungen oder Entzündungen ein.",
+        inhaltsstoffe: [
+            "Tannine",
+            "Flavonoide",
+            "Ätherische Öle",
+            "Saponine",
+            "Vitamine (insbesondere Vitamin K)"
+        ],
+        familie: "Rosengewächse (Rosaceae)",
+        weitereNamen: [
+            "Klettenkraut",
+            "Magenkraut",
+            "Fünffingerkraut",
+            "Brustwurz",
+            "Königskraut"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "Juni - August",
+        ernte: "Juni - September (Blätter und Blüten)",
+        standort: "sonnige bis halbschattige, nährstoffreiche Böden",
+        verwendung: [
+            "Durchfall",
+            "Entzündungen",
+            "Verdauungsbeschwerden",
+            "Husten"
+        ]
     },
     {
         name: "Oregano",
         latein: "Origanum vulgare",
-        img: "img/herbs/O/oregano.jpg"
+        img: "img/herbs/O/oregano.jpg",
+        beschreibung: "Oregano oder Dost ist eines der wichtigsten mediterranen Kräuter. Aufgrund seines aromatisch-herben Geschmacks ist Oregano, ähnlich wie Basilikum und Thymian, unverzichtbar in der mediterranen Küche. Häufig wird der Dost zu Pizza- und Nudelgerichten verwendet. Oregano hat außerdem viele medizinisch interessante Wirkstoffe, die u.a. bei Magen- und Darmbeschwerden sowie auch bei Pilzerkrankungen Linderung verschaffen können.",
+        inhaltsstoffe: [
+            "Ätherische Öle (z.B. Thymol, Carvacrol)",
+            "Flavonoide",
+            "Rosmarinsäure",
+            "Triterpene"
+        ],
+        familie: "Lippenblütler (Lamiaceae)",
+        weitereNamen: [
+            "Dost",
+            "Wilder Majoran",
+            "Käsepflanze"
+        ],
+        aussaatzeit: "März - April",
+        blütezeit: "Juli - September",
+        ernte: "Juni - September (Blätter und Blüten)",
+        standort: "sonnige, gut durchlässige Böden",
+        verwendung: [
+            "Magenbeschwerden",
+            "Darmbeschwerden",
+            "Pilzerkrankungen",
+            "Antioxidative Wirkung"
+        ]
     },
     {
         _comment: "P",
         name: "Petersilie",
         latein: "Petroselinum crispum",
-        img: "img/herbs/P/petersilie.jpg"
+        img: "img/herbs/P/petersilie.jpg",
+        beschreibung: "Die Petersiliez zählt zu den bekanntesten und vielseitigsten Küchenkräuter. Das auch als Peterling, Peterlin oder Peterlein bekannte Küchenkraut wird bereits seit dem Altertum zum Würzen von Kräutern sowie zur Linderung von Beschwerden genutzt. Heute sind mit der Glatten und der Krausen Petersilie zwei verschiedene Sorten bekannt, die sich teils unterschiedliche nutzen lassen. Neben den Petersilienblättern wird jedoch auch die Petersilienwurzel als schmackhaftes Gemüse gegessen.",
+        inhaltsstoffe: [
+            "Vitamine (insbesondere Vitamin C und Vitamin K)",
+            "Mineralien (Eisen, Kalzium)",
+            "Flavonoide",
+            "Ätherische Öle"
+        ],
+        familie: "Doldenblütler (Apiaceae)",
+        weitereNamen: [
+            "Peterling",
+            "Peterlin",
+            "Peterlein"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "Mai - Juni",
+        ernte: "April - Oktober (Blätter), Oktober - November (Wurzeln)",
+        standort: "sonnige bis halbschattige, nährstoffreiche Böden",
+        verwendung: [
+            "Würzen von Speisen",
+            "Förderung der Verdauung",
+            "Linderung von Blähungen",
+            "Entwässerung"
+        ]
     },
     {
         name: "Pfefferminze",
         latein: "Mentha x piperita",
-        img: "img/herbs/P/pfefferminze.jpg"
+        img: "img/herbs/P/pfefferminze.jpg",
+        beschreibung: "Die Pfefferminze (Mentha piperita) ist wohl eines der bekanntesten Kräuter. Kein Wunder, da ihr unverwechselbares Aroma für viele Speisen, Süßigkeiten und Getränke unabdingbar ist. Auch als Heilkraut hat die Pflanze eine große Bedeutung. Pfefferminztee schmeckt nicht nur gut, sondern lindert auch viele Erkrankungen. Ihr großer Nutzen brachte der Pfefferminze daher auch den Titel Arzneipflanze des Jahres im Jahr 2004 ein.",
+        inhaltsstoffe: [
+            "Ätherische Öle (vor allem Menthol)",
+            "Flavonoide",
+            "Tannine",
+            "Mineralien (Kalzium, Eisen)"
+        ],
+        familie: "Lippenblütler (Lamiaceae)",
+        weitereNamen: [
+            "Minze",
+            "Peppermint"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "Juni - September",
+        ernte: "Mai - Oktober (Blätter und Triebspitzen)",
+        standort: "sonnige bis halbschattige, feuchte, gut durchlässige Böden",
+        verwendung: [
+            "Verdauungsförderung",
+            "Linderung von Magenbeschwerden",
+            "Kopfschmerzen",
+            "Atemfrische"
+        ]
     },
     {
         _comment: "Q",
         name: "Quendel",
         latein: "Thymus pulegioides",
-        img: "img/herbs/Q/quendel.jpg"
+        img: "img/herbs/Q/quendel.jpg",
+        beschreibung: "Der Quendel (Thymus pulegioides) ist der kleine Bruder des Thymians. Beide Pflanzen gehören zwar zur selbeN Gattung, dennoch hat der Quendel gegenüber dem Thymian einige Unterschiede, die vor allem im Aroma zu suchen sind. Der auch als Feldthymian bekannte Quendel ist eine bedeutende Heilpflanze, macht aber auch in der Küche als Gewürz eine gute Figur.",
+        inhaltsstoffe: [
+            "Ätherische Öle (vor allem Menthol)",
+            "Flavonoide",
+            "Tannine",
+            "Mineralien (Kalzium, Eisen)"
+        ],
+        familie: "Lippenblütler (Lamiaceae)",
+        weitereNamen: [
+            "Minze",
+            "Peppermint"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "Juni - September",
+        ernte: "Mai - Oktober (Blätter und Triebspitzen)",
+        standort: "sonnige bis halbschattige, feuchte, gut durchlässige Böden",
+        verwendung: [
+            "Verdauungsförderung",
+            "Linderung von Magenbeschwerden",
+            "Kopfschmerzen",
+            "Atemfrische"
+        ]
     },
     {
         _comment: "R",
         name: "Rainfarn",
         latein: "Tanacetum vulgare",
-        img: "img/herbs/R/rainfarn.jpg"
+        img: "img/herbs/R/rainfarn.jpg",
+        beschreibung: "Der Rainfarn (Tanacetum vulgare) ist eine bei uns häufig vorkommende Wildpflanze, die eine bedeutende Rolle im Ökosystem spielt. Früher wurden die Blätter der Pflanze als Heilpflanze verwendet, worauf ihr alternativer Name Wurmkraut heute noch hinweist. Auch als Gewürz hat man die Pflanze bis ins 19. Jahrhundert noch genutzt. Da die Pflanze jedoch in vielen Teilen Thujon enthält und dadurch giftig ist, wird sie kaum noch verwendet.",
+        inhaltsstoffe: [
+            "Thujon",
+            "Flavonoide",
+            "Saponine"
+        ],
+        familie: "Korbblütler (Asteraceae)",
+        weitereNamen: [
+            "Wurmkraut",
+            "Felberich"
+        ],
+        aussaatzeit: "März - Mai",
+        blütezeit: "Juli - September",
+        ernte: "Juli - September (Blätter und Blüten)",
+        standort: "sonnige bis halbschattige, trockene Böden",
+        verwendung: [
+            "Früher bei Wurmbefall",
+            "Linderung von Insektenstichen (in geringer Menge)"
+        ]
     },
     {
         name: "Ringelblume",
         latein: "Calandula officinalis",
-        img: "img/herbs/R/ringelblume.jpg"
+        img: "img/herbs/R/ringelblume.jpg",
+        beschreibung: "Die Ringelblume (Calendula officinalis) wird als Heilpflanze heute vor allem bei Hautbeschwerden oder zur Behandlung von schlecht heilenden Wunden eingesetzt. Doch auch als Zierpflanze wird die auch als Calendula bezeichnete Pflanze heute in vielen Gärten angebaut. Mit ihren orangenen bis gelben Blüten ist die Ringelblume ein Nektarmagnet für nützliche Insekten und gleichzeitig eine Pflanze, die sich einen Namen für die natürliche Abwehr von Schädlingen gemacht hat.",
+        inhaltsstoffe: [
+            "Flavonoide",
+            "Saponine",
+            "Carotinoide",
+            "Bitterstoffe",
+            "Triterpene"
+        ],
+        familie: "Korbblütler (Asteraceae)",
+        weitereNamen: [
+            "Calendula",
+            "Goldblume"
+        ],
+        aussaatzeit: "März - April",
+        blütezeit: "Mai - Oktober",
+        ernte: "Mai - Oktober (Blüten)",
+        standort: "sonnige Lagen mit nährstoffreichen Böden",
+        verwendung: [
+            "Wundheilung",
+            "Hautirritationen",
+            "Entzündungen",
+            "Verletzungen"
+        ]
     },
     {
         name: "Rosmarin",
         latein: "Salvia rosmarinus",
-        img: "img/herbs/R/rosmarin.jpg"
+        img: "img/herbs/R/rosmarin.jpg",
+        beschreibung: "Rosmarin ist einer unserer bekanntesten und beliebtesten Küchenkräuter. Das nadelähnliche Kraut, was eigentlich eine Halbstaude ist, darf heute in keiner mediterranen Küche fehlen. Doch Rosmarin ist nicht nur in der Küche interessant. Seine zahlreichen Inhaltsstoffe haben eine große heilkundliche Bedeutung.",
+        inhaltsstoffe: [
+            "Ätherische Öle (z.B. Campher, Cineol)",
+            "Flavonoide",
+            "Triterpene",
+            "Rosmarinsäure",
+            "Gerbstoffe"
+        ],
+        familie: "Lippenblütler (Lamiaceae)",
+        weitereNamen: [
+            "Rosmarinus",
+            "Meerestrauch"
+        ],
+        aussaatzeit: "Februar - März",
+        blütezeit: "April - Mai",
+        ernte: "Frühling - Herbst (Blätter)",
+        standort: "sonnige, warme Lagen mit gut durchlässigen Böden",
+        verwendung: [
+            "Verdauungsförderung",
+            "Gelenkbeschwerden",
+            "Gedächtnisförderung",
+            "Haarausfall",
+            "Küchengewürz"
+        ]
     },
     {
         name: "Rotklee",
         latein: "Trifolium pratense",
-        img: "img/herbs/R/rotklee.jpg"
+        img: "img/herbs/R/rotklee.jpg",
+        beschreibung: "Rotklee (Trifolium pratense), der gemeinhin auch als Wiesenklee bezeichnet wird, ist ein bedeutendes Heilkraut. Das zu den Hülsenfrüchtlern gehörende Wildkraut, ist ein häufiger Begleiter auf Wiesen und Wegrändern. Rotkleepräparate und Tees werden heute vor allem bei Wechseljahresbeschwerden und Schleimhautentzündungen verwendet. Doch auch die Keimlinge bzw. die Sprossen des Rotklees finden in der Küche aufgrund des hohen Vitaminanteils viele Anhänger.",
+        inhaltsstoffe: [
+            "Isoflavonoide (z.B. Genistein, Daidzein)",
+            "Flavonoide",
+            "Saponine",
+            "Vitamin C",
+            "Mineralien (Kalzium, Magnesium)"
+        ],
+        familie: "Hülsenfrüchtler (Fabaceae)",
+        weitereNamen: [
+            "Wiesenklee",
+            "Klee",
+            "Klöver"
+        ],
+        aussaatzeit: "März - April",
+        blütezeit: "Mai - Oktober",
+        ernte: "Juni - Oktober (Blüten und Blätter)",
+        standort: "sonnige bis halbschattige Wiesen, Wegränder, feuchte, gut durchlässige Böden",
+        verwendung: [
+            "Wechseljahresbeschwerden",
+            "Schleimhautentzündungen",
+            "Lungenprobleme",
+            "Husten"
+        ]
     },
     {
         _comment: "S",
         name: "Salbei",
         latein: "Salvia officinalis",
-        img: "img/herbs/S/salbei.jpg"
+        img: "img/herbs/S/salbei.jpg",
+        beschreibung: "Der Echte Salbei (Salvia officinalis), oft auch als Küchen-Salbei bezeichnet, zählt zu den ältesten bekannten Gewürz- und Heilpflanzen überhaupt. Bereits in der Antike und im Mittelalter war er so berühmt, dass zeitweise nur vertraute Menschen mit dem Sammeln des Krauts beauftragt wurden. Auch heute ist der Salbei als universelles Heilkraut gegen viele Beschwerden unverzichtbar in der Naturheilkunde. Neben seiner vielseitgen Wirkungen ist der Salbei auch bekanntes und beliebtes Gewürzkraut der mediterranen Küche und wird u.a. für Saltimbocca, Entrecote oder Antipasti verwendet.",
+        inhaltsstoffe: [
+            "Ätherische Öle (z.B. Thujon, Kampfer)",
+            "Flavonoide",
+            "Triterpene",
+            "Phenolsäuren",
+            "Bitterstoffe"
+        ],
+        familie: "Lippenblütler (Lamiaceae)",
+        weitereNamen: [
+            "Küchensalbei",
+            "Echter Salbei",
+            "Bergsalbei"
+        ],
+        aussaatzeit: "März - April",
+        blütezeit: "Mai - Juni",
+        ernte: "Mai - Juni (Blätter)",
+        standort: "Sonnige, trockene Plätze mit gut durchlässigem Boden",
+        verwendung: [
+            "Verdauungsbeschwerden",
+            "Halsschmerzen",
+            "Entzündungen im Mund- und Rachenraum",
+            "Schweißregulation",
+            "Lindern von Menstruationsbeschwerden"
+        ]
     },
     {
         name: "Schafgarbe",
         latein: "Achillea millefolium",
-        img: "img/herbs/S/schafgarbe.jpg"
+        img: "img/herbs/S/schafgarbe.jpg",
+        beschreibung: "Die Schafgarbe (Achillea millefolium) zählt zu den bekanntesten Wildkräutern und Heilpflanzen. Die angenehm duftende Pflanze, mit den weißen, selten auch rosa- und orangefarbenen zierlichen Blüten spielt eine wesentliche Rolle in der Naturheilkunde. Dort wird der Korbblütler u.a. gegen Magenbeschwerden und Verdauungsbeschwerden eingesetzt. Da die auch als Tausendblatt bezeichnete Schafgarbe recht anspruchslos ist, kann sie bei uns nahezu überall wild gefunden werden.",
+        inhaltsstoffe: [
+            "Ätherische Öle (z.B. Chamazulen, Cineol)",
+            "Flavonoide",
+            "Gerbstoffe",
+            "Bitterstoffe",
+            "Saponine"
+        ],
+        familie: "Korbblütler (Asteraceae)",
+        weitereNamen: [
+            "Tausendblatt",
+            "Achillea",
+            "Soldatenkraut"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Mai - September",
+        ernte: "Juni - September (Blüten und oberirdische Teile)",
+        standort: "Wiesen, Wegränder, sonnige Plätze",
+        verwendung: [
+            "Magenbeschwerden",
+            "Verdauungsbeschwerden",
+            "Wundheilung",
+            "Krampflösende Wirkung",
+            "Entzündungshemmend"
+        ]
     },
     {
         name: "Scharbockskraut",
         latein: "Ficaria verna",
-        img: "img/herbs/S/scharbockskraut.jpg"
+        img: "img/herbs/S/scharbockskraut.jpg",
+        beschreibung: "Das Scharbockskraut (Ficaria verna) ist eines der ersten Wildkräuter im zeitigen Frühjahr. Mit den leuchtend gelben Blüten ist das Scharbockskraut schon von Weitem zu sehen und schmückt oft große Flächen auf Wiesen, Wegrändern oder in Parks. Die jungen, zarten Blätter enthalten viel Vitamin C und andere Mineralstoffe. Daher wurde das Kraut bereits im Mittelalter zur Behandlung von Skorbut eingesetzt. Als Heilpflanze ist das Scharbockskraut jedoch heute kaum noch von Bedeutung.",
+        inhaltsstoffe: [
+            "Vitamin C",
+            "Saponine",
+            "Flavonoide"
+        ],
+        familie: "Hahnenfußgewächse (Ranunculaceae)",
+        weitereNamen: [
+            "Frühlingkraut",
+            "Frühlingsgold"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "März - Mai",
+        ernte: "Frühjahr (Blätter)",
+        standort: "Wiesen, Wegränder, Parks",
+        verwendung: [
+            "Behandlung von Skorbut (historisch)",
+            "Vitaminquelle"
+        ]
     },
     {
         name: "Schlüsselblume",
         latein: "Primula veris",
-        img: "img/herbs/S/schluesselblume.jpg"
+        img: "img/herbs/S/schluesselblume.jpg",
+        beschreibung: "Die Echte Schlüsselblume (Primula veris) gehört zu den ersten Pflanzen im Frühjahr. Die dottergelben Blüten des auch als Himmelsschlüssel bezeichneten Frühblühers erfreuen viele Wildsammler und Hobbygärtner Jahr für Jahr. Für die Naturheilkunde spielt die Schlüsselblume seit vielen Jahren eine große Rolle in der Behandlung von Nasennebenhöhlenentzündungen oder hartnäckigen Erkältungskrankheiten. Die in der Wiesenprimel enthaltenden Saponine können Schleim verflüssigen und das Abhusten erleichtern.",
+        inhaltsstoffe: [
+            "Saponine",
+            "Flavonoide",
+            "Tannine"
+        ],
+        familie: "Primelgewächse (Primulaceae)",
+        weitereNamen: [
+            "Himmelsschlüssel",
+            "Wiesenprimel"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "März - Mai",
+        ernte: "Frühjahr (Blüten, Wurzeln)",
+        standort: "Wiesen, Waldränder",
+        verwendung: [
+            "Behandlung von Nasennebenhöhlenentzündungen",
+            "Erkältungskrankheiten",
+            "Husten"
+        ]
     },
     {
         name: "Schöllkraut",
         latein: "Chelidonium majus",
-        img: "img/herbs/S/schoellkraut.jpg"
+        img: "img/herbs/S/schoellkraut.jpg",
+        beschreibung: "Das Schöllkraut (Chelidonium majus) oder Warzenkraut ist in unseren Breiten häufig an Wegrändern und Gewässerufern anzutreffen. Die Pflanze mit ihren geschwungenen Blättern und gelben Blüten ist ein alt bewährtes Heilkraut für Warzen und andere Hautbeschwerden. Vor allem der orangene Milchsaft, der in den Stängeln und Blättern des Schöllkrauts zu finden ist, spielt dabei eine große Rolle. Bei der Verwendung von Schöllkraut gibt es jedoch einiges zu beachten, da der Milchkraut sowie einige andere Pflanzenbestandteile giftig sind.",
+        inhaltsstoffe: [
+            "Alkaloide",
+            "Flavonoide",
+            "Ätherische Öle"
+        ],
+        familie: "Mohngewächse (Papaveraceae)",
+        weitereNamen: [
+            "Warzenkraut",
+            "Gelbes Schöllkraut"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "April - Juni",
+        ernte: "Frühjahr - Sommer (Blätter, Stängel)",
+        standort: "Wegränder, Gewässerufer",
+        verwendung: [
+            "Behandlung von Warzen",
+            "Hautbeschwerden",
+            "Entzündungen"
+        ]
     },
     {
         name: "Schwarzkümmel",
         latein: "Nigella sativa",
-        img: "img/herbs/S/schwarzkuemmel.jpg"
+        img: "img/herbs/S/schwarzkuemmel.jpg",
+        beschreibung: "Der Schwarzkümmel (Nigella sativa) ist eine alte Gewürz- und Heilpflanze, die heute mehr und mehr Beliebtheit erfährt. Insbesondere die schwarzen Samen der Pflanze sind es, die entweder pur oder als Öl Gemüse- und Fleischgerichten eine interessante Note geben können. In der Naturheilkunde setzt man Schwarzkümmel zur Behandlung von Hauterkrankungen sowie zur begleitenden Therapie von Diabetes ein. Mit dem Echten Kümmel hat der Schwarzkümmel nichts zu tun.",
+        inhaltsstoffe: [
+            "Ätherische Öle",
+            "Alkaloide",
+            "Fettsäuren"
+        ],
+        familie: "Hahnenfußgewächse (Ranunculaceae)",
+        weitereNamen: [
+            "Echter Schwarzkümmel",
+            "Blauer Schwarzkümmel"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer",
+        ernte: "Sommer (Samen)",
+        standort: "Vielseitige Böden, sonnig",
+        verwendung: [
+            "Hauterkrankungen",
+            "Diabetes-Therapie",
+            "Würzen von Gerichten"
+        ]
     },
     {
         name: "Seifenkraut",
         latein: "Saponaria officinalis",
-        img: "img/herbs/S/seifenkraut.jpg"
+        img: "img/herbs/S/seifenkraut.jpg",
+        beschreibung: "Das Seifenkraut (Saponaria officinalis) ist in vielerlei Hinsicht bewundernswert. Es ist nicht nur ein hervorragendes Heilkraut gegen Erkältung und Hautbeschwerden, sondern wird auch in der Naturkosmetik sowie zum Waschen von Wäsche verwendet. Viele Pflanzenfreunde geben dem Seifenkraut aufgrund der ästhetischen Blütenpracht auch gezielt einen Platz im Garten.",
+        inhaltsstoffe: [
+            "Saponine",
+            "Flavonoide"
+        ],
+        familie: "Nelkengewächse (Caryophyllaceae)",
+        weitereNamen: [
+            "Seifenwurzel"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer",
+        ernte: "Spätsommer (Wurzeln)",
+        standort: "Sonnig bis halbschattig, humusreiche Böden",
+        verwendung: [
+            "Erkältung",
+            "Hautbeschwerden",
+            "Waschen von Wäsche",
+            "Naturkosmetik"
+        ]
     },
     {
         name: "Sonnenhut",
         latein: "Echinacea",
-        img: "img/herbs/S/sonnenhut.jpg"
+        img: "img/herbs/S/sonnenhut.jpg",
+        beschreibung: "Der Sonnenhut, der auch als Echinacea bezeichnet wird, ist eine recht junge Heilpflanze. Bekannt wurde der Korbblütler durch seine Fähigkeit, das Immunsystem zu stärken und Infekte im Voraus abzuwehren. Als Heilpflanze kann der Sonnenhut jedoch auch einige Pilze bekämpfen und wirksam gegen Entzündungen vorgehen. Viele Gärtner bauen den Purpur-Sonnenhut oder den Schmalblättrigen Sonnenhut aufgrund seiner prachtvollen Blüten zudem gern als Zierstaude an.",
+        inhaltsstoffe: [
+            "Polysaccharide",
+            "Alkamide",
+            "Flavonoide"
+        ],
+        familie: "Korbblütler (Asteraceae)",
+        weitereNamen: [
+            "Echinacea"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer bis Herbst",
+        ernte: "Sommer (Blüten und Wurzeln)",
+        standort: "Sonnig, gut durchlässige Böden",
+        verwendung: [
+            "Immunsystem stärken",
+            "Infektionen vorbeugen",
+            "Entzündungen",
+            "Pilzbekämpfung"
+        ]
     },
     {
         name: "Spitzwegerich",
         latein: "Plantago lanceolata",
-        img: "img/herbs/S/spitzwegerich.jpg"
+        img: "img/herbs/S/spitzwegerich.jpg",
+        beschreibung: "Der Spitzwegerich (Plantago lanceolata) ist eine der häufigsten Wildpflanzen, hat sich im Laufe von Jahrhunderten aber auch einen Namen als wichtige Arzneipflanze gemacht. Bereits in der Antike sowie auch im Mittelalter wurde das markante Kraut mit seinen spitzen Blättern für vielerlei Beschwerden verwendet. Heutzutage wird dem Wegerichgewächs wieder mehr Beachtung geschenkt, vor allem zur Linderung bei Hustenreiz und anderen Erkältungsbeschwerden. Im Jahr 2014 wurde Plantago lanceolata zur Arzneipflanze des Jahres gekürt.",
+        inhaltsstoffe: [
+            "Iridoide",
+            "Flavonoide",
+            "Glykoside"
+        ],
+        familie: "Wegerichgewächse (Plantaginaceae)",
+        weitereNamen: [
+            "Wegerich"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer",
+        ernte: "Frühjahr bis Sommer (Blätter und Samen",
+        standort: "Wegränder, Wiesen, trockene Böden",
+        verwendung: [
+            "Hustenreiz lindern",
+            "Erkältungsbeschwerden",
+            "Wundheilung"
+        ]
     },
     {
         name: "Stevia",
         latein: "Stevia rebaudiana",
-        img: "img/herbs/S/stevia.jpg"
+        img: "img/herbs/S/stevia.jpg",
+        beschreibung: "Stevia (Stevia rebaudiana), das auch Süßkraut oder Honigkraut bekannt sich, hat in sich in den letzten Jahren zu einer echten Berühmtheit entwickelt. Als Alternative zu Zucker findet die Pflanze mittlerweile in vielen Haushalten Verwendung, gerade auch bei Menschen, die Zucker nur schlecht verwerten können. Doch nicht nur in der Küche wird Stevia benutzt, sondern auch als Heilkraut.",
+        inhaltsstoffe: [
+            "Steviol-Glycoside",
+            "Flavonoide"
+        ],
+        familie: "Compositae",
+        weitereNamen: [
+            "Süßkraut",
+            "Honigkraut"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer",
+        ernte: "Sommer (Blätter)",
+        standort: "Sonnig, gut durchlässiger Boden",
+        verwendung: [
+            "Bluthochdruck",
+            "Diabetes"
+        ]
     },
     {
         name: "Süßholz",
         latein: "Glycyrrhiza glabra",
-        img: "img/herbs/S/suessholz.jpg"
+        img: "img/herbs/S/suessholz.jpg",
+        beschreibung: "Süßholz (Glycyrrhiza glabra) ist eine wichtige Nutzpflanze für die Lebensmittelindustrie. Der in den Süßholzwurzeln enthaltende Saft ist die Basis für die Herstellung von Lakritze. Doch auch als Heilpflanze hat das Süßholz eine große Bedeutung. Die getrockneten Wurzeln des Hülsenfrüchtlers können nämlich u.a. bei Magengeschwüren, Gastritis und Bronchitis helfen. Durch ihr liebliches und wohlschmeckendes Aroma ist sie eine beliebte Arzneipflanze, die jedoch nicht langfristig und in hohen Mengen konsumiert werden sollte.",
+        inhaltsstoffe: [
+            "Glycyrrhizin",
+            "Flavonoide",
+            "Saponine"
+        ],
+        familie: "Fabaceae",
+        weitereNamen: [
+            "Lakritze",
+            "Süßholzwurzel"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer",
+        ernte: "Herbst (Wurzeln)",
+        standort: "Sonnig, lockerer, gut durchlässiger Boden",
+        verwendung: [
+            "Magen-Darm-Beschwerden",
+            "Atemwegserkrankungen"
+        ]
     },
     {
         _comment: "T",
         name: "Taigawurzel",
         latein: "Eleutherococcus senticosus",
-        img: "img/herbs/T/taigawurzel.jpg"
+        img: "img/herbs/T/taigawurzel.jpg",
+        beschreibung: "Die Taigawurzel ist in unseren Breiten noch ein Exot. Für die Naturheilkunde ist die Pflanze, die auch als sibirischer Ginseng bezeichnet wird, jedoch durchaus interessant. Einige Inhaltsstoffe von Eleutherococcus senticosus können vor allem bei Stress, Erschöpfung und Konzentrationsstörungen gute Dienste leisten. In der russischen und chinesischen Volksmedizin gilt die Taigawurzel seit vielen Jahrhunderten als traditionelle Arzneipflanze.",
+        inhaltsstoffe: [
+            "Eleutheroside",
+            "Flavonoide",
+            "Polysaccharide"
+        ],
+        familie: "Araliaceae",
+        weitereNamen: [
+            "Sibirischer Ginseng",
+            "Eleutherococcus"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer",
+        ernte: "Herbst (Wurzeln)",
+        standort: "Sonnig bis halbschattig, humusreicher Boden",
+        verwendung: [
+            "Stress",
+            "Erschöpfung",
+            "Konzentrationsstörungen"
+        ]
     },
     {
         name: "Tausendgüldenkraut",
         latein: "Centaurium erythraea",
-        img: "img/herbs/T/tausendgueldenkraut.jpg"
+        img: "img/herbs/T/tausendgueldenkraut.jpg",
+        beschreibung: "Das Tausendgüldenkraut gilt als eines der besten Heilkräuter für Magen- und Darmbeschwerden. Die kleine Pflanze mit den filigranen rot-violetten Blüten enthält Bitterstoffe und andere pflanzliche Wirkstoffe, die viel in unserem Organismus bewirken können. Die vielen Alternativnamen wie z.B. Fieberkraut, Apothekerblume oder Erdgalle lassen bereits erahnen, welchen Stellenwert das Tausendgüldenkraut in der Naturheilkunde hat.",
+        inhaltsstoffe: [
+            "Bitterstoffe",
+            "Flavonoide",
+            "Glykoside"
+        ],
+        familie: "Gentianaceae",
+        weitereNamen: [
+            "Fieberkraut",
+            "Apothekerblume",
+            "Erdgalle"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer",
+        ernte: "Spätsommer bis Herbst",
+        standort: "Sonnig, trockene, kalkhaltige Böden",
+        verwendung: [
+            "Magen- und Darmbeschwerden"
+        ]
     },
     {
         name: "Teufelskralle",
         latein: "Harpagophytum procumbens",
-        img: "img/herbs/T/teufelskralle.jpg"
+        img: "img/herbs/T/teufelskralle.jpg",
+        beschreibung: "Die Teufelskralle ist eine aus dem Süden Afrikas stammende Heilpflanze, die vor allem bei rheumatischen Beschwerden, Gelenkschmerzen und Verdauungsbeschwerden zum Einsatz kommt. Ihrem Namen hat die Teufelskralle vor allem durch ihre Früchte erhalten, die krallen- bzw. klauenartig am Boden auf vorbeistreifende Tiere wartet. Medizinisch wertvoll sind jedoch die markanten Wurzeln der Teufelskralle, die reich an wertvollen Bitterstoffen sind.",
+        inhaltsstoffe: [
+            "Bitterstoffe",
+            "Harpagosid",
+            "Flavonoide"
+        ],
+        familie: "Pedaliaceae",
+        weitereNamen: [
+            "Harpagophytum",
+            "Rheumaheilpflanze"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer",
+        ernte: "Spätsommer",
+        standort: "Trockene, sonnige Böden",
+        verwendung: [
+            "Linderung von rheumatischen Beschwerden",
+            "Gelenkschmerzen",
+            "Verdauungsbeschwerden"
+        ]
     },
     {
         name: "Thymian",
         latein: "Thymus vulgaris",
-        img: "img/herbs/T/thymian.jpg"
+        img: "img/herbs/T/thymian.jpg",
+        beschreibung: "Der Thymian ist eines der bekanntesten Heil- und Gewürzkräuter. Sein aromatisch-bitterer Geschmack würzt zahlreiche mediterrane Speisen. Aber auch in der Naturheilkunde ist Thymus vulgaris sehr begehrt. Dort wird das zarte Kraut u.a. bei Erkältungen, Husten oder Magenbeschwerden verwendet. Die antibakteriellen und entzündungshemmenden Eigenschaften des Thymians brachten ihm den Titel Heilpflanze des Jahres 2006 ein.",
+        inhaltsstoffe: [
+            "Ätherische Öle",
+            "Thymol",
+            "Carvacrol"
+        ],
+        familie: "Lamiaceae",
+        weitereNamen: [
+            "Echter Thymian",
+            "Kriechender Thymian"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer",
+        ernte: "Sommer",
+        standort: "Sonnige, trockene Böden",
+        verwendung: [
+            "Linderung von Erkältungen",
+            "Husten",
+            "Magenbeschwerden"
+        ]
     },
     {
         _comment: "W",
         name: "Wegwarte",
         latein: "Cichorium intybus",
-        img: "img/herbs/W/wegwarte.jpg"
+        img: "img/herbs/W/wegwarte.jpg",
+        beschreibung: "Mit ihren leuchtend blauen Blüten ist die Gemeine Wegwarte ein richtiger Blickfang. Der auffällige Korbblütler ist ein häufig vorkommendes Wildkraut, das gerne Wegränder besiedelt. Die Wegwarte ist eine bedeutende Heil- und Kulturpflanze, die auch unter ihrem Namen Zichorie bekannt ist. Vor allem die Wurzeln, die reich an Bitterstoffen sind, der Pflanze werden in Naturheilkunde bei Verdauungsbeschwerden verwendet. Übrigens: Die durch natürliche Züchtung entstandenen Gemüsesorten Radicchio und Endivie sind Unterarten der Wegwarte.",
+        inhaltsstoffe: [
+            "Bitterstoffe",
+            "Inulin",
+            "Chicorinsäure"
+        ],
+        familie: "Asteraceae",
+        weitereNamen: [
+            "Zichorie",
+            "Wegwartenkraut"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer bis Herbst",
+        ernte: "Spätsommer bis Herbst",
+        standort: "Wegränder, Wiesen, sonnige Stellen",
+        verwendung: [
+            "Verdauungsbeschwerden",
+            "Wurzeln als Heilmittel"
+        ]
     },
     {
         name: "Weinraute",
         latein: "Ruta graveolens",
-        img: "img/herbs/W/weinraute.jpg"
+        img: "img/herbs/W/weinraute.jpg",
+        beschreibung: "Die Weinraute, die botanisch als Ruta graveolens bezeichnet wird, galt im Altertum und im Mittelalter als mächtige Heilpflanze. Sie wurde u.a. gegen die Pest und schweren Erkrankungen der Lunge verwendet. Heute wird der Einsatz der Raute kritisch gesehen, da sie einige bedenkliche Inhaltsstoffe enthält. Als Gewürzkraut werden Weinrautenblätter jedoch in der mediterranen Küche sowie bei der Herstellung von Grappa auch heute noch verwendet.",
+        inhaltsstoffe: [
+            "Alkaloide",
+            "Flavonoide",
+            "Ätherische Öle"
+        ],
+        familie: "Rutaceae",
+        weitereNamen: [
+            "Raute",
+            "Rautenkraut"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer",
+        ernte: "Sommer bis Herbst",
+        standort: "Sonstige sonnige Standorte, trockene Böden",
+        verwendung: [
+            "Mediterrane Küche",
+            "Grappa-Herstellung",
+            "Heilpflanze (kritisch)"
+        ]
     },
     {
         name: "Weiße Taubnessel",
         latein: "Lamium album",
-        img: "img/herbs/W/taubnessel.jpg"
+        img: "img/herbs/W/taubnessel.jpg",
+        beschreibung: "Die Weiße Taubnessel (Lamium album) ist eines der bekanntesten Wildkräuter und vielen Menschen durch die süßen Blüten bekannt. Der Lippenblütler hat einen festen Platz in der Naturheilkunde und wird vor allem bei Beschwerden der oberen Luftwege oder bei Magen- und Darmerkrankungen genutzt. Mit den Blättern und Blüten der Taubnessel lassen sich jedoch auch viele köstliche Gerichte zaubern.",
+        inhaltsstoffe: [
+            "Flavonoide",
+            "Saponine",
+            "Bitterstoffe"
+        ],
+        familie: "Lamiaceae",
+        weitereNamen: [
+            "Weiße Taubnessel",
+            "Garten-Taubnessel"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Frühling bis Sommer",
+        ernte: "Frühling bis Herbst",
+        standort: "Feuchte, schattige bis halbschattige Plätze",
+        verwendung: [
+            "Atemwegsbeschwerden",
+            "Magen-Darm-Erkrankungen"
+        ]
     },
     {
         name: "Wermut",
         latein: "Artemisia absinthium",
-        img: "img/herbs/W/wermut.jpg"
+        img: "img/herbs/W/wermut.jpg",
+        beschreibung: "Der Gemeine Wermut oder Wermutkraut ist Vielen vor allem durch dessen bitteren Geschmack sowie als Zutat der weltbekannten Spirituose Absinth ein Begriff. Das zu den Artemisien gehörende Wermutkraut hilft als Heilpflanze gegen Magen- und Verdauungsbeschwerden. In der Küche wird Wermut gelegentlich als Gewürz bei fettreichen Wildgerichten und deftigen Suppen zum Einsatz.",
+        inhaltsstoffe: [
+            "Bitterstoffe",
+            "Ätherische Öle",
+            "Flavonoide"
+        ],
+        familie: "Asteraceae",
+        weitereNamen: [
+            "Absinthkraut",
+            "Wermutkraut"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer",
+        ernte: "Spätsommer bis Herbst",
+        standort: "Trockene, sonnige Standorte",
+        verwendung: [
+            "Magen- und Verdauungsbeschwerden"
+        ]
     },
     {
         name: "Wiesenknopf",
         latein: "Sanguisorba officinalis",
-        img: "img/herbs/W/wiesenknopf.jpg"
+        img: "img/herbs/W/wiesenknopf.jpg",
+        beschreibung: "Der Große Wiesenknopf gilt als altes Heilkraut, das vor allem bei Blutungen sowie zur Wundheilung eingesetzt wurde. Die zu den Rosengewächsen zählende Pflanze wird heute meist nur noch im Rahmen alternativer naturmedizinischer Anwendungen genutzt. Der Große Wiesenknopf ist eine weit verbreitete Pflanze und zählt wegen ihrer schlichten Schönheit auch als Geheimtipp im Garten.",
+        inhaltsstoffe: [
+            "Tannine",
+            "Flavonoide",
+            "Gerbstoffe"
+        ],
+        familie: "Rosaceae",
+        weitereNamen: [
+            "Blutkraut",
+            "Wundkraut"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer",
+        ernte: "Sommer",
+        standort: "Feuchte Wiesen, Uferbereiche",
+        verwendung: [
+            "Blutungen und Wundheilung"
+        ]
     },
     {
         name: "Wiesensalbei",
         latein: "Salvia pratensis",
-        img: "img/herbs/W/wiesensalbei.jpg"
+        img: "img/herbs/W/wiesensalbei.jpg",
+        beschreibung: "Der Wiesensalbei (Salvia pratensis) zählt zu unseren heimischen Wildkräutern und ist eng mit dem Echten Salbei verwandt. Die hübsche Pflanzen mit ihren violetten Lippenblüten findet man zur Frühlingsmitte oft auf Trockenrasen oder Brachflächen. Für die Küche ist der Wiesensalbei durchaus ein Gewinn, wenngleich er leider etwas in Vergessenheit geraten ist. Wiesensalbeiblätter sind sehr aromatisch und ein hervorragendes Gewürz.",
+        inhaltsstoffe: [
+            "ätherische Öle",
+            "Bitterstoffe",
+            "Flavonoide"
+        ],
+        familie: "Lamiaceae",
+        weitereNamen: [
+            "Frühlings-Salbei"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Frühling bis Sommer",
+        ernte: "Sommer",
+        standort: "Trockenrasen, Brachflächen",
+        verwendung: [
+            "Magenbeschwerden"
+        ]
     },
     {
         _comment: "Y",
         name: "Ysop",
         latein: "Hyssopus officinalis",
-        img: "img/herbs/Y/ysop.jpg"
+        img: "img/herbs/Y/ysop.jpg",
+        beschreibung: "Der Ysop (Hyssopus officinalis) ist ein in Deutschland relativ häufig anzutreffendes Wildkraut. Die Pflanze, die auch als Bienenkraut oder Eisenkraut bekannt ist, erlebt in den letzten Jahren eine Renaissance als Heil- und Gewürzkraut. Der Lippenblütler enthält viele Wirkstoffe, die vor allem bei Magen- und Kreislaufbeschwerden hilfreich sind. Auch in der Kosmetik- und Parfümindustrie finden die im Ysop enthaltenden Inhaltsstoffe häufig Verwendung.",
+        inhaltsstoffe: [
+            "ätherische Öle",
+            "Bitterstoffe",
+            "Flavonoide"
+        ],
+        familie: "Lamiaceae",
+        weitereNamen: [
+            "Bienenkraut",
+            "Eisenkraut"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer",
+        ernte: "Sommer",
+        standort: "Wiesen, Trockenrasen",
+        verwendung: [
+            "Magenbeschwerden",
+            "Kreislaufbeschwerden",
+            "Kosmetik"
+        ]
     },
     {
         _comment: "Z",
         name: "Zistrose",
         latein: "Cistus incanus",
-        img: "img/herbs/Z/zistrose.jpg"
+        img: "img/herbs/Z/zistrose.jpg",
+        beschreibung: "Die Zistrose (Cistus incanus), meistens kurz als Cistus bezeichnet, ist eine sehr bekannte Heilpflanze. Botanisch gesehen ist der Halbstrauch ein Hybride aus mehreren Zistrosenarten. Die Blätter des Cistus enthalten vor allem Polyphenole und Flavonoide, die in der heutigen Naturheilkunde vor allem gegen Influenza-Grippe, Erkältungen und Hauterkrankungen wie Neurodermatis eingesetzt werden.",
+        inhaltsstoffe: [
+            "Polyphenole",
+            "Flavonoide"
+        ],
+        familie: "Cistaceae",
+        weitereNamen: [
+            "Cistus"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer",
+        ernte: "Sommer",
+        standort: "Trockene, sonnige Plätze",
+        verwendung: [
+            "Erkältungen",
+            "Hauterkrankungen",
+            "Tees und Extrakte zur Unterstützung des Immunsystems"
+        ]
     },
     {
         name: "Zitronenmelisse",
         latein: "Melissa officinalis",
-        img: "img/herbs/Z/zitronenmelisse.jpg"
+        img: "img/herbs/Z/zitronenmelisse.jpg",
+        beschreibung: "Die Zitronenmelisse ist eines der klassischen Küchen- und Heilkräuter, die in keinem Garten oder auf dem Balkon fehlen darf. Das milde, zart nach Zitronen duftende Aroma macht die Zitronenmelisse zu einem der beliebtesten und vielseitigsten Gewürzkräuter. Die in der Melisse enthaltenden Inhaltsstoffe helfen außerdem bei nervöser Unruhe oder Magenbeschwerden.",
+        inhaltsstoffe: [
+            "Ätherische Öle",
+            "Flavonoide",
+            "Tannine"
+        ],
+        familie: "Lamiaceae",
+        weitereNamen: [
+            "Melisse"
+        ],
+        aussaatzeit: "Frühjahr",
+        blütezeit: "Sommer",
+        ernte: "Sommer",
+        standort: "Halbschattig bis sonnig",
+        verwendung: [
+            "Tees zur Beruhigung und Unterstützung der Verdauung"
+        ]
     }
 ]
 
