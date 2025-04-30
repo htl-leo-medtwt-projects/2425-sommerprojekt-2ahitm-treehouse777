@@ -103,10 +103,10 @@ p {
     background-color: var(--first-primaer);
     width: 100%;
     height: 40%;
-    position: absolute;
+    /*position: absolute;
     top: 350%;
-    left: 0%;
-    
+    left: 0%;*/
+    position: relative;
 }
 .footer img {
     width: 15%;
@@ -405,13 +405,12 @@ p {
     font-family: var(--text-font);
 }
 .modal-content {
-    background-color: var(--background-color);
+    background-color: #fff;
     color: var(--font-color);
     padding: 1.8rem;
     border-radius: 20px;
-    width: 70%;
-    max-width: 800px;
-    max-height: 70vh;
+    width: 50%;
+    height: 55vh;
     position: relative;
     overflow-y: auto;
     border: 3px solid var(--first-primaer);
@@ -452,4 +451,58 @@ p {
 .modal-content p {
     font-size: 1.2rem;
     line-height: 1.6;
+}
+
+#info {
+    position: absolute;
+    top: 5%;
+    right: 6%;
+    width: 60%;
+}
+
+/*Suche*/
+.filter-box {
+    position: relative;
+    left: 33%;
+    margin-top: 8%;
+    background: var(--first-primaer);
+    padding: 20px;
+    width: 600px;
+}
+select, input {
+    margin: 5px;
+    padding: 5px;
+    width: 45%;
+}
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: darkgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.kraeuter-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+#ergebnisse {
+    margin: 5%;
+}
+
+.kraeuter-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 150px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.kraeuter-card img.kraeuter-bild {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
 }
