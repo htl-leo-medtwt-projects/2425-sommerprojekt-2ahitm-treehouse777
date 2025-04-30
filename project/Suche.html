@@ -5,7 +5,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Grüne Magie</title>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js" defer></script>
+        <style>
+            body { font-family: Arial; }
+            .filter-box { background: #ddd; padding: 20px; max-width: 600px; }
+            select, input { margin: 5px; padding: 5px; width: 45%; }
+            button { margin-top: 10px; padding: 10px; background: darkgreen; color: white; border: none; cursor: pointer; }
+            .kraeuter-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            }
+
+            .kraeuter-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 0.5rem;
+            width: 150px;
+            text-align: center;
+            background-color: #f9f9f9;
+            }
+
+            .kraeuter-card img.kraeuter-bild {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            }
+        </style>
     </head>
     <body>
         <!--Navigationsleiste, Suchleiste, Logo-->
@@ -26,6 +51,23 @@
                 <a href="Aberglaube.html" class="nav-buttons">Aberglaube</a>
             </div>
         </div>
+
+
+        <!--Inhalt-->
+        <div class="filter-box">
+            <h2>🌿 Kräuterfinder – Suche nach Merkmalen</h2>
+            <input type="text" id="nameSearch" placeholder="Name oder Lateinischer Name">
+            <input type="text" id="familie" placeholder="Pflanzenfamilie">
+            <input type="text" id="inhaltsstoffe" placeholder="Inhaltsstoffe (z.B. Bitterstoffe)">
+            <input type="text" id="aussaatzeit" placeholder="Aussaatzeit (z.B. März)">
+            <input type="text" id="bluetezeit" placeholder="Blütezeit">
+            <input type="text" id="erntezeit" placeholder="Erntezeit">
+            <input type="text" id="verwendung" placeholder="Verwendung (z.B. Husten)">
+            <button onclick="filterHerbs()">Kräuter finden</button>
+          </div>
+          
+          <div id="ergebnisse"></div>
+
 
         <!--Kontaktdaten, Navigation, Newsletter-->
         <div class="footer">
@@ -49,5 +91,8 @@
                 <div id="clicki-newie">✓</div>
             </div>
         </div>
+
+        <script src="herbs.js"></script>
+        <script src="suche.js"></script>
     </body>
 </html>
