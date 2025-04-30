@@ -103,10 +103,10 @@ p {
     background-color: var(--first-primaer);
     width: 100%;
     height: 40%;
-    /*position: absolute;
+    position: absolute;
     top: 350%;
-    left: 0%;*/
-    position: relative;
+    left: 0%;
+    
 }
 .footer img {
     width: 15%;
