@@ -3,8 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Grüne Magie</title>
         <link rel="stylesheet" href="style.css">
+  
+        <link href="https://code.ionicframework.com/1.0.0-beta.11/css/ionic.css" rel="stylesheet">
+        <script src="https://code.ionicframework.com/1.0.0-beta.11/js/ionic.bundle.js"></script>
         
     </head>
     <body>
@@ -28,6 +32,72 @@
         </div>
 
         <!--Inhalt-->
+        <ul class="alpha_sidebar">
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                A
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                B
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                D
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                E
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                F
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                G
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                H
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                J
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                K
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                L
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                M
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                N
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                O
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                P
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                Q
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                R
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                S
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                T
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                W
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                Y
+            </li>
+            <li ng-click="gotoList('index_{{letter}}')"ng-repeat="letter in alphabet"> 
+                X
+            </li>
+        </ul>
+
         <div id="outputHerbs"></div>
 
         <div id="herbModal" class="modal" style="display:none;">

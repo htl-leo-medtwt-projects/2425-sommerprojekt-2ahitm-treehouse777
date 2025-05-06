@@ -390,6 +390,22 @@ p {
     margin: 5%;
 }
 
+ /*Alphabet*/
+.alpha_sidebar{
+	position: absolute;
+	top:50px;
+	right: 	10px;
+	z-index: 100000
+}
+.alpha_sidebar li{
+	color: #49afcd;
+	margin-bottom: 6px;
+	cursor: pointer;
+}
+.alpha_list{
+	padding-right: 22px;
+}
+
 /*Pop-Up*/
 .modal {
     position: fixed;
@@ -398,7 +414,7 @@ p {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(59, 59, 59, 0.5); /* halbtransparentes Overlay */
+    background-color: rgba(59, 59, 59, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
