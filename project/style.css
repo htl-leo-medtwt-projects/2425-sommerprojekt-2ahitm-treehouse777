@@ -102,10 +102,8 @@ p {
 .footer {
     background-color: var(--first-primaer);
     width: 100%;
-    height: 40%;
     position: relative;
     bottom: 0;
-   
     left: 0%;
     
 }
@@ -123,7 +121,7 @@ p {
     color: var(--font-color);
     position: absolute;
     left: 10%;
-    top: 25%;
+    top: 5vh;
     font-size: 1.4rem;
 }
 #nav-footer {
@@ -132,9 +130,8 @@ p {
     text-align: center;
     flex-direction: column;
     color: var(--font-color);
-    position: absolute;
-    right: 53%;
-    top: 10%;
+    position: relative;
+    top: -13vh;
     font-size: 1.4em;
 }
 .footer-buttons {
@@ -338,7 +335,6 @@ p {
 
 /*Galerie*/
 #outputHerbs {
-    height: 300vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
