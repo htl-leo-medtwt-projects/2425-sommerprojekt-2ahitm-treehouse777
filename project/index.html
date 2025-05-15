@@ -6,6 +6,9 @@
         <title>Grüne Magie</title>
         <link rel="stylesheet" href="style.css">
         <script src="script.js" defer></script>
+        <!--Librarie-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     </head>
     <body>
         <!--Navigationsleiste, Suchleiste, Logo-->
@@ -83,18 +86,22 @@
 
         <a href="Orte.html" id="OrteStartseite">Wo findet man eher Kräuter?</a>
 
-        <div id="slideshow">
-            <div class="slide-content slide-display-container">
-                <img class="mySlides" src="img/Slideshow1.jpeg" style="width:99%">
-                <img class="mySlides" src="img/Slideshow2.jpg" style="width:115%">
-                <img class="mySlides" src="img/Slideshow3.jpg" style="width:98%">
-                <img class="mySlides" src="img/Slideshow4.jpg" style="width:110%">
-
-                <div id="buttons-slide">
-                    <button class="slide-button slide-black slide-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                    <button class="slide-button slide-black slide-display-right" onclick="plusDivs(1)">&#10095;</button>
-                </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/Slideshow1.jpeg"></div><!--style="width:99%"-->
+                <div class="swiper-slide"><img src="img/Slideshow2.jpg"></div><!--style="width:115%"-->
+                <div class="swiper-slide"><img src="img/Slideshow3.jpg"></div><!--style="width:98%"-->
+                <div class="swiper-slide"><img src="img/Slideshow4.jpg"></div><!--style="width:110%"-->
             </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            
         </div>
         
 

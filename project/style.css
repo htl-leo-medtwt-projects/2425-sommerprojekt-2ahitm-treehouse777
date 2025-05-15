@@ -210,47 +210,46 @@ p {
 .miniVorschau-back p {
     position: relative;
     left: 15%;
-    top: 30%;
     padding: 5%;
     padding-left: 10%;
 }
 .miniVorschauRezepte {
-    position: absolute;
+    position: relative;
     left: 12%;
-    top: 30%;
+    margin-top: 10%;
 }
 .miniVorschauGalerie {
-    position: absolute;
-    left: 39%;
-    top: 30%;
+    position: relative;
+    left: 41%;
+    margin-top: -15.5%;
 }
 .miniVorschauSuche {
-    position: absolute;
-    right: 8%;
-    top: 30%;
+    position: relative;
+    left: 70%;
+    margin-top: -15.5%;
 }
 
 
 #AnbauStartseite img {
-    position: absolute;
+    position: relative;
     left: 5%;
-    top: 110%;
+    margin-top: 25%;
     width: 20%;
 }
 #AnbauStartseite p {
     color: var(--font-color);
     font-size: 1.5rem;
     margin: 5%;
-    position: absolute;
+    margin-top: -20%;
+    position: relative;
     left: 25%;
-    top: 120%;
 }
 #AnbauStartseite a {
     color: var(--font-color);
     text-decoration: none;
     font-family: var(--text-font);
     font-size: 1.5rem;
-    position: absolute;
+    position: relative;
     left: 25%;
     top: 140%;
     margin-left: 5%;
@@ -261,28 +260,27 @@ p {
 }
 
 #AberglaubeStartseite img {
-    position: absolute;
-    right: 5%;
-    top: 190%;
+    position: relative;
+    left: 75%;
+    margin-top: 18%;
     width: 20%;
 }
 #AberglaubeStartseite p {
     color: var(--font-color);
     font-size: 1.5rem;
-    position: absolute;
-    right: 25%;
-    top: 205%;
+    position: relative;
+    left: 20%;
     margin: 5%;
+    margin-top: -15%;
 }
 #AberglaubeStartseite a {
     color: var(--font-color);
     text-decoration: none;
     font-family: var(--text-font);
     font-size: 1.5rem;
-    position: absolute;
-    right: 25%;
-    top: 225%;
-    margin-right: 5%;
+    position: relative;
+    left: 60.5%;
+    margin-bottom: 10%;
 }
 #AberglaubeStartseite a:hover {
     color: var(--second-primaer);
@@ -292,9 +290,9 @@ p {
    /*Slideshow */
 #OrteStartseite {
     color: var(--font-color);
-    position: absolute;
-    top: 272%;
+    position: relative;
     left: 40%;
+    bottom: -15rem;
     font-size: 1.5rem;
     text-decoration: none;
     font-family: var(--text-font);
@@ -303,33 +301,17 @@ p {
     color: var(--second-primaer);
     text-decoration: underline;
 }
-.mySlides {
-    display:none;
+
+
+.swiper {
+  width: 600px;
+  height: 300px;
+  margin: 5%;
+  margin-top: 15%;
 }
-#slideshow {
-    position: absolute;
-    top: 280%;
-    left: 30%;
-}
-#slideshow button {
-    background-color: var(--second-primaer);
-    border: var(--first-primaer) 1px solid;
-    color: var(--first-primaer);
-    margin: 2%;
-    width: 10%;
-    height: 5%;
-}
-#slideshow button:hover {
-    background-color: var(--first-primaer);
-    border: var(--second-primaer) 1px solid;
-    color: var(--second-primaer);
-}
-#buttons-slide {
-    position: absolute;
-    left: 35%;
-    top: 105%;
-    width: 100%;
-}
+:root {
+    --swiper-navigation-color: var(--background-color); /* oder jede andere Farbe */
+  }
 
 
 
@@ -352,8 +334,6 @@ p {
     background-color: var(--second-primaer);
     color: var(--background-color);
     padding: 1% 2%;
-    position: relative;
-    right: 10%;
     font-family: var(--headline-font);
     border-radius: 5px;
 }

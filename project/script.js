@@ -1,25 +1,21 @@
-/*Slideshow*/
-var slideIndex = 1;
-showDivs(slideIndex);
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
 
-/* Aktive Buttons */
-document.querySelectorAll(".nav-buttons").forEach(button => {
-  button.addEventListener("click", function() {
-    this.classList.toggle("active");
-  });
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
 });
