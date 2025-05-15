@@ -61,14 +61,17 @@ h1, h2, h3 {
 p {
     font-family: var(--text-font);
 }
+a {
+    font-family: var(--text-font);
+}
 
 /*Navigation*/
 .nav-container {
     width: 101%;
-    height: 7%;
+    height: 4rem;
     background-color: var(--second-primaer);
-    position: absolute;
-    left: -1%;
+    position: relative;
+    left: -0.5%;
 }
 .navigation {
     font-family: var(--headline-font);
@@ -84,6 +87,7 @@ p {
     width: 15%;
     margin-top: 0.7%;
     font-size: 1.5rem;
+    padding: 0.3%;
 }
 .nav-buttons:hover {
     background-color: var(--first-primaer);
