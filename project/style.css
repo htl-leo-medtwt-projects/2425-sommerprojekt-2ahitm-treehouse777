@@ -125,16 +125,18 @@ a {
     color: var(--font-color);
     position: absolute;
     left: 10%;
-    top: 5vh;
+    top: 13vh;
     font-size: 1.4rem;
 }
 #nav-footer {
+    width: 10%;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
     color: var(--font-color);
     position: relative;
+    left: 40%;
     top: -13vh;
     font-size: 1.4em;
 }
@@ -500,4 +502,52 @@ button {
     width: 100%;
     height: auto;
     border-radius: 6px;
+}
+
+
+/*Rezepte*/
+.smallContainerRezepte {
+    background-color: var(--first-primaer);
+    border: var(--second-primaer) 2px solid;
+    box-shadow: 0 4px 8px 0 var(--font-color) ;
+    text-align: center;
+    padding: 5%;
+    border-radius: 20px;
+    color: var(--font-color);
+    font-family: var(--text-font);
+    width: 70%;
+}
+.containerRezepte {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1%;
+    margin-bottom: 5%;
+    margin: 5%;
+}
+.ordnungRezepte {
+    position: relative;
+    left: 3%;
+    width: 90%;
+    margin-top: 15%;
+    background-color: var(--second-primaer);
+    color: var(--background-color);
+    padding: 1% 2%;
+    font-family: var(--headline-font);
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+.salbe {
+    margin-top: 5%;
+}
+.containerSeife {
+    margin-bottom: 15rem;
+}
+
+/*Orte*/
+.OrteContainer {
+    margin: 5%;
+    width: 50%;
+}
+.OrteContainer h2 {
+    margin-top: 10%;
 }
