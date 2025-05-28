@@ -78,7 +78,7 @@ a {
     display: flex;
     text-align: center;
     justify-content: center;
-    gap: 1%;
+    gap: 3%;
 }
 .nav-buttons {
     border: var(--first-primaer) 1px solid;
