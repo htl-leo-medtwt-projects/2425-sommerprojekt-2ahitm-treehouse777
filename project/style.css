@@ -546,8 +546,17 @@ button {
 /*Orte*/
 .OrteContainer {
     margin: 5%;
-    width: 50%;
+    width: 280%;
 }
 .OrteContainer h2 {
     margin-top: 10%;
+}
+
+#wholeOrteContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#wholeOrteContainer img {
+    width: 30%;
 }
