@@ -558,5 +558,37 @@ button {
 }
 
 #wholeOrteContainer img {
-    width: 30%;
+    margin: 2%;
+    width: 50%;
+}
+
+#img1 {
+    position: relative;
+    top: 10vh;
+    right: 4rem;
+}
+#img2 {
+    position: relative;
+    left: 15rem;
+    top: 4vh;
+}
+#img3 {
+    position: relative;
+    right: 4rem;
+    top: -3vh;
+}
+#img4 {
+    position: relative;
+    left: 15rem;
+    top: -10vh;
+}
+#img5 {
+    position: relative;
+    right: 4rem;
+    top: -17vh;
+}
+#img6 {
+    position: relative;
+    left: 15rem;
+    top: -24vh;
 }

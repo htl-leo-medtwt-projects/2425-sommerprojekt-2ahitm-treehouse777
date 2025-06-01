@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Grüne Magie</title>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js" defer></script>
+        <script src="anbau.js" defer></script>
     </head>
     <body>
         <!--Navigationsleiste, Suchleiste, Logo-->
@@ -28,9 +28,12 @@
 
         <!--Inhalt-->
         <div>
-            <div>
+            <div id="Garten">
                 <h2>Anbau im Garten</h2>
-                <div>
+                <div id="Kraeuterbeet" onclick="kreauterbeet()">Kräuterbeet</div>
+                <div id="hochbeet" onclick="hochbeet()">Hochbeet</div>
+                <div id="Kraeuterspirale" onclick="kreauterspirale()">Kräuterspirale</div>
+                <div id="Kräuterbeet" style="display: none;" >
                     <h3>Kräuterbeet</h3>
                     <p>Beschreibung: Klassisches Beet direkt im Boden - ideal für robuste, mehrjährige Kräuter.</p>
                     <p>Geeignet für: Schnittlauch, Petersilie, Salbei, Tyhmian, Oregano, Liebestöckel</p>
@@ -52,8 +55,9 @@
                             <td></td>
                         </tr>
                     </table>
+                    <div onclick="close()">Close</div>
                 </div>
-                <div>
+                <div id="Hochbeet" style="display: none;">
                     <h3>Hochbeet</h3>
                     <p>Beschreibung: Erhöhter Beet mit gut Drainage, bequem zu pflegen.</p>
                     <p>Geeignet für: Fast alle Kräuter, besonders wärmeliebende wie Basilikum, Rosmarin</p>
@@ -72,7 +76,7 @@
                         </tr>
                     </table>
                 </div>
-                <div>
+                <div id="Kräuterspirale" style="display: none;">
                     <h3>Kräuterspirale</h3>
                     <p>Beschreibung: Spiralform aus Steinen oder Erde, mit abgestuften Zonen für verschiedene Feuchtigkeits- und Sonnenbedürfnisse.</p>
                     <p>Geeignet für: Mischkulturen - feucht unten (Petersilie), trocken oben (Thymian)</p>
@@ -96,9 +100,12 @@
                     </table>
                 </div>
             </div>
-            <div>
+            <div id="Balkon">
                 <h2>Anbau auf dem Balkon</h2>
-                <div>
+                <div id="kraeutertoepfe" onclick="kreauterteopfe()">Kräutertöpfe</div>
+                <div id="balkonkasten" onclick="balkonkasten()">Balkonkasten / Blumenkasten</div>
+                <div id="paletten" onclick="paletten()">Vertikaler Anbau (z.B. Paletten, Hängebeete)</div>
+                <div id="Kräutertöpfe" style="display: none;">
                     <h3>Kräutertöpfe</h3>
                     <p>Beschreibung: Einzelne Töpfe mit Abluaflöchern - Klassiker für Balkonbepflanzung.</p>
                     <p>Geeignet für: Alle gängigen Kräuter - Basilikum, Minze, Schnittlauch, Koriander, Zitronenmelisse</p>
@@ -117,7 +124,7 @@
                         </tr>
                     </table>
                 </div>
-                <div>
+                <div id="Balkonkasten" style="display: none;">
                     <h3>Balkonkasten / Blumenkasten</h3>
                     <p>Beschreibung: Lange Pflanzkästen für mehrere Kräuter nebeneinander.</p>
                     <p>Geeignet für: Schnittlauch, Petersilie, Dill, Basilikum, Oregano, Zitronenmelisse</p>
@@ -136,7 +143,7 @@
                         </tr>
                     </table>
                 </div>
-                <div>
+                <div id="Paletten" style="display: none;">
                     <h3>Vertikaler Anbau (z.B. Paletten, Hängebeete)</h3>
                     <p>Beschreibung: Kräuter wachsen "nach oben" - ideal bei weniger Platz.</p>
                     <p>Geeignet für: Thymian, Oregano, Erdbeerminze, Bohnenkraut, Zitronenthymian</p>
@@ -156,9 +163,12 @@
                     </table>
                 </div>
             </div>
-            <div>
+            <div id="Drinnen">
                 <h2>Anbau im Haus / auf der Fensterbank</h2>
-                <div>
+                <div id="fensterbank" onclick="fensterbank()">Fensterbank in der Küche</div>
+                <div id="hydroponik" onclick="hydroponik()">Hydroponik / Indoor-Garten-Systeme</div>
+                <div id="keimschale" onclick="keimschale()">Keimschale / Microgreens-Box</div>
+                <div id="Fensterbank" style="display: none;">
                     <h3>Fensterbank in der Küche</h3>
                     <p>Beschreibung: Kleine Töpfe mit Kräutern direkt griffbereit.</p>
                     <p>Geeignet für: Basilikum, Petersilie, Schnittlauch, Kresse</p>
@@ -177,7 +187,7 @@
                         </tr>
                     </table>
                 </div>
-                <div>
+                <div id="Hydroponik" style="display: none;">
                     <h3>Hydroponik / Indoor-Garten-Systeme</h3>
                     <p>Beschreibung: Kräuter wachsen in Nährlösung, oft mit LED-Licht.</p>
                     <p>Geeignet für: Basilikum, Minze, Dill, Salatkräuter</p>
@@ -196,7 +206,7 @@
                         </tr>
                     </table>
                 </div>
-                <div>
+                <div id="Keimschale" style="display: none;">
                     <h3>Keimschale / Microgreens-Box</h3>
                     <p>Beschreibung: Für schnell wachsende Kräuter wie Kresse oder Rucola.</p>
                     <p>Geeignet für: Kresse, Rucola, Senf, Radieschen-Grün, Brokkoli-Microgreens</p>

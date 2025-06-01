@@ -24,3 +24,34 @@ function openAnbauModal() {
     `;
     modal.style.display = "flex";
 }
+
+function kreauterbeet() {
+    document.getElementById('Kräuterbeet').style.display = 'block';
+}
+function hochbeet() {
+    document.getElementById('Hochbeet').style.display = 'block';
+}
+function kreauterspirale() {
+    document.getElementById('Kräuterspirale').style.display = 'block';
+}
+function kreauterteopfe() {
+    document.getElementById('Kräutertöpfe').style.display = 'block';
+}
+function balkonkasten() {
+    document.getElementById('Balkonkasten').style.display = 'block';
+}
+function paletten() {
+    document.getElementById('Paletten').style.display = 'block';
+}
+function fensterbank() {
+    document.getElementById('Fensterbank').style.display = 'block';
+}
+function hydroponik() {
+    document.getElementById('Hydroponik').style.display = 'block';
+}
+function keimschale() {
+    document.getElementById('Keimschale').style.display = 'block';
+}
+function close() {
+    document.getElementById('Kräuterbeet').style.display = 'none';
+}
