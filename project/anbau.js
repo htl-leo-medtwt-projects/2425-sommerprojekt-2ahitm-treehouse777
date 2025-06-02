@@ -25,33 +25,46 @@ function openAnbauModal() {
     modal.style.display = "flex";
 }
 
+let comment;
 function kreauterbeet() {
     document.getElementById('Kräuterbeet').style.display = 'block';
+    comment = document.getElementById('Kräuterbeet');
 }
 function hochbeet() {
     document.getElementById('Hochbeet').style.display = 'block';
+    comment = document.getElementById('Hochbeet');
 }
 function kreauterspirale() {
     document.getElementById('Kräuterspirale').style.display = 'block';
+    comment = document.getElementById('Kräuterspirale');
 }
 function kreauterteopfe() {
     document.getElementById('Kräutertöpfe').style.display = 'block';
+    comment = document.getElementById('Kräutertöpfe');
 }
 function balkonkasten() {
     document.getElementById('Balkonkasten').style.display = 'block';
+    comment = document.getElementById('Balkonkasten');
 }
 function paletten() {
     document.getElementById('Paletten').style.display = 'block';
+    comment = document.getElementById('Paletten');
 }
 function fensterbank() {
     document.getElementById('Fensterbank').style.display = 'block';
+    comment = document.getElementById('Fensterbank');
 }
 function hydroponik() {
     document.getElementById('Hydroponik').style.display = 'block';
+    comment = document.getElementById('Hydroponik');
 }
 function keimschale() {
     document.getElementById('Keimschale').style.display = 'block';
+    comment = document.getElementById('Keimschale');
 }
 function close() {
-    document.getElementById('Kräuterbeet').style.display = 'none';
+    if (comment) {
+        comment.style.display = 'none';
+        comment = null;
+    }
 }
