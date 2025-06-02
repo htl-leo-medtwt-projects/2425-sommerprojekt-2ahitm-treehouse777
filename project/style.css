@@ -592,3 +592,162 @@ button {
     left: 15rem;
     top: -24vh;
 }
+
+/*Anbau*/
+#Garten {
+    margin: 5%;
+    display: flex;
+}
+#Headline1 {
+    position: absolute;
+    top: 30vh;
+    right: 45%;
+}
+
+#Kräuterbeet {
+    background-color: var(--first-primaer);
+    margin: 2%;
+    padding: 1%;
+    border-radius: 20px;
+}
+#Kräuterbeet img {
+    width: 30%;
+    margin-top: 4%;
+    position: relative;
+    left: 35%;
+}
+
+#Hochbeet {
+    background-color: var(--first-primaer);
+    margin: 2%;
+    padding: 1%;
+    border-radius: 20px;
+}
+#Hochbeet img {
+    width: 40%;
+    position: relative;
+    margin-top: 5%;
+    left: 35%;
+}
+
+#Kräuterspirale {
+    background-color: var(--first-primaer);
+    margin: 2%;
+    padding: 1%;
+    border-radius: 20px;
+}
+#Kräuterspirale img {
+    width: 50%;
+    position: relative;
+    margin-top: 3%;
+    left: 20%;
+}
+
+
+#Balkon {
+    margin: 5%;
+    display: flex;
+}
+#Headline2 {
+    position: absolute;
+    top: 107vh;
+    left: 45%;
+}
+
+#Kräutertöpfe {
+    background-color: var(--first-primaer);
+    margin: 2%;
+    padding: 1%;
+    border-radius: 20px;
+}
+#Kräutertöpfe img {
+    width: 30%;
+    position: relative;
+    margin-top: 5%;
+    left: 30%;
+}
+
+#Balkonkasten {
+    background-color: var(--first-primaer);
+    margin: 2%;
+    padding: 1%;
+    border-radius: 20px;
+}
+#Balkonkasten img {
+    width: 38%;
+    position: relative;
+    margin-top: 5%;
+    left: 30%;
+}
+
+#Paletten {
+    background-color: var(--first-primaer);
+    margin: 2%;
+    padding: 1%;
+    border-radius: 20px;
+}
+#Paletten img {
+    width: 37%;
+    position: relative;
+    margin-top: 5%;
+    left: 30%;
+}
+
+
+#Drinnen {
+    margin: 5%;
+    display: flex;
+}
+#Headline3 {
+    position: absolute;
+    top: 189vh;
+    left: 40%;
+}
+
+#Fensterbank {
+    background-color: var(--first-primaer);
+    margin: 2%;
+    padding: 1%;
+    border-radius: 20px;
+}
+#Fensterbank img {
+    width: 70%;
+    position: relative;
+    margin-top: 5%;
+    left: 15%;
+}
+
+#Hydroponik {
+    background-color: var(--first-primaer);
+    margin: 2%;
+    padding: 1%;
+    border-radius: 20px;
+}
+#Hydroponik img {
+    width: 30%;
+    position: relative;
+    margin-top: 3%;
+    left: 35%;
+}
+
+#Keimschale {
+    background-color: var(--first-primaer);
+    margin: 2%;
+    padding: 1%;
+    border-radius: 20px;
+}
+#Keimschale img {
+    width: 60%;
+    position: relative;
+    margin-top: 5%;
+    left: 20%;
+}
+table, th, td {
+    border: 1px solid var(--background-color);
+    border-collapse: collapse;
+    padding: 0.5em;
+}
+th {
+    background-color: var(--second-primaer);
+    color: var(--background-color);
+}
