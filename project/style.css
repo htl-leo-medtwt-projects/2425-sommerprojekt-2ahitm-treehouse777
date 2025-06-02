@@ -328,7 +328,7 @@ a {
     flex-direction: row;
     gap: 1%;
     margin: 5%;
-    margin-top: 0%;
+    margin-top: -8%;
 }
 
 #galerieFooter {
@@ -369,22 +369,6 @@ a {
     grid-gap: 15%;
     margin-bottom: 5%;
     margin: 5%;
-}
-
- /*Alphabet*/
-.alpha_sidebar{
-	position: absolute;
-	top:50px;
-	right: 	10px;
-	z-index: 100000
-}
-.alpha_sidebar li{
-	color: #49afcd;
-	margin-bottom: 6px;
-	cursor: pointer;
-}
-.alpha_list{
-	padding-right: 22px;
 }
 
 /*Pop-Up*/
